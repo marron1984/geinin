@@ -1,6 +1,7 @@
 export interface Comedian {
   name: string;
   members?: string[];
+  profileUrl?: string;
 }
 
 export interface NscClass {
