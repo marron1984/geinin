@@ -37,9 +37,11 @@
       "school": "osaka",
       "enrollmentYear": 1985,
       "notableGraduates": [
-        { "name": "今田耕司" },
+        { "name": "今田耕司", "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=248" },
         { "name": "130R", "members": ["板尾創路", "ほんこん"] },
-        { "name": "東野幸治" }
+        { "name": "東野幸治", "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=189" },
+        { "name": "山田花子" },
+        { "name": "辻本茂雄" }
       ]
     },
     {
@@ -77,7 +79,7 @@
       "school": "osaka",
       "enrollmentYear": 1989,
       "notableGraduates": [
-        { "name": "千原兄弟", "members": ["千原せいじ", "千原ジュニア"] },
+        { "name": "千原兄弟", "members": ["千原せいじ", "千原ジュニア"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=77" },
         { "name": "FUJIWARA", "members": ["藤本敏史", "原西孝幸"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=25" },
         { "name": "なだぎ武" },
         { "name": "バッファロー吾郎", "members": ["バッファロー吾郎A", "竹若元博"] },
@@ -90,7 +92,7 @@
       "enrollmentYear": 1990,
       "notableGraduates": [
         { "name": "ナインティナイン", "members": ["岡村隆史", "矢部浩之"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=267" },
-        { "name": "宮川大輔" },
+        { "name": "宮川大輔", "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=254" },
         { "name": "矢野・兵動", "members": ["矢野勝也", "兵動大樹"] },
         { "name": "ほっしゃん。（星田英利）" },
         { "name": "川畑泰史" }
@@ -111,8 +113,8 @@
       "enrollmentYear": 1992,
       "notableGraduates": [
         { "name": "中川家", "members": ["中川剛", "中川礼二"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=22" },
-        { "name": "ケンドーコバヤシ" },
-        { "name": "陣内智則" },
+        { "name": "ケンドーコバヤシ", "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=266" },
+        { "name": "陣内智則", "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=101" },
         { "name": "たむらけんじ" },
         { "name": "ハリガネロック", "members": ["ユウキロック", "大上邦博"] }
       ]
@@ -132,11 +134,11 @@
       "school": "osaka",
       "enrollmentYear": 1994,
       "notableGraduates": [
-        { "name": "次長課長", "members": ["河本準一", "井上聡"] },
-        { "name": "チュートリアル", "members": ["徳井義実", "福田充徳"] },
-        { "name": "ブラックマヨネーズ", "members": ["吉田敬", "小杉竜一"] },
-        { "name": "野性爆弾", "members": ["くっきー!", "ロッシー"] },
-        { "name": "友近" }
+        { "name": "次長課長", "members": ["河本準一", "井上聡"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=96" },
+        { "name": "チュートリアル", "members": ["徳井義実", "福田充徳"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=97" },
+        { "name": "ブラックマヨネーズ", "members": ["吉田敬", "小杉竜一"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=99" },
+        { "name": "野性爆弾", "members": ["くっきー!", "ロッシー"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=94" },
+        { "name": "友近", "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=154" }
       ]
     },
     {
@@ -144,8 +146,8 @@
       "school": "osaka",
       "enrollmentYear": 1994,
       "notableGraduates": [
-        { "name": "ザ・プラン9" },
-        { "name": "ストリーク" },
+        { "name": "ザ・プラン9", "members": ["浅越ゴエ", "お～い!久馬", "ヤナギブソン"] },
+        { "name": "ストリーク", "members": ["山田スタジアム", "吉川正洋"] },
         { "name": "レギュラー", "members": ["松本康太", "西川晃啓"] }
       ]
     },
@@ -156,8 +158,8 @@
       "notableGraduates": [
         { "name": "笑い飯", "members": ["哲夫", "西田幸治"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=95" },
         { "name": "千鳥", "members": ["大悟", "ノブ"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=98" },
-        { "name": "フットボールアワー", "members": ["後藤輝基", "岩尾望"] },
-        { "name": "麒麟", "members": ["川島明", "田村裕"] }
+        { "name": "フットボールアワー", "members": ["後藤輝基", "岩尾望"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=100" },
+        { "name": "麒麟", "members": ["川島明", "田村裕"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=91" }
       ]
     },
     {
@@ -165,7 +167,7 @@
       "school": "osaka",
       "enrollmentYear": 1995,
       "notableGraduates": [
-        { "name": "南海キャンディーズ", "members": ["山里亮太", "しずちゃん"] },
+        { "name": "南海キャンディーズ", "members": ["山里亮太", "しずちゃん"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=166" },
         { "name": "スーパーマラドーナ", "members": ["武智", "田中一彦"] }
       ]
     },
@@ -174,7 +176,7 @@
       "school": "osaka",
       "enrollmentYear": 1996,
       "notableGraduates": [
-        { "name": "ダイアン", "members": ["津田篤宏", "ユースケ"] },
+        { "name": "ダイアン", "members": ["津田篤宏", "ユースケ"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=165" },
         { "name": "プラスマイナス", "members": ["岩橋良昌", "兼光タカシ"] }
       ]
     },
@@ -191,7 +193,7 @@
       "school": "osaka",
       "enrollmentYear": 1997,
       "notableGraduates": [
-        { "name": "とろサーモン", "members": ["久保田かずのぶ", "村田秀亮"] },
+        { "name": "とろサーモン", "members": ["久保田かずのぶ", "村田秀亮"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=286" },
         { "name": "モンスターエンジン", "members": ["西森洋一", "大林健二"] }
       ]
     },
@@ -200,7 +202,7 @@
       "school": "osaka",
       "enrollmentYear": 1997,
       "notableGraduates": [
-        { "name": "銀シャリ", "members": ["鰻和弘", "橋本直"] },
+        { "name": "銀シャリ", "members": ["鰻和弘", "橋本直"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=353" },
         { "name": "藤崎マーケット", "members": ["田崎佑一", "トキ"] }
       ]
     },
@@ -217,7 +219,7 @@
       "school": "osaka",
       "enrollmentYear": 1999,
       "notableGraduates": [
-        { "name": "アキナ", "members": ["秋山賢太", "山名文和"] }
+        { "name": "アキナ", "members": ["秋山賢太", "山名文和"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5061" }
       ]
     },
     {
@@ -249,9 +251,10 @@
       "notableGraduates": [
         { "name": "かまいたち", "members": ["山内健司", "濱家隆一"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=636" },
         { "name": "和牛", "members": ["水田信二", "川西賢志郎"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2882" },
-        { "name": "アインシュタイン", "members": ["稲田直樹", "河井ゆずる"] },
+        { "name": "アインシュタイン", "members": ["稲田直樹", "河井ゆずる"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5064" },
         { "name": "天竺鼠", "members": ["川原克己", "瀬下豊"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=393" },
-        { "name": "バイク川崎バイク", "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=3625" }
+        { "name": "バイク川崎バイク", "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=3625" },
+        { "name": "ジャルジャル", "members": ["後藤淳平", "福徳秀介"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=630" }
       ]
     },
     {
@@ -284,6 +287,7 @@
         { "name": "コマンダンテ", "members": ["石井輝明", "安田邦祐"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2834" },
         { "name": "見取り図", "members": ["盛山晋太郎", "リリー"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2876" },
         { "name": "ヘンダーソン", "members": ["中村フー", "子林勇輝"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5191" },
+        
         { "name": "吉田たち", "members": ["吉田裕", "吉田敬"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2873" },
         { "name": "デルマバンゲ" },
         { "name": "ラビットラ" }
@@ -302,7 +306,8 @@
         { "name": "ダブルアート", "members": ["太田智也", "田中しょう"] },
         { "name": "プリマ旦那", "members": ["野村真季", "河野良祐"] },
         { "name": "光永", "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=3433" },
-        { "name": "十手リンジン", "members": ["松浦真也", "安田善紀"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5786" }
+        { "name": "十手リンジン", "members": ["松浦真也", "安田善紀"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5786" },
+        { "name": "ミルクボーイ", "members": ["駒場孝", "内海崇"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5797" }
       ]
     },
     {
@@ -311,6 +316,9 @@
       "enrollmentYear": 2008,
       "notableGraduates": [
         { "name": "インディアンス", "members": ["きむ", "田渕章裕"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5204" },
+        { "name": "セルライトスパ", "members": ["大須賀健剛", "肥後裕之"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5177" },
+        { "name": "ロングコートダディ", "members": ["堂前透", "兎"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5217" },
+        { "name": "Dr.ハインリッヒ", "members": ["幕田圭", "児玉健司"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5220" }
         { "name": "セルライトスパ", "members": ["大須賀健剛", "肥後裕之"] },
         { "name": "ロングコートダディ", "members": ["堂前透", "兎"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5217" },
         { "name": "マイスイートメモリーズ" },
@@ -327,6 +335,7 @@
         { "name": "福田麻貴" },
         { "name": "マルセイユ", "members": ["津田康平", "別府貴之"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5160" },
         { "name": "ダイヤモンド", "members": ["小野竜輔", "野澤輸出"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=7257" },
+        { "name": "ニューヨーク", "members": ["屋敷裕政", "嶋佐和也"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5152" }
         { "name": "牛ベベ" },
         { "name": "黒帯" },
         { "name": "超速バギー" },
@@ -342,7 +351,7 @@
       "enrollmentYear": 2010,
       "notableGraduates": [
         { "name": "コロコロチキチキペッパーズ", "members": ["ナダル", "西野創人"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5093" },
-        { "name": "ビスケットブラザーズ", "members": ["きん", "原田泰雅"] },
+        { "name": "ビスケットブラザーズ", "members": ["きん", "原田泰雅"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6374" },
         { "name": "霜降り明星", "members": ["粗品", "せいや"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5087" },
         { "name": "男性ブランコ", "members": ["浦井のりひろ", "平井まさあき"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5066" },
         { "name": "ZAZY", "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6504" },
