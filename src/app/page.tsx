@@ -1,11 +1,13 @@
 import Link from "next/link";
 import SearchBar from "@/components/SearchBar";
-import { getOsakaData, getTokyoData } from "@/lib/data";
+import NewsCard from "@/components/NewsCard";
+import { getOsakaData, getTokyoData, getNewsArticles } from "@/lib/data";
 import { FadeInUp, FadeIn, HoverLift, TapButton } from "@/components/MotionWrapper";
 
 export default function Home() {
   const osaka = getOsakaData();
   const tokyo = getTokyoData();
+  const latestNews = getNewsArticles().slice(0, 3);
 
   return (
     <div className="space-y-8">
@@ -64,7 +66,30 @@ export default function Home() {
         </FadeInUp>
       </div>
 
-      <FadeIn delay={0.5}>
+      <FadeInUp delay={0.45}>
+        <div className="space-y-4">
+          <div className="flex items-center justify-between">
+            <h2 className="text-lg font-bold text-gray-800">
+              若手芸人ニュース
+            </h2>
+            <TapButton>
+              <Link
+                href="/news"
+                className="text-sm text-yoshimoto-red hover:underline px-3 py-1 rounded-lg active:bg-red-50"
+              >
+                すべて見る →
+              </Link>
+            </TapButton>
+          </div>
+          <div className="space-y-3">
+            {latestNews.map((article, i) => (
+              <NewsCard key={article.id} article={article} index={i} />
+            ))}
+          </div>
+        </div>
+      </FadeInUp>
+
+      <FadeIn delay={0.6}>
         <div className="bg-white rounded-lg p-4 text-sm text-gray-500 border border-gray-100">
           <h3 className="font-bold mb-2">NSCとは？</h3>
           <p>

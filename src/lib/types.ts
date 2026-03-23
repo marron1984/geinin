@@ -17,3 +17,16 @@ export interface SchoolData {
   startYear: number;
   classes: NscClass[];
 }
+
+export interface NewsArticle {
+  id: string;
+  title: string;
+  summary: string;
+  body: string;
+  date: string;
+  category: "tv" | "live" | "award" | "debut" | "other";
+  comedians: string[];
+  school?: "osaka" | "tokyo";
+  classNumber?: number;
+  imageEmoji?: string;
+}
