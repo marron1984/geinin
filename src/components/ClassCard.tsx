@@ -1,4 +1,7 @@
+"use client";
+
 import Link from "next/link";
+import { motion } from "framer-motion";
 import { NscClass } from "@/lib/types";
 import ComedianTag from "./ComedianTag";
 
@@ -11,7 +14,11 @@ export default function ClassCard({ cls, highlightNames = [] }: ClassCardProps) 
   const schoolPath = cls.school === "osaka" ? "osaka" : "tokyo";
 
   return (
-    <div className="bg-white rounded-lg shadow-sm border border-gray-100 p-4 hover:shadow-md transition-shadow">
+    <motion.div
+      whileHover={{ y: -2, boxShadow: "0 4px 12px rgba(0,0,0,0.1)" }}
+      transition={{ type: "spring", stiffness: 300, damping: 25 }}
+      className="bg-white rounded-lg shadow-sm border border-gray-100 p-4"
+    >
       <Link href={`/${schoolPath}/${cls.classNumber}`}>
         <div className="flex items-baseline gap-3 mb-3">
           <span className="text-2xl font-bold text-yoshimoto-red">
@@ -29,12 +36,13 @@ export default function ClassCard({ cls, highlightNames = [] }: ClassCardProps) 
               key={i}
               comedian={grad}
               highlight={highlightNames.includes(grad.name)}
+              index={i}
             />
           ))}
         </div>
       ) : (
         <p className="text-sm text-gray-400">データなし</p>
       )}
-    </div>
+    </motion.div>
   );
 }

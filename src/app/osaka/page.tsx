@@ -3,6 +3,7 @@ import SchoolTabs from "@/components/SchoolTabs";
 import ClassList from "@/components/ClassList";
 import SearchBar from "@/components/SearchBar";
 import type { Metadata } from "next";
+import { FadeInUp } from "@/components/MotionWrapper";
 
 export const metadata: Metadata = {
   title: "NSC大阪校 期別リスト",
@@ -14,16 +15,21 @@ export default function OsakaPage() {
 
   return (
     <div className="space-y-6">
-      <div>
-        <h1 className="text-2xl font-bold text-gray-800">
-          {data.schoolName}
-        </h1>
-        <p className="text-sm text-gray-500 mt-1">
-          {data.startYear}年開校 ・ 全{data.classes.length}期
-        </p>
-      </div>
+      <FadeInUp>
+        <div>
+          <h1 className="text-2xl font-bold text-gray-800">
+            {data.schoolName}
+          </h1>
+          <p className="text-sm text-gray-500 mt-1">
+            {data.startYear}年開校 ・ 全{data.classes.length}期
+          </p>
+        </div>
+      </FadeInUp>
 
-      <SearchBar />
+      <FadeInUp delay={0.1}>
+        <SearchBar />
+      </FadeInUp>
+
       <SchoolTabs active="osaka" />
       <ClassList classes={data.classes} />
     </div>

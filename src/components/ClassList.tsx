@@ -1,5 +1,8 @@
+"use client";
+
 import { NscClass } from "@/lib/types";
 import ClassCard from "./ClassCard";
+import { StaggerContainer, StaggerItem } from "./MotionWrapper";
 
 interface ClassListProps {
   classes: NscClass[];
@@ -7,10 +10,12 @@ interface ClassListProps {
 
 export default function ClassList({ classes }: ClassListProps) {
   return (
-    <div className="grid gap-4">
+    <StaggerContainer className="grid gap-4">
       {classes.map((cls) => (
-        <ClassCard key={cls.classNumber} cls={cls} />
+        <StaggerItem key={cls.classNumber}>
+          <ClassCard cls={cls} />
+        </StaggerItem>
       ))}
-    </div>
+    </StaggerContainer>
   );
 }

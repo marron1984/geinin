@@ -3,6 +3,7 @@ import ComedianTag from "@/components/ComedianTag";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
+import { FadeInUp, FadeIn, SlideInLeft } from "@/components/MotionWrapper";
 
 export function generateStaticParams() {
   const data = getTokyoData();
@@ -37,62 +38,70 @@ export default function TokyoClassPage({
 
   return (
     <div className="space-y-6">
-      <div className="flex items-center gap-2 text-sm text-gray-500">
-        <Link href="/tokyo" className="hover:text-yoshimoto-red">
-          東京校
-        </Link>
-        <span>/</span>
-        <span>{classNumber}期</span>
-      </div>
+      <SlideInLeft>
+        <div className="flex items-center gap-2 text-sm text-gray-500">
+          <Link href="/tokyo" className="hover:text-yoshimoto-red">
+            東京校
+          </Link>
+          <span>/</span>
+          <span>{classNumber}期</span>
+        </div>
+      </SlideInLeft>
 
-      <div>
-        <h1 className="text-3xl font-bold text-yoshimoto-red">
-          第{classNumber}期
-        </h1>
-        <p className="text-gray-500 mt-1">
-          NSC東京校 ・ {cls.enrollmentYear}年入学
-        </p>
-      </div>
+      <FadeInUp delay={0.1}>
+        <div>
+          <h1 className="text-3xl font-bold text-yoshimoto-red">
+            第{classNumber}期
+          </h1>
+          <p className="text-gray-500 mt-1">
+            NSC東京校 ・ {cls.enrollmentYear}年入学
+          </p>
+        </div>
+      </FadeInUp>
 
-      {cls.notableGraduates.length > 0 ? (
-        <div className="bg-white rounded-lg shadow-sm border border-gray-100 p-6">
-          <h2 className="font-bold text-gray-700 mb-4">主な卒業生</h2>
-          <div className="space-y-3">
-            {cls.notableGraduates.map((grad, i) => (
-              <div key={i} className="flex items-start gap-3">
-                <ComedianTag comedian={grad} />
-              </div>
-            ))}
+      <FadeInUp delay={0.2}>
+        {cls.notableGraduates.length > 0 ? (
+          <div className="bg-white rounded-lg shadow-sm border border-gray-100 p-6">
+            <h2 className="font-bold text-gray-700 mb-4">主な卒業生</h2>
+            <div className="space-y-3">
+              {cls.notableGraduates.map((grad, i) => (
+                <div key={i} className="flex items-start gap-3">
+                  <ComedianTag comedian={grad} index={i} />
+                </div>
+              ))}
+            </div>
           </div>
-        </div>
-      ) : (
-        <div className="bg-white rounded-lg shadow-sm border border-gray-100 p-6 text-gray-400">
-          主な卒業生のデータはまだありません
-        </div>
-      )}
+        ) : (
+          <div className="bg-white rounded-lg shadow-sm border border-gray-100 p-6 text-gray-400">
+            主な卒業生のデータはまだありません
+          </div>
+        )}
+      </FadeInUp>
 
-      <div className="flex justify-between pt-4">
-        {classNumber > 1 ? (
-          <Link
-            href={`/tokyo/${classNumber - 1}`}
-            className="text-yoshimoto-red hover:underline"
-          >
-            ← {classNumber - 1}期
-          </Link>
-        ) : (
-          <div />
-        )}
-        {classNumber < maxClass ? (
-          <Link
-            href={`/tokyo/${classNumber + 1}`}
-            className="text-yoshimoto-red hover:underline"
-          >
-            {classNumber + 1}期 →
-          </Link>
-        ) : (
-          <div />
-        )}
-      </div>
+      <FadeIn delay={0.35}>
+        <div className="flex justify-between pt-4">
+          {classNumber > 1 ? (
+            <Link
+              href={`/tokyo/${classNumber - 1}`}
+              className="text-yoshimoto-red hover:underline"
+            >
+              ← {classNumber - 1}期
+            </Link>
+          ) : (
+            <div />
+          )}
+          {classNumber < maxClass ? (
+            <Link
+              href={`/tokyo/${classNumber + 1}`}
+              className="text-yoshimoto-red hover:underline"
+            >
+              {classNumber + 1}期 →
+            </Link>
+          ) : (
+            <div />
+          )}
+        </div>
+      </FadeIn>
     </div>
   );
 }
