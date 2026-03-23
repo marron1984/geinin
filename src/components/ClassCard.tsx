@@ -12,7 +12,7 @@ export default function ClassCard({ cls, highlightNames = [] }: ClassCardProps) 
 
   return (
     <div className="bg-white dark:bg-gray-800 rounded-lg shadow-sm border border-gray-100 dark:border-gray-700 p-4 hover:shadow-md transition-all hover:-translate-y-0.5">
-      <Link href={`/${schoolPath}/${cls.classNumber}`}>
+      <Link href={`/nsc/${schoolPath}/${cls.classNumber}`}>
         <div className="flex items-baseline gap-3 mb-3">
           <span className="text-2xl font-bold text-yoshimoto-red">
             {cls.classNumber}期

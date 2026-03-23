@@ -1,11 +1,11 @@
-import { getOsakaData, getClassByNumber } from "@/lib/data";
+import { getTokyoData, getClassByNumber } from "@/lib/data";
 import ComedianTag from "@/components/ComedianTag";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 
 export function generateStaticParams() {
-  const data = getOsakaData();
+  const data = getTokyoData();
   return data.classes.map((cls) => ({
     classNumber: String(cls.classNumber),
   }));
@@ -17,29 +17,33 @@ export function generateMetadata({
   params: { classNumber: string };
 }): Metadata {
   return {
-    title: `NSC大阪校 ${params.classNumber}期`,
-    description: `NSC大阪校 第${params.classNumber}期の卒業生一覧`,
+    title: `NSC東京校 ${params.classNumber}期`,
+    description: `NSC東京校 第${params.classNumber}期の卒業生一覧`,
   };
 }
 
-export default function OsakaClassPage({
+export default function TokyoClassPage({
   params,
 }: {
   params: { classNumber: string };
 }) {
   const classNumber = parseInt(params.classNumber);
-  const cls = getClassByNumber("osaka", classNumber);
+  const cls = getClassByNumber("tokyo", classNumber);
 
   if (!cls) return notFound();
 
-  const data = getOsakaData();
+  const data = getTokyoData();
   const maxClass = data.classes.length;
 
   return (
     <div className="space-y-6">
       <div className="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400">
-        <Link href="/osaka" className="hover:text-yoshimoto-red">
-          大阪校
+        <Link href="/nsc" className="hover:text-yoshimoto-red">
+          NSC期別リスト
+        </Link>
+        <span>/</span>
+        <Link href="/nsc/tokyo" className="hover:text-yoshimoto-red">
+          東京校
         </Link>
         <span>/</span>
         <span>{classNumber}期</span>
@@ -50,7 +54,7 @@ export default function OsakaClassPage({
           第{classNumber}期
         </h1>
         <p className="text-gray-500 dark:text-gray-400 mt-1">
-          NSC大阪校 ・ {cls.enrollmentYear}年入学
+          NSC東京校 ・ {cls.enrollmentYear}年入学
         </p>
       </div>
 
@@ -74,7 +78,7 @@ export default function OsakaClassPage({
       <div className="flex justify-between pt-4">
         {classNumber > 1 ? (
           <Link
-            href={`/osaka/${classNumber - 1}`}
+            href={`/nsc/tokyo/${classNumber - 1}`}
             className="text-yoshimoto-red hover:underline"
           >
             ← {classNumber - 1}期
@@ -84,7 +88,7 @@ export default function OsakaClassPage({
         )}
         {classNumber < maxClass ? (
           <Link
-            href={`/osaka/${classNumber + 1}`}
+            href={`/nsc/tokyo/${classNumber + 1}`}
             className="text-yoshimoto-red hover:underline"
           >
             {classNumber + 1}期 →

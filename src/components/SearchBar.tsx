@@ -11,7 +11,7 @@ function SearchBarInner() {
   const handleSearch = useCallback(
     (value: string) => {
       if (value.trim()) {
-        router.push(`/search?q=${encodeURIComponent(value.trim())}`);
+        router.push(`/nsc/search?q=${encodeURIComponent(value.trim())}`);
       }
     },
     [router]
