@@ -42,6 +42,14 @@ export default function Header() {
               ニュース
             </Link>
           </motion.div>
+          <motion.div
+            whileTap={{ scale: 0.9, backgroundColor: "rgba(255,255,255,0.15)" }}
+            className="rounded-lg"
+          >
+            <Link href="/mypage" className="block px-3 py-2 rounded-lg active:bg-white/10">
+              マイページ
+            </Link>
+          </motion.div>
         </nav>
       </div>
     </motion.header>

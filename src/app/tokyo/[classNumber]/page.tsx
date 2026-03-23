@@ -1,5 +1,6 @@
 import { getTokyoData, getClassByNumber } from "@/lib/data";
 import ComedianTag from "@/components/ComedianTag";
+import ComedianNotes from "@/components/ComedianNotes";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
@@ -59,24 +60,30 @@ export default function TokyoClassPage({
         </div>
       </FadeInUp>
 
-      <FadeInUp delay={0.2}>
-        {cls.notableGraduates.length > 0 ? (
-          <div className="bg-white rounded-lg shadow-sm border border-gray-100 p-6">
-            <h2 className="font-bold text-gray-700 mb-4">主な卒業生</h2>
-            <div className="space-y-3">
-              {cls.notableGraduates.map((grad, i) => (
-                <div key={i} className="flex items-start gap-3">
+      {cls.notableGraduates.length > 0 ? (
+        <div className="space-y-6">
+          {cls.notableGraduates.map((grad, i) => (
+            <FadeInUp key={i} delay={0.15 + i * 0.05}>
+              <div className="bg-white rounded-lg shadow-sm border border-gray-100 p-5 space-y-4">
+                <div className="flex items-start gap-3">
                   <ComedianTag comedian={grad} index={i} />
                 </div>
-              ))}
-            </div>
-          </div>
-        ) : (
+                <ComedianNotes
+                  comedianName={grad.name}
+                  school="tokyo"
+                  classNumber={classNumber}
+                />
+              </div>
+            </FadeInUp>
+          ))}
+        </div>
+      ) : (
+        <FadeInUp delay={0.2}>
           <div className="bg-white rounded-lg shadow-sm border border-gray-100 p-6 text-gray-400">
             主な卒業生のデータはまだありません
           </div>
-        )}
-      </FadeInUp>
+        </FadeInUp>
+      )}
 
       <FadeIn delay={0.35}>
         <div className="flex justify-between pt-4">

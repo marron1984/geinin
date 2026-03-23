@@ -32,3 +32,16 @@ export interface NewsArticle {
   venue?: string;
   eventDate?: string;
 }
+
+export type NoteCategory = "family" | "neta" | "schedule" | "impression" | "other";
+
+export interface ComedianNote {
+  id: string;
+  comedianName: string;
+  school: "osaka" | "tokyo";
+  classNumber: number;
+  category: NoteCategory;
+  content: string;
+  createdAt: string;
+  updatedAt: string;
+}
