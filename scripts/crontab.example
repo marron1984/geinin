@@ -1,0 +1,7 @@
+# NSCニュースクローラー - 1日4回実行（6時, 12時, 18時, 0時）
+# crontab -e で以下を追加
+
+0 0,6,12,18 * * * cd /path/to/geinin && npx tsx scripts/crawl-news.ts >> /var/log/nsc-crawler.log 2>&1
+
+# クロール後にビルドも自動実行する場合:
+# 0 0,6,12,18 * * * cd /path/to/geinin && npx tsx scripts/crawl-news.ts && npm run build >> /var/log/nsc-crawler.log 2>&1

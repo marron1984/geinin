@@ -1,8 +1,9 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { getNewsArticles } from "@/lib/data";
+import { useOshi } from "@/lib/useOshi";
 import NewsCard from "@/components/NewsCard";
 import NewsCategoryFilter from "@/components/NewsCategoryFilter";
 import { FadeInUp } from "@/components/MotionWrapper";
@@ -10,11 +11,23 @@ import { FadeInUp } from "@/components/MotionWrapper";
 export default function NewsPage() {
   const allArticles = getNewsArticles();
   const [category, setCategory] = useState("all");
+  const { oshiList, loaded } = useOshi();
 
-  const filtered =
-    category === "all"
-      ? allArticles
-      : allArticles.filter((a) => a.category === category);
+  const oshiNames = useMemo(() => new Set(oshiList.map((o) => o.name)), [oshiList]);
+
+  const filtered = useMemo(() => {
+    let result = category === "all" ? allArticles : allArticles.filter((a) => a.category === category);
+
+    if (loaded && oshiNames.size > 0) {
+      const oshi = result.filter((a) => a.comedians.some((c) => oshiNames.has(c)));
+      const other = result.filter((a) => !a.comedians.some((c) => oshiNames.has(c)));
+      return [...oshi, ...other];
+    }
+
+    return result;
+  }, [allArticles, category, oshiNames, loaded]);
+
+  const hasOshiNews = loaded && oshiNames.size > 0 && filtered.some((a) => a.comedians.some((c) => oshiNames.has(c)));
 
   return (
     <div className="space-y-6">
@@ -43,9 +56,23 @@ export default function NewsPage() {
           className="space-y-4"
         >
           {filtered.length > 0 ? (
-            filtered.map((article, i) => (
-              <NewsCard key={article.id} article={article} index={i} />
-            ))
+            filtered.map((article, i) => {
+              const isOshi = oshiNames.size > 0 && article.comedians.some((c) => oshiNames.has(c));
+              return (
+                <div key={article.id} className="relative">
+                  {isOshi && (
+                    <div className="absolute -left-1 top-3 bottom-3 w-0.5 bg-yoshimoto-red rounded-full" />
+                  )}
+                  {isOshi && i === 0 && (
+                    <p className="text-xs text-yoshimoto-red font-medium mb-1.5 pl-1">❤️ 推しのニュース</p>
+                  )}
+                  {!isOshi && hasOshiNews && i > 0 && filtered[i - 1]?.comedians.some((c) => oshiNames.has(c)) && (
+                    <p className="text-xs text-gray-400 font-medium mb-1.5 mt-2">その他のニュース</p>
+                  )}
+                  <NewsCard article={article} index={i} />
+                </div>
+              );
+            })
           ) : (
             <motion.div
               initial={{ opacity: 0 }}

@@ -5,6 +5,7 @@ import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import { useNotes } from "@/lib/useNotes";
 import { useSchedules } from "@/lib/useSchedules";
+import { useOshi, OshiEntry } from "@/lib/useOshi";
 import { getAllComedians, ComedianEntry } from "@/lib/data";
 import { NoteCategory } from "@/lib/types";
 
@@ -36,15 +37,16 @@ function formatScheduleDate(dateStr: string) {
   return `${d.getMonth() + 1}/${d.getDate()}(${weekdays[d.getDay()]})`;
 }
 
-type Tab = "notes" | "schedule";
+type Tab = "notes" | "schedule" | "oshi";
 
 export default function MyPage() {
   const [activeTab, setActiveTab] = useState<Tab>("notes");
   const { notes, loaded: notesLoaded, addNote, updateNote, deleteNote } = useNotes();
   const { schedules, loaded: schedulesLoaded, addSchedule, toggleDone, deleteSchedule } = useSchedules();
+  const { oshiList, loaded: oshiLoaded, addOshi, removeOshi } = useOshi();
   const allComedians = useMemo(() => getAllComedians(), []);
 
-  const loaded = notesLoaded && schedulesLoaded;
+  const loaded = notesLoaded && schedulesLoaded && oshiLoaded;
 
   if (!loaded) {
     return <div className="text-center py-12 text-gray-400">読み込み中...</div>;
@@ -55,15 +57,16 @@ export default function MyPage() {
       {/* ヘッダー + タブ */}
       <div>
         <h1 className="text-xl font-bold text-gray-800">マイページ</h1>
-        <div className="flex gap-0 mt-3 border-b border-gray-200">
+        <div className="flex gap-0 mt-3 border-b border-gray-200 overflow-x-auto">
           {([
             { key: "notes" as Tab, label: "メモ", emoji: "📝", count: notes.length },
             { key: "schedule" as Tab, label: "観劇予定", emoji: "🎭", count: schedules.filter((s) => !s.done).length },
+            { key: "oshi" as Tab, label: "推し", emoji: "❤️", count: oshiList.length },
           ]).map((tab) => (
             <button
               key={tab.key}
               onClick={() => setActiveTab(tab.key)}
-              className={`relative px-4 py-2.5 text-sm font-medium ${
+              className={`relative flex-shrink-0 px-3 sm:px-4 py-2.5 text-sm font-medium ${
                 activeTab === tab.key ? "text-yoshimoto-red" : "text-gray-400"
               }`}
             >
@@ -93,12 +96,19 @@ export default function MyPage() {
           updateNote={updateNote}
           deleteNote={deleteNote}
         />
-      ) : (
+      ) : activeTab === "schedule" ? (
         <ScheduleTab
           schedules={schedules}
           addSchedule={addSchedule}
           toggleDone={toggleDone}
           deleteSchedule={deleteSchedule}
+        />
+      ) : (
+        <OshiTab
+          oshiList={oshiList}
+          allComedians={allComedians}
+          addOshi={addOshi}
+          removeOshi={removeOshi}
         />
       )}
     </div>
@@ -665,6 +675,152 @@ function ScheduleTab({
                 </motion.div>
               ))}
           </AnimatePresence>
+        </div>
+      )}
+    </div>
+  );
+}
+
+// ================================
+// 推しタブ
+// ================================
+function OshiTab({
+  oshiList,
+  allComedians,
+  addOshi,
+  removeOshi,
+}: {
+  oshiList: OshiEntry[];
+  allComedians: ComedianEntry[];
+  addOshi: (entry: OshiEntry) => void;
+  removeOshi: (name: string) => void;
+}) {
+  const [query, setQuery] = useState("");
+  const [showSuggestions, setShowSuggestions] = useState(false);
+  const searchRef = useRef<HTMLDivElement>(null);
+
+  const suggestions = useMemo(() => {
+    if (!query.trim()) return [];
+    const q = query.trim().toLowerCase();
+    return allComedians
+      .filter(
+        (c) =>
+          !oshiList.some((o) => o.name === c.name) &&
+          (c.name.toLowerCase().includes(q) ||
+            (c.members && c.members.some((m) => m.toLowerCase().includes(q))))
+      )
+      .slice(0, 8);
+  }, [query, allComedians, oshiList]);
+
+  useEffect(() => {
+    function handleClick(e: MouseEvent) {
+      if (searchRef.current && !searchRef.current.contains(e.target as Node)) {
+        setShowSuggestions(false);
+      }
+    }
+    document.addEventListener("mousedown", handleClick);
+    return () => document.removeEventListener("mousedown", handleClick);
+  }, []);
+
+  const handleAdd = (c: ComedianEntry) => {
+    addOshi({ name: c.name, school: c.school, classNumber: c.classNumber });
+    setQuery("");
+    setShowSuggestions(false);
+  };
+
+  return (
+    <div className="space-y-4">
+      <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-4 space-y-3">
+        <div>
+          <p className="text-sm font-bold text-gray-700">推し芸人を登録</p>
+          <p className="text-xs text-gray-400 mt-0.5">登録するとトップやニュースで推しの情報が優先表示されます</p>
+        </div>
+        <div ref={searchRef} className="relative">
+          <input
+            type="text"
+            value={query}
+            onChange={(e) => {
+              setQuery(e.target.value);
+              setShowSuggestions(true);
+            }}
+            onFocus={() => query.trim() && setShowSuggestions(true)}
+            placeholder="芸人名で検索して追加..."
+            className="w-full px-3 py-2.5 rounded-lg border border-gray-300 focus:border-yoshimoto-red focus:ring-2 focus:ring-yoshimoto-red/20 outline-none text-sm text-gray-800"
+          />
+          <AnimatePresence>
+            {showSuggestions && suggestions.length > 0 && (
+              <motion.div
+                initial={{ opacity: 0, y: -4 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -4 }}
+                className="absolute top-full left-0 right-0 mt-1 bg-white border border-gray-200 rounded-lg shadow-lg z-30 max-h-52 overflow-y-auto"
+              >
+                {suggestions.map((c) => (
+                  <button
+                    key={`${c.school}-${c.classNumber}-${c.name}`}
+                    onClick={() => handleAdd(c)}
+                    className="w-full text-left px-3 py-2.5 hover:bg-gray-50 active:bg-gray-100 border-b border-gray-50 last:border-b-0 flex items-center justify-between"
+                  >
+                    <div>
+                      <span className="text-sm font-medium text-gray-800">{c.name}</span>
+                      <span className="text-xs text-gray-400 ml-2">
+                        {c.school === "osaka" ? "大阪校" : "東京校"} {c.classNumber}期
+                      </span>
+                      {c.members && (
+                        <span className="text-xs text-gray-400 ml-1">({c.members.join("・")})</span>
+                      )}
+                    </div>
+                    <span className="text-yoshimoto-red text-xs flex-shrink-0">+ 追加</span>
+                  </button>
+                ))}
+              </motion.div>
+            )}
+          </AnimatePresence>
+        </div>
+      </div>
+
+      {/* 推しリスト */}
+      {oshiList.length > 0 ? (
+        <div className="space-y-2">
+          <p className="text-sm font-bold text-gray-700">
+            推しリスト <span className="text-gray-400 font-normal">({oshiList.length}人)</span>
+          </p>
+          <AnimatePresence>
+            {oshiList.map((o) => (
+              <motion.div
+                key={o.name}
+                layout
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, x: -50 }}
+                className="bg-white border border-pink-100 rounded-lg p-3 flex items-center justify-between gap-3"
+              >
+                <div className="min-w-0">
+                  <Link
+                    href={`/${o.school}/${o.classNumber}`}
+                    className="text-sm font-bold text-gray-800 hover:text-yoshimoto-red"
+                  >
+                    ❤️ {o.name}
+                  </Link>
+                  <span className="text-xs text-gray-400 ml-2">
+                    {o.school === "osaka" ? "大阪校" : "東京校"} {o.classNumber}期
+                  </span>
+                </div>
+                <button
+                  onClick={() => removeOshi(o.name)}
+                  className="text-xs text-gray-400 hover:text-red-500 flex-shrink-0 py-1 px-2"
+                >
+                  解除
+                </button>
+              </motion.div>
+            ))}
+          </AnimatePresence>
+        </div>
+      ) : (
+        <div className="text-center py-8 space-y-2">
+          <p className="text-3xl">❤️</p>
+          <p className="text-sm text-gray-500">まだ推しが登録されていません</p>
+          <p className="text-xs text-gray-400">上の検索から推し芸人を追加しましょう</p>
         </div>
       )}
     </div>

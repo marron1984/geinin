@@ -1,13 +1,13 @@
 import Link from "next/link";
 import SearchBar from "@/components/SearchBar";
-import NewsCard from "@/components/NewsCard";
+import OshiNewsFeed from "@/components/OshiNewsFeed";
 import { getOsakaData, getTokyoData, getNewsArticles } from "@/lib/data";
 import { FadeInUp, FadeIn, HoverLift, TapButton } from "@/components/MotionWrapper";
 
 export default function Home() {
   const osaka = getOsakaData();
   const tokyo = getTokyoData();
-  const latestNews = getNewsArticles().slice(0, 3);
+  const allNews = getNewsArticles();
 
   return (
     <div className="space-y-8">
@@ -81,11 +81,7 @@ export default function Home() {
               </Link>
             </TapButton>
           </div>
-          <div className="space-y-3">
-            {latestNews.map((article, i) => (
-              <NewsCard key={article.id} article={article} index={i} />
-            ))}
-          </div>
+          <OshiNewsFeed articles={allNews} limit={6} />
         </div>
       </FadeInUp>
 
