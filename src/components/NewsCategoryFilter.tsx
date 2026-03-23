@@ -4,8 +4,9 @@ import { motion } from "framer-motion";
 
 const categories = [
   { key: "all", label: "すべて" },
-  { key: "tv", label: "テレビ" },
+  { key: "theater", label: "劇場" },
   { key: "live", label: "ライブ" },
+  { key: "tv", label: "テレビ" },
   { key: "award", label: "受賞" },
   { key: "debut", label: "デビュー" },
   { key: "other", label: "その他" },

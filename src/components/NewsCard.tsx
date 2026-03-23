@@ -5,16 +5,18 @@ import { motion } from "framer-motion";
 import { NewsArticle } from "@/lib/types";
 
 const categoryLabels: Record<NewsArticle["category"], string> = {
-  tv: "テレビ",
+  theater: "劇場",
   live: "ライブ",
+  tv: "テレビ",
   award: "受賞",
   debut: "デビュー",
   other: "その他",
 };
 
 const categoryColors: Record<NewsArticle["category"], string> = {
-  tv: "bg-blue-100 text-blue-700",
+  theater: "bg-orange-100 text-orange-700",
   live: "bg-purple-100 text-purple-700",
+  tv: "bg-blue-100 text-blue-700",
   award: "bg-yellow-100 text-yellow-700",
   debut: "bg-green-100 text-green-700",
   other: "bg-gray-100 text-gray-600",
@@ -80,6 +82,22 @@ export default function NewsCard({ article, index = 0 }: NewsCardProps) {
             <p className="text-sm text-gray-500 line-clamp-2">
               {article.summary}
             </p>
+            {(article.venue || article.eventDate) && (
+              <div className="flex items-center gap-3 mt-1.5 text-xs text-gray-500">
+                {article.venue && (
+                  <span className="flex items-center gap-1">
+                    <span className="text-orange-400">📍</span>
+                    {article.venue}
+                  </span>
+                )}
+                {article.eventDate && (
+                  <span className="flex items-center gap-1">
+                    <span className="text-orange-400">📅</span>
+                    {formatDate(article.eventDate)}
+                  </span>
+                )}
+              </div>
+            )}
             {article.comedians.length > 0 && (
               <div className="flex flex-wrap gap-1.5 mt-2">
                 {article.comedians.map((name) => (

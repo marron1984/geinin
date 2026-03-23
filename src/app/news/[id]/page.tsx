@@ -5,16 +5,18 @@ import type { Metadata } from "next";
 import { FadeInUp, FadeIn, SlideInLeft, TapButton, ScaleIn } from "@/components/MotionWrapper";
 
 const categoryLabels: Record<string, string> = {
-  tv: "テレビ",
+  theater: "劇場",
   live: "ライブ",
+  tv: "テレビ",
   award: "受賞",
   debut: "デビュー",
   other: "その他",
 };
 
 const categoryColors: Record<string, string> = {
-  tv: "bg-blue-100 text-blue-700",
+  theater: "bg-orange-100 text-orange-700",
   live: "bg-purple-100 text-purple-700",
+  tv: "bg-blue-100 text-blue-700",
   award: "bg-yellow-100 text-yellow-700",
   debut: "bg-green-100 text-green-700",
   other: "bg-gray-100 text-gray-600",
@@ -113,6 +115,22 @@ export default function NewsDetailPage({
                     {name}
                   </span>
                 ))}
+              </div>
+            )}
+
+            {(article.venue || article.eventDate) && (
+              <div className="bg-orange-50 border border-orange-100 rounded-lg p-4 space-y-2">
+                <p className="text-sm font-bold text-orange-700">イベント情報</p>
+                {article.venue && (
+                  <p className="text-sm text-gray-700 flex items-center gap-2">
+                    <span>📍</span> {article.venue}
+                  </p>
+                )}
+                {article.eventDate && (
+                  <p className="text-sm text-gray-700 flex items-center gap-2">
+                    <span>📅</span> {formatDate(article.eventDate)}
+                  </p>
+                )}
               </div>
             )}
 

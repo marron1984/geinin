@@ -70,7 +70,7 @@ export default function Home() {
         <div className="space-y-4">
           <div className="flex items-center justify-between">
             <h2 className="text-lg font-bold text-gray-800">
-              若手芸人ニュース
+              超若手芸人ニュース
             </h2>
             <TapButton>
               <Link

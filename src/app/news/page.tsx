@@ -21,10 +21,10 @@ export default function NewsPage() {
       <FadeInUp>
         <div>
           <h1 className="text-2xl font-bold text-gray-800">
-            若手芸人ニュース
+            超若手芸人ニュース
           </h1>
           <p className="text-sm text-gray-500 mt-1">
-            NSC出身の若手芸人を中心とした最新ニュース
+            劇場イベント・ライブ情報を中心に、NSC出身の超若手芸人の最新情報をお届け
           </p>
         </div>
       </FadeInUp>

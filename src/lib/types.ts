@@ -24,9 +24,11 @@ export interface NewsArticle {
   summary: string;
   body: string;
   date: string;
-  category: "tv" | "live" | "award" | "debut" | "other";
+  category: "theater" | "live" | "tv" | "award" | "debut" | "other";
   comedians: string[];
   school?: "osaka" | "tokyo";
   classNumber?: number;
   imageEmoji?: string;
+  venue?: string;
+  eventDate?: string;
 }
