@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { NscClass } from "@/lib/types";
-import ComedianTag from "./ComedianTag";
 
 interface ClassCardProps {
   cls: NscClass;
@@ -9,32 +8,47 @@ interface ClassCardProps {
 
 export default function ClassCard({ cls, highlightNames = [] }: ClassCardProps) {
   const schoolPath = cls.school === "osaka" ? "osaka" : "tokyo";
+  const isOsaka = cls.school === "osaka";
 
   return (
-    <div className="bg-white rounded-lg shadow-sm border border-gray-100 p-4 hover:shadow-md transition-shadow">
-      <Link href={`/${schoolPath}/${cls.classNumber}`}>
-        <div className="flex items-baseline gap-3 mb-3">
-          <span className="text-2xl font-bold text-yoshimoto-red">
-            {cls.classNumber}期
-          </span>
-          <span className="text-sm text-gray-500">
-            {cls.enrollmentYear}年入学
-          </span>
-        </div>
-      </Link>
+    <Link
+      href={`/${schoolPath}/${cls.classNumber}`}
+      className="block bg-white rounded-lg border border-gray-200 p-4 hover:border-yoshimoto-red hover:shadow-md transition-all group"
+    >
+      <div className="flex items-center gap-2 mb-2">
+        <span className={`text-xs font-bold px-2 py-0.5 rounded ${
+          isOsaka ? "bg-red-100 text-yoshimoto-red" : "bg-gray-100 text-gray-700"
+        }`}>
+          {isOsaka ? "大阪" : "東京"}
+        </span>
+        <span className="text-xs text-gray-400">{cls.enrollmentYear}年入学</span>
+      </div>
+      <h3 className="font-bold text-gray-900 group-hover:text-yoshimoto-red transition-colors mb-2">
+        第{cls.classNumber}期
+      </h3>
       {cls.notableGraduates.length > 0 ? (
-        <div className="flex flex-wrap gap-2">
-          {cls.notableGraduates.map((grad, i) => (
-            <ComedianTag
+        <div className="flex flex-wrap gap-1">
+          {cls.notableGraduates.slice(0, 5).map((grad, i) => (
+            <span
               key={i}
-              comedian={grad}
-              highlight={highlightNames.includes(grad.name)}
-            />
+              className={`text-xs px-2 py-0.5 rounded-full ${
+                highlightNames.includes(grad.name)
+                  ? "bg-yoshimoto-red text-white"
+                  : "bg-gray-100 text-gray-600"
+              }`}
+            >
+              {grad.name}
+            </span>
           ))}
+          {cls.notableGraduates.length > 5 && (
+            <span className="text-xs text-gray-400">
+              +{cls.notableGraduates.length - 5}組
+            </span>
+          )}
         </div>
       ) : (
-        <p className="text-sm text-gray-400">データなし</p>
+        <p className="text-xs text-gray-400">データ準備中</p>
       )}
-    </div>
+    </Link>
   );
 }

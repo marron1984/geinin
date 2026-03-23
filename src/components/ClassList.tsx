@@ -7,7 +7,7 @@ interface ClassListProps {
 
 export default function ClassList({ classes }: ClassListProps) {
   return (
-    <div className="grid gap-4">
+    <div className="grid md:grid-cols-2 gap-4">
       {classes.map((cls) => (
         <ClassCard key={cls.classNumber} cls={cls} />
       ))}
