@@ -35,6 +35,17 @@ export interface NewsArticle {
 
 export type NoteCategory = "family" | "neta" | "schedule" | "impression" | "other";
 
+export interface TheaterSchedule {
+  id: string;
+  title: string;
+  date: string;
+  venue: string;
+  memo: string;
+  comedians: string[];
+  done: boolean;
+  createdAt: string;
+}
+
 export interface ComedianNote {
   id: string;
   comedianName: string;
