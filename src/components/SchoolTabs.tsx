@@ -13,7 +13,7 @@ export default function SchoolTabs({ active }: SchoolTabsProps) {
       <motion.div whileTap={{ scale: 0.93 }} className="relative">
         <Link
           href="/osaka"
-          className={`block px-6 py-3 text-sm font-medium transition-colors ${
+          className={`block px-4 sm:px-6 py-3 text-sm font-medium transition-colors ${
             active === "osaka"
               ? "text-yoshimoto-red"
               : "text-gray-500 hover:text-gray-700"
@@ -32,7 +32,7 @@ export default function SchoolTabs({ active }: SchoolTabsProps) {
       <motion.div whileTap={{ scale: 0.93 }} className="relative">
         <Link
           href="/tokyo"
-          className={`block px-6 py-3 text-sm font-medium transition-colors ${
+          className={`block px-4 sm:px-6 py-3 text-sm font-medium transition-colors ${
             active === "tokyo"
               ? "text-yoshimoto-red"
               : "text-gray-500 hover:text-gray-700"

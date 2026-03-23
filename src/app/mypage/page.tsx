@@ -1,12 +1,11 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useRef, useEffect } from "react";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import { useNotes } from "@/lib/useNotes";
+import { getAllComedians, ComedianEntry } from "@/lib/data";
 import { NoteCategory } from "@/lib/types";
-import NoteModal from "@/components/NoteModal";
-import { FadeInUp } from "@/components/MotionWrapper";
 
 const categoryInfo: Record<NoteCategory, { label: string; emoji: string; color: string }> = {
   family: { label: "家族・背景", emoji: "👨‍👩‍👧", color: "bg-pink-50 border-pink-200" },
@@ -16,245 +15,387 @@ const categoryInfo: Record<NoteCategory, { label: string; emoji: string; color: 
   other: { label: "その他", emoji: "📝", color: "bg-gray-50 border-gray-200" },
 };
 
-const filterOptions = [
-  { key: "all", label: "すべて" },
-  { key: "family", label: "👨‍👩‍👧 家族・背景" },
-  { key: "neta", label: "🎤 ネタ・芸風" },
-  { key: "schedule", label: "📅 観劇予定" },
-  { key: "impression", label: "💭 感想" },
-  { key: "other", label: "📝 その他" },
+const categoryOptions: { key: NoteCategory; label: string; emoji: string }[] = [
+  { key: "impression", label: "感想", emoji: "💭" },
+  { key: "neta", label: "ネタ", emoji: "🎤" },
+  { key: "schedule", label: "予定", emoji: "📅" },
+  { key: "family", label: "背景", emoji: "👨‍👩‍👧" },
+  { key: "other", label: "他", emoji: "📝" },
 ];
 
 function formatDate(iso: string) {
+  const d = new Date(iso);
+  return `${d.getMonth() + 1}/${d.getDate()}`;
+}
+
+function formatDateFull(iso: string) {
   const d = new Date(iso);
   return `${d.getFullYear()}/${String(d.getMonth() + 1).padStart(2, "0")}/${String(d.getDate()).padStart(2, "0")}`;
 }
 
 export default function MyPage() {
-  const { notes, loaded, updateNote, deleteNote } = useNotes();
-  const [filter, setFilter] = useState("all");
-  const [searchQuery, setSearchQuery] = useState("");
-  const [editingNoteId, setEditingNoteId] = useState<string | null>(null);
+  const { notes, loaded, addNote, updateNote, deleteNote } = useNotes();
+  const allComedians = useMemo(() => getAllComedians(), []);
 
+  // 芸人検索・選択
+  const [comedianQuery, setComedianQuery] = useState("");
+  const [selectedComedian, setSelectedComedian] = useState<ComedianEntry | null>(null);
+  const [showSuggestions, setShowSuggestions] = useState(false);
+  const searchRef = useRef<HTMLDivElement>(null);
+
+  // メモ入力
+  const [category, setCategory] = useState<NoteCategory>("impression");
+  const [content, setContent] = useState("");
+  const textareaRef = useRef<HTMLTextAreaElement>(null);
+
+  // フィルター
+  const [filterCategory, setFilterCategory] = useState("all");
+  const [noteSearch, setNoteSearch] = useState("");
+
+  // 編集
+  const [editingId, setEditingId] = useState<string | null>(null);
+  const [editContent, setEditContent] = useState("");
+  const [editCategory, setEditCategory] = useState<NoteCategory>("impression");
+
+  // 芸人候補
+  const suggestions = useMemo(() => {
+    if (!comedianQuery.trim()) return [];
+    const q = comedianQuery.trim().toLowerCase();
+    return allComedians
+      .filter(
+        (c) =>
+          c.name.toLowerCase().includes(q) ||
+          (c.members && c.members.some((m) => m.toLowerCase().includes(q)))
+      )
+      .slice(0, 8);
+  }, [comedianQuery, allComedians]);
+
+  // 外側クリックで候補閉じる
+  useEffect(() => {
+    function handleClick(e: MouseEvent) {
+      if (searchRef.current && !searchRef.current.contains(e.target as Node)) {
+        setShowSuggestions(false);
+      }
+    }
+    document.addEventListener("mousedown", handleClick);
+    return () => document.removeEventListener("mousedown", handleClick);
+  }, []);
+
+  // メモ保存
+  const handleSave = () => {
+    if (!selectedComedian || !content.trim()) return;
+    addNote(selectedComedian.name, selectedComedian.school, selectedComedian.classNumber, category, content.trim());
+    setContent("");
+    textareaRef.current?.focus();
+  };
+
+  // 編集保存
+  const handleEditSave = (id: string) => {
+    if (!editContent.trim()) return;
+    updateNote(id, editContent.trim(), editCategory);
+    setEditingId(null);
+  };
+
+  // 芸人選択
+  const selectComedian = (c: ComedianEntry) => {
+    setSelectedComedian(c);
+    setComedianQuery(c.name);
+    setShowSuggestions(false);
+    textareaRef.current?.focus();
+  };
+
+  // フィルター済みノート
   const filtered = useMemo(() => {
     let result = notes;
-    if (filter !== "all") {
-      result = result.filter((n) => n.category === filter);
+    if (filterCategory !== "all") {
+      result = result.filter((n) => n.category === filterCategory);
     }
-    if (searchQuery.trim()) {
-      const q = searchQuery.trim().toLowerCase();
+    if (noteSearch.trim()) {
+      const q = noteSearch.trim().toLowerCase();
       result = result.filter(
-        (n) =>
-          n.comedianName.toLowerCase().includes(q) ||
-          n.content.toLowerCase().includes(q)
+        (n) => n.comedianName.toLowerCase().includes(q) || n.content.toLowerCase().includes(q)
       );
     }
     return result;
-  }, [notes, filter, searchQuery]);
-
-  const grouped = useMemo(() => {
-    const map = new Map<string, typeof filtered>();
-    for (const note of filtered) {
-      const key = note.comedianName;
-      if (!map.has(key)) map.set(key, []);
-      map.get(key)!.push(note);
-    }
-    return Array.from(map.entries());
-  }, [filtered]);
-
-  const stats = useMemo(() => {
-    const comedians = new Set(notes.map((n) => n.comedianName));
-    return {
-      total: notes.length,
-      comedians: comedians.size,
-      categories: Object.fromEntries(
-        Object.keys(categoryInfo).map((cat) => [
-          cat,
-          notes.filter((n) => n.category === cat).length,
-        ])
-      ) as Record<NoteCategory, number>,
-    };
-  }, [notes]);
-
-  const editTarget = editingNoteId ? notes.find((n) => n.id === editingNoteId) : null;
+  }, [notes, filterCategory, noteSearch]);
 
   if (!loaded) {
-    return (
-      <div className="text-center py-12 text-gray-400">読み込み中...</div>
-    );
+    return <div className="text-center py-12 text-gray-400">読み込み中...</div>;
   }
 
   return (
-    <div className="space-y-6">
-      <FadeInUp>
-        <div>
-          <h1 className="text-2xl font-bold text-gray-800">マイページ</h1>
-          <p className="text-sm text-gray-500 mt-1">
-            芸人ごとのメモ・感想・観劇記録を管理
-          </p>
-        </div>
-      </FadeInUp>
+    <div className="space-y-5">
+      {/* ヘッダー */}
+      <div>
+        <h1 className="text-xl font-bold text-gray-800">マイページ</h1>
+        <p className="text-xs text-gray-500 mt-0.5">芸人へのコメント・メモを記録</p>
+      </div>
 
-      <FadeInUp delay={0.1}>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-          <div className="bg-white rounded-lg border border-gray-100 p-3 text-center">
-            <p className="text-2xl font-bold text-yoshimoto-red">{stats.total}</p>
-            <p className="text-xs text-gray-500">メモ数</p>
-          </div>
-          <div className="bg-white rounded-lg border border-gray-100 p-3 text-center">
-            <p className="text-2xl font-bold text-yoshimoto-red">{stats.comedians}</p>
-            <p className="text-xs text-gray-500">芸人数</p>
-          </div>
-          <div className="bg-white rounded-lg border border-gray-100 p-3 text-center">
-            <p className="text-2xl font-bold text-orange-500">{stats.categories.schedule}</p>
-            <p className="text-xs text-gray-500">観劇予定</p>
-          </div>
-          <div className="bg-white rounded-lg border border-gray-100 p-3 text-center">
-            <p className="text-2xl font-bold text-green-500">{stats.categories.impression}</p>
-            <p className="text-xs text-gray-500">感想</p>
-          </div>
-        </div>
-      </FadeInUp>
+      {/* === 書く エリア === */}
+      <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-4 space-y-3">
+        <p className="text-sm font-bold text-gray-700">コメントを書く</p>
 
-      <FadeInUp delay={0.15}>
-        <div className="space-y-3">
+        {/* 芸人検索 */}
+        <div ref={searchRef} className="relative">
           <input
             type="text"
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-            placeholder="芸人名・メモ内容で検索..."
-            className="w-full px-4 py-2.5 rounded-lg border border-gray-300 focus:border-yoshimoto-red focus:ring-2 focus:ring-yoshimoto-red/20 outline-none text-sm text-gray-800 bg-white"
+            value={comedianQuery}
+            onChange={(e) => {
+              setComedianQuery(e.target.value);
+              setShowSuggestions(true);
+              if (!e.target.value.trim()) setSelectedComedian(null);
+            }}
+            onFocus={() => comedianQuery.trim() && setShowSuggestions(true)}
+            placeholder="芸人名で検索..."
+            className="w-full px-3 py-2.5 rounded-lg border border-gray-300 focus:border-yoshimoto-red focus:ring-2 focus:ring-yoshimoto-red/20 outline-none text-sm text-gray-800"
           />
-          <div className="flex gap-2 overflow-x-auto pb-1 -mx-1 px-1">
-            {filterOptions.map((opt) => (
-              <motion.button
-                key={opt.key}
-                whileTap={{ scale: 0.9 }}
-                onClick={() => setFilter(opt.key)}
-                className={`relative flex-shrink-0 px-3 py-1.5 rounded-full text-xs font-medium transition-colors ${
-                  filter === opt.key
-                    ? "text-white"
-                    : "text-gray-600 bg-gray-100"
-                }`}
-              >
-                {filter === opt.key && (
-                  <motion.div
-                    layoutId="mypageFilterBg"
-                    className="absolute inset-0 bg-yoshimoto-red rounded-full"
-                    transition={{ type: "spring", stiffness: 300, damping: 30 }}
-                  />
-                )}
-                <span className="relative z-10">{opt.label}</span>
-              </motion.button>
-            ))}
-          </div>
-        </div>
-      </FadeInUp>
+          {selectedComedian && (
+            <span className="absolute right-3 top-1/2 -translate-y-1/2 text-xs text-gray-400">
+              {selectedComedian.school === "osaka" ? "大阪" : "東京"}{selectedComedian.classNumber}期
+            </span>
+          )}
 
-      <AnimatePresence mode="wait">
-        <motion.div
-          key={`${filter}-${searchQuery}`}
-          initial={{ opacity: 0, y: 10 }}
-          animate={{ opacity: 1, y: 0 }}
-          exit={{ opacity: 0, y: -10 }}
-          transition={{ duration: 0.2 }}
-          className="space-y-6"
-        >
-          {grouped.length > 0 ? (
-            grouped.map(([comedianName, comedianNotes], gi) => (
+          {/* 候補リスト */}
+          <AnimatePresence>
+            {showSuggestions && suggestions.length > 0 && (
               <motion.div
-                key={comedianName}
-                initial={{ opacity: 0, y: 15 }}
+                initial={{ opacity: 0, y: -4 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: gi * 0.05 }}
-                className="space-y-3"
+                exit={{ opacity: 0, y: -4 }}
+                className="absolute top-full left-0 right-0 mt-1 bg-white border border-gray-200 rounded-lg shadow-lg z-30 max-h-52 overflow-y-auto"
               >
-                <div className="flex items-center gap-2">
-                  <h3 className="font-bold text-gray-800">{comedianName}</h3>
-                  <span className="text-xs text-gray-400">
-                    {comedianNotes[0].school === "osaka" ? "大阪校" : "東京校"} {comedianNotes[0].classNumber}期
-                  </span>
-                  <Link
-                    href={`/${comedianNotes[0].school}/${comedianNotes[0].classNumber}`}
-                    className="text-xs text-yoshimoto-red hover:underline ml-auto"
+                {suggestions.map((c) => (
+                  <button
+                    key={`${c.school}-${c.classNumber}-${c.name}`}
+                    onClick={() => selectComedian(c)}
+                    className="w-full text-left px-3 py-2.5 hover:bg-gray-50 active:bg-gray-100 border-b border-gray-50 last:border-b-0"
                   >
-                    期別ページ →
-                  </Link>
-                </div>
-                {comedianNotes.map((note) => {
-                  const info = categoryInfo[note.category];
-                  return (
-                    <motion.div
-                      key={note.id}
-                      layout
-                      className={`border rounded-lg p-3 space-y-1.5 ${info.color}`}
-                    >
-                      <div className="flex items-center justify-between">
-                        <span className="text-xs font-medium text-gray-600">
-                          {info.emoji} {info.label}
-                        </span>
-                        <div className="flex items-center gap-2">
-                          <span className="text-xs text-gray-400">
-                            {formatDate(note.updatedAt)}
-                          </span>
-                          <motion.button
-                            whileTap={{ scale: 0.8 }}
-                            onClick={() => setEditingNoteId(note.id)}
-                            className="text-xs text-gray-400 hover:text-gray-600 px-1"
+                    <span className="text-sm font-medium text-gray-800">{c.name}</span>
+                    <span className="text-xs text-gray-400 ml-2">
+                      {c.school === "osaka" ? "大阪校" : "東京校"} {c.classNumber}期
+                    </span>
+                    {c.members && (
+                      <span className="text-xs text-gray-400 ml-1">
+                        ({c.members.join("・")})
+                      </span>
+                    )}
+                  </button>
+                ))}
+              </motion.div>
+            )}
+          </AnimatePresence>
+        </div>
+
+        {/* カテゴリ選択 */}
+        <div className="flex gap-1.5 overflow-x-auto pb-0.5">
+          {categoryOptions.map((opt) => (
+            <motion.button
+              key={opt.key}
+              whileTap={{ scale: 0.9 }}
+              onClick={() => setCategory(opt.key)}
+              className={`relative flex-shrink-0 px-2.5 py-1.5 rounded-full text-xs font-medium ${
+                category === opt.key ? "text-white" : "text-gray-600 bg-gray-100"
+              }`}
+            >
+              {category === opt.key && (
+                <motion.div
+                  layoutId="writeCategoryBg"
+                  className="absolute inset-0 bg-yoshimoto-red rounded-full"
+                  transition={{ type: "spring", stiffness: 300, damping: 30 }}
+                />
+              )}
+              <span className="relative z-10">{opt.emoji} {opt.label}</span>
+            </motion.button>
+          ))}
+        </div>
+
+        {/* テキスト入力 + 送信 */}
+        <div className="flex gap-2 items-end">
+          <textarea
+            ref={textareaRef}
+            value={content}
+            onChange={(e) => setContent(e.target.value)}
+            placeholder={
+              selectedComedian
+                ? `${selectedComedian.name}について...`
+                : "まず上で芸人を選んでください"
+            }
+            disabled={!selectedComedian}
+            rows={2}
+            className="flex-1 px-3 py-2 border border-gray-300 rounded-lg focus:border-yoshimoto-red focus:ring-2 focus:ring-yoshimoto-red/20 outline-none text-sm text-gray-800 resize-none disabled:bg-gray-50 disabled:text-gray-400"
+          />
+          <motion.button
+            whileTap={{ scale: 0.9 }}
+            onClick={handleSave}
+            disabled={!selectedComedian || !content.trim()}
+            className="px-4 py-2 bg-yoshimoto-red text-white text-sm rounded-lg font-medium disabled:opacity-30 active:bg-yoshimoto-red-dark flex-shrink-0 min-h-[42px]"
+          >
+            保存
+          </motion.button>
+        </div>
+      </div>
+
+      {/* === メモ一覧 === */}
+      <div className="space-y-3">
+        <div className="flex items-center justify-between">
+          <p className="text-sm font-bold text-gray-700">
+            メモ一覧
+            {notes.length > 0 && <span className="text-gray-400 font-normal ml-1">({notes.length}件)</span>}
+          </p>
+        </div>
+
+        {/* 検索 + フィルター */}
+        {notes.length > 0 && (
+          <div className="space-y-2">
+            <input
+              type="text"
+              value={noteSearch}
+              onChange={(e) => setNoteSearch(e.target.value)}
+              placeholder="メモを検索..."
+              className="w-full px-3 py-2 rounded-lg border border-gray-200 focus:border-yoshimoto-red focus:ring-1 focus:ring-yoshimoto-red/20 outline-none text-xs text-gray-800"
+            />
+            <div className="flex gap-1.5 overflow-x-auto pb-0.5">
+              {[{ key: "all", label: "全て" }, ...categoryOptions].map((opt) => (
+                <button
+                  key={opt.key}
+                  onClick={() => setFilterCategory(opt.key)}
+                  className={`flex-shrink-0 px-2.5 py-1 rounded-full text-xs ${
+                    filterCategory === opt.key
+                      ? "bg-yoshimoto-red text-white"
+                      : "bg-gray-100 text-gray-500"
+                  }`}
+                >
+                  {"emoji" in opt ? `${opt.emoji} ` : ""}{opt.label}
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* ノート一覧 */}
+        <AnimatePresence mode="popLayout">
+          {filtered.length > 0 ? (
+            filtered.map((note) => {
+              const info = categoryInfo[note.category];
+              const isEditing = editingId === note.id;
+
+              return (
+                <motion.div
+                  key={note.id}
+                  layout
+                  initial={{ opacity: 0, y: 10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, x: -50 }}
+                  className={`border rounded-lg p-3 ${info.color}`}
+                >
+                  {/* ヘッダー行 */}
+                  <div className="flex items-start justify-between gap-2 mb-1.5">
+                    <div className="min-w-0">
+                      <Link
+                        href={`/${note.school}/${note.classNumber}`}
+                        className="text-sm font-bold text-gray-800 hover:text-yoshimoto-red"
+                      >
+                        {note.comedianName}
+                      </Link>
+                      <span className="text-xs text-gray-400 ml-1.5">
+                        {info.emoji} {info.label}
+                      </span>
+                    </div>
+                    <span className="text-xs text-gray-400 flex-shrink-0">
+                      {formatDate(note.updatedAt)}
+                    </span>
+                  </div>
+
+                  {isEditing ? (
+                    /* 編集モード */
+                    <div className="space-y-2">
+                      <div className="flex gap-1 flex-wrap">
+                        {categoryOptions.map((opt) => (
+                          <button
+                            key={opt.key}
+                            onClick={() => setEditCategory(opt.key)}
+                            className={`px-2 py-0.5 rounded-full text-xs ${
+                              editCategory === opt.key
+                                ? "bg-yoshimoto-red text-white"
+                                : "bg-white/70 text-gray-500"
+                            }`}
                           >
-                            編集
-                          </motion.button>
-                          <motion.button
-                            whileTap={{ scale: 0.8 }}
-                            onClick={() => deleteNote(note.id)}
-                            className="text-xs text-gray-400 hover:text-red-500 px-1"
-                          >
-                            削除
-                          </motion.button>
-                        </div>
+                            {opt.emoji}
+                          </button>
+                        ))}
                       </div>
+                      <textarea
+                        value={editContent}
+                        onChange={(e) => setEditContent(e.target.value)}
+                        rows={3}
+                        className="w-full px-2.5 py-2 border border-gray-300 rounded-lg text-sm text-gray-800 resize-none outline-none focus:border-yoshimoto-red"
+                        autoFocus
+                      />
+                      <div className="flex gap-2 justify-end">
+                        <button
+                          onClick={() => setEditingId(null)}
+                          className="px-3 py-1.5 text-xs text-gray-500 bg-white rounded-lg border border-gray-200"
+                        >
+                          やめる
+                        </button>
+                        <button
+                          onClick={() => handleEditSave(note.id)}
+                          className="px-3 py-1.5 text-xs text-white bg-yoshimoto-red rounded-lg"
+                        >
+                          更新
+                        </button>
+                      </div>
+                    </div>
+                  ) : (
+                    /* 表示モード */
+                    <>
                       <p className="text-sm text-gray-700 whitespace-pre-wrap leading-relaxed">
                         {note.content}
                       </p>
-                    </motion.div>
-                  );
-                })}
-              </motion.div>
-            ))
+                      <div className="flex gap-3 mt-2 justify-end">
+                        <button
+                          onClick={() => {
+                            setEditingId(note.id);
+                            setEditContent(note.content);
+                            setEditCategory(note.category);
+                          }}
+                          className="text-xs text-gray-400 hover:text-gray-600 py-1"
+                        >
+                          編集
+                        </button>
+                        <button
+                          onClick={() => deleteNote(note.id)}
+                          className="text-xs text-gray-400 hover:text-red-500 py-1"
+                        >
+                          削除
+                        </button>
+                      </div>
+                    </>
+                  )}
+                </motion.div>
+              );
+            })
           ) : (
-            <div className="text-center py-16 space-y-4">
-              <p className="text-4xl">📝</p>
-              <p className="text-gray-500">
-                {notes.length === 0
-                  ? "まだメモがありません"
-                  : "該当するメモが見つかりません"}
-              </p>
-              {notes.length === 0 && (
-                <p className="text-sm text-gray-400">
-                  各期の詳細ページから、芸人ごとにメモを追加できます。
-                  <br />
-                  <Link href="/osaka/1" className="text-yoshimoto-red hover:underline">
-                    大阪校1期を見てみる →
-                  </Link>
-                </p>
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              className="text-center py-10 space-y-3"
+            >
+              <p className="text-3xl">📝</p>
+              {notes.length === 0 ? (
+                <>
+                  <p className="text-sm text-gray-500">まだメモがありません</p>
+                  <p className="text-xs text-gray-400">
+                    上の検索欄から芸人を選んで、コメントを書いてみましょう
+                  </p>
+                </>
+              ) : (
+                <p className="text-sm text-gray-500">該当するメモがありません</p>
               )}
-            </div>
+            </motion.div>
           )}
-        </motion.div>
-      </AnimatePresence>
-
-      {editTarget && (
-        <NoteModal
-          isOpen={!!editingNoteId}
-          onClose={() => setEditingNoteId(null)}
-          onSave={(category, content) => {
-            updateNote(editTarget.id, content, category);
-            setEditingNoteId(null);
-          }}
-          comedianName={editTarget.comedianName}
-          editNote={editTarget}
-        />
-      )}
+        </AnimatePresence>
+      </div>
     </div>
   );
 }

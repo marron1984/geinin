@@ -7,16 +7,16 @@ import { NoteCategory } from "@/lib/types";
 import NoteModal from "./NoteModal";
 
 const categoryInfo: Record<NoteCategory, { label: string; emoji: string; color: string }> = {
-  family: { label: "家族・背景", emoji: "👨‍👩‍👧", color: "bg-pink-50 border-pink-200" },
-  neta: { label: "ネタ・芸風", emoji: "🎤", color: "bg-blue-50 border-blue-200" },
-  schedule: { label: "観劇予定", emoji: "📅", color: "bg-orange-50 border-orange-200" },
+  family: { label: "背景", emoji: "👨‍👩‍👧", color: "bg-pink-50 border-pink-200" },
+  neta: { label: "ネタ", emoji: "🎤", color: "bg-blue-50 border-blue-200" },
+  schedule: { label: "予定", emoji: "📅", color: "bg-orange-50 border-orange-200" },
   impression: { label: "感想", emoji: "💭", color: "bg-green-50 border-green-200" },
-  other: { label: "その他", emoji: "📝", color: "bg-gray-50 border-gray-200" },
+  other: { label: "他", emoji: "📝", color: "bg-gray-50 border-gray-200" },
 };
 
 function formatDate(iso: string) {
   const d = new Date(iso);
-  return `${d.getFullYear()}/${String(d.getMonth() + 1).padStart(2, "0")}/${String(d.getDate()).padStart(2, "0")}`;
+  return `${d.getMonth() + 1}/${d.getDate()}`;
 }
 
 interface ComedianNotesProps {
@@ -36,20 +36,20 @@ export default function ComedianNotes({ comedianName, school, classNumber }: Com
   const editTarget = editingNote ? notes.find((n) => n.id === editingNote) : null;
 
   return (
-    <div className="space-y-3">
+    <div className="space-y-2">
       <div className="flex items-center justify-between">
-        <h3 className="text-sm font-bold text-gray-700">
-          マイメモ {notes.length > 0 && <span className="text-gray-400">({notes.length})</span>}
-        </h3>
+        <span className="text-xs text-gray-500">
+          メモ {notes.length > 0 && `(${notes.length})`}
+        </span>
         <motion.button
           whileTap={{ scale: 0.9 }}
           onClick={() => {
             setEditingNote(null);
             setIsModalOpen(true);
           }}
-          className="text-xs px-3 py-1.5 bg-yoshimoto-red text-white rounded-full hover:bg-yoshimoto-red-dark active:bg-yoshimoto-red-dark"
+          className="text-xs px-2.5 py-1 bg-yoshimoto-red text-white rounded-full active:bg-yoshimoto-red-dark"
         >
-          + メモ追加
+          + 追加
         </motion.button>
       </div>
 
@@ -62,31 +62,28 @@ export default function ComedianNotes({ comedianName, school, classNumber }: Com
               initial={{ opacity: 0, height: 0 }}
               animate={{ opacity: 1, height: "auto" }}
               exit={{ opacity: 0, height: 0 }}
-              className={`border rounded-lg p-3 space-y-1.5 ${info.color}`}
+              className={`border rounded-lg px-3 py-2 ${info.color}`}
             >
-              <div className="flex items-center justify-between">
-                <span className="text-xs font-medium text-gray-600">
-                  {info.emoji} {info.label}
+              <div className="flex items-center justify-between mb-1">
+                <span className="text-xs text-gray-500">
+                  {info.emoji} {info.label} ・ {formatDate(note.updatedAt)}
                 </span>
-                <div className="flex items-center gap-2">
-                  <span className="text-xs text-gray-400">{formatDate(note.updatedAt)}</span>
-                  <motion.button
-                    whileTap={{ scale: 0.8 }}
+                <div className="flex gap-2">
+                  <button
                     onClick={() => {
                       setEditingNote(note.id);
                       setIsModalOpen(true);
                     }}
-                    className="text-xs text-gray-400 hover:text-gray-600 px-1"
+                    className="text-xs text-gray-400 active:text-gray-600 py-0.5"
                   >
                     編集
-                  </motion.button>
-                  <motion.button
-                    whileTap={{ scale: 0.8 }}
+                  </button>
+                  <button
                     onClick={() => deleteNote(note.id)}
-                    className="text-xs text-gray-400 hover:text-red-500 px-1"
+                    className="text-xs text-gray-400 active:text-red-500 py-0.5"
                   >
                     削除
-                  </motion.button>
+                  </button>
                 </div>
               </div>
               <p className="text-sm text-gray-700 whitespace-pre-wrap leading-relaxed">
@@ -98,8 +95,8 @@ export default function ComedianNotes({ comedianName, school, classNumber }: Com
       </AnimatePresence>
 
       {notes.length === 0 && (
-        <p className="text-xs text-gray-400 text-center py-4">
-          まだメモがありません。「+ メモ追加」から記録を始めましょう。
+        <p className="text-xs text-gray-400 text-center py-2">
+          まだメモなし
         </p>
       )}
 

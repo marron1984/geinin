@@ -30,8 +30,8 @@ export default function RootLayout({
       </head>
       <body className="bg-gray-50 min-h-screen">
         <Header />
-        <main className="max-w-5xl mx-auto px-4 py-8">{children}</main>
-        <footer className="text-center text-xs text-gray-400 py-8 border-t border-gray-100">
+        <main className="max-w-5xl mx-auto px-3 sm:px-4 py-5 sm:py-8">{children}</main>
+        <footer className="text-center text-xs text-gray-400 py-6 sm:py-8 border-t border-gray-100 px-3">
           <p>
             ※ 期の所属は資料により異なる場合があります。主な卒業生のみ掲載しています。
           </p>

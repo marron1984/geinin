@@ -23,6 +23,30 @@ export function getClassByNumber(
   return data.classes.find((c) => c.classNumber === classNumber);
 }
 
+export interface ComedianEntry {
+  name: string;
+  school: "osaka" | "tokyo";
+  classNumber: number;
+  members?: string[];
+}
+
+export function getAllComedians(): ComedianEntry[] {
+  const results: ComedianEntry[] = [];
+  for (const data of getAllData()) {
+    for (const cls of data.classes) {
+      for (const grad of cls.notableGraduates) {
+        results.push({
+          name: grad.name,
+          school: data.school,
+          classNumber: cls.classNumber,
+          members: grad.members,
+        });
+      }
+    }
+  }
+  return results;
+}
+
 export function getNewsArticles(): NewsArticle[] {
   return (newsData as NewsArticle[]).sort(
     (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()

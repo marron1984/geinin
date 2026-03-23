@@ -58,7 +58,7 @@ function SearchBarInner() {
         <motion.button
           onClick={() => handleSearch(query)}
           whileTap={{ scale: 0.8, rotate: -15 }}
-          className="absolute right-2 top-1/2 -translate-y-1/2 p-2 text-gray-400 hover:text-yoshimoto-red z-10"
+          className="absolute right-1 top-1/2 -translate-y-1/2 p-3 text-gray-400 hover:text-yoshimoto-red z-10"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
