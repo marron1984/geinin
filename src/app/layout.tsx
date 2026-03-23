@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Script from "next/script";
 import "./globals.css";
 import Header from "@/components/Header";
+import ScrollToTop from "@/components/ScrollToTop";
 
 export const metadata: Metadata = {
   title: "NSC期別リスト - 吉本総合芸能学院 卒業生一覧",
@@ -27,10 +28,11 @@ export default function RootLayout({
           strategy="afterInteractive"
         />
       </head>
-      <body className="bg-gray-50 min-h-screen">
+      <body className="bg-gray-50 dark:bg-gray-900 min-h-screen transition-colors">
         <Header />
         <main className="max-w-5xl mx-auto px-4 py-8">{children}</main>
-        <footer className="text-center text-xs text-gray-400 py-8 border-t border-gray-100">
+        <ScrollToTop />
+        <footer className="text-center text-xs text-gray-400 dark:text-gray-600 py-8 border-t border-gray-100 dark:border-gray-800">
           <p>
             ※ 期の所属は資料により異なる場合があります。主な卒業生のみ掲載しています。
           </p>

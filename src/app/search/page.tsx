@@ -21,13 +21,13 @@ function SearchResults() {
       <SearchBar />
 
       {query && (
-        <p className="text-sm text-gray-500">
+        <p className="text-sm text-gray-500 dark:text-gray-400">
           「{query}」の検索結果: {results.length}件
         </p>
       )}
 
       {results.length === 0 && query && (
-        <div className="text-center py-12 text-gray-400">
+        <div className="text-center py-12 text-gray-400 dark:text-gray-500">
           <p className="text-lg">該当する結果がありません</p>
           <p className="text-sm mt-2">
             芸人名、期番号、入学年で検索できます
@@ -37,7 +37,7 @@ function SearchResults() {
 
       {osakaResults.length > 0 && (
         <div>
-          <h2 className="text-lg font-bold text-gray-700 mb-3">
+          <h2 className="text-lg font-bold text-gray-700 dark:text-gray-300 mb-3">
             大阪校 ({osakaResults.length}件)
           </h2>
           <div className="grid gap-3">
@@ -54,7 +54,7 @@ function SearchResults() {
 
       {tokyoResults.length > 0 && (
         <div>
-          <h2 className="text-lg font-bold text-gray-700 mb-3">
+          <h2 className="text-lg font-bold text-gray-700 dark:text-gray-300 mb-3">
             東京校 ({tokyoResults.length}件)
           </h2>
           <div className="grid gap-3">
@@ -76,7 +76,7 @@ export default function SearchPage() {
   return (
     <Suspense
       fallback={
-        <div className="text-center py-12 text-gray-400">検索中...</div>
+        <div className="text-center py-12 text-gray-400 dark:text-gray-500">検索中...</div>
       }
     >
       <SearchResults />

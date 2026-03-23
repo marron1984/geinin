@@ -37,7 +37,7 @@ export default function OsakaClassPage({
 
   return (
     <div className="space-y-6">
-      <div className="flex items-center gap-2 text-sm text-gray-500">
+      <div className="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400">
         <Link href="/osaka" className="hover:text-yoshimoto-red">
           大阪校
         </Link>
@@ -49,14 +49,14 @@ export default function OsakaClassPage({
         <h1 className="text-3xl font-bold text-yoshimoto-red">
           第{classNumber}期
         </h1>
-        <p className="text-gray-500 mt-1">
+        <p className="text-gray-500 dark:text-gray-400 mt-1">
           NSC大阪校 ・ {cls.enrollmentYear}年入学
         </p>
       </div>
 
       {cls.notableGraduates.length > 0 ? (
-        <div className="bg-white rounded-lg shadow-sm border border-gray-100 p-6">
-          <h2 className="font-bold text-gray-700 mb-4">主な卒業生</h2>
+        <div className="bg-white dark:bg-gray-800 rounded-lg shadow-sm border border-gray-100 dark:border-gray-700 p-6">
+          <h2 className="font-bold text-gray-700 dark:text-gray-300 mb-4">主な卒業生</h2>
           <div className="space-y-3">
             {cls.notableGraduates.map((grad, i) => (
               <div key={i} className="flex items-start gap-3">
@@ -66,7 +66,7 @@ export default function OsakaClassPage({
           </div>
         </div>
       ) : (
-        <div className="bg-white rounded-lg shadow-sm border border-gray-100 p-6 text-gray-400">
+        <div className="bg-white dark:bg-gray-800 rounded-lg shadow-sm border border-gray-100 dark:border-gray-700 p-6 text-gray-400 dark:text-gray-500">
           主な卒業生のデータはまだありません
         </div>
       )}
