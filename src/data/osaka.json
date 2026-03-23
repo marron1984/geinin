@@ -1,0 +1,402 @@
+{
+  "school": "osaka",
+  "schoolName": "NSC大阪校",
+  "startYear": 1982,
+  "classes": [
+    {
+      "classNumber": 1,
+      "school": "osaka",
+      "enrollmentYear": 1982,
+      "notableGraduates": [
+        { "name": "ダウンタウン", "members": ["浜田雅功", "松本人志"] },
+        { "name": "ハイヒール", "members": ["ハイヒールリンゴ", "ハイヒールモモコ"] },
+        { "name": "トミーズ", "members": ["トミーズ雅", "トミーズ健"] },
+        { "name": "内場勝則" },
+        { "name": "おかけんた・ゆうた", "members": ["おかけんた", "おかゆうた"] }
+      ]
+    },
+    {
+      "classNumber": 2,
+      "school": "osaka",
+      "enrollmentYear": 1983,
+      "notableGraduates": [
+        { "name": "長原成樹" },
+        { "name": "吉田ヒロ" }
+      ]
+    },
+    {
+      "classNumber": 3,
+      "school": "osaka",
+      "enrollmentYear": 1984,
+      "notableGraduates": [
+        { "name": "ぜんじろう" }
+      ]
+    },
+    {
+      "classNumber": 4,
+      "school": "osaka",
+      "enrollmentYear": 1985,
+      "notableGraduates": [
+        { "name": "今田耕司" },
+        { "name": "130R", "members": ["板尾創路", "ほんこん"] },
+        { "name": "東野幸治" }
+      ]
+    },
+    {
+      "classNumber": 5,
+      "school": "osaka",
+      "enrollmentYear": 1986,
+      "notableGraduates": [
+        { "name": "石田靖" },
+        { "name": "よゐこ", "members": ["濱口優", "有野晋哉"] }
+      ]
+    },
+    {
+      "classNumber": 6,
+      "school": "osaka",
+      "enrollmentYear": 1987,
+      "notableGraduates": [
+        { "name": "メッセンジャー", "members": ["メッセンジャー黒田", "メッセンジャーあいはら"] },
+        { "name": "ティーアップ", "members": ["前田政二", "長谷川宏"] }
+      ]
+    },
+    {
+      "classNumber": 7,
+      "school": "osaka",
+      "enrollmentYear": 1988,
+      "notableGraduates": [
+        { "name": "雨上がり決死隊", "members": ["宮迫博之", "蛍原徹"] },
+        { "name": "なるみ" },
+        { "name": "高山トモヒロ" },
+        { "name": "へびいちご" },
+        { "name": "安尾信乃助" }
+      ]
+    },
+    {
+      "classNumber": 8,
+      "school": "osaka",
+      "enrollmentYear": 1989,
+      "notableGraduates": [
+        { "name": "千原兄弟", "members": ["千原せいじ", "千原ジュニア"] },
+        { "name": "FUJIWARA", "members": ["藤本敏史", "原西孝幸"] },
+        { "name": "なだぎ武" },
+        { "name": "バッファロー吾郎", "members": ["バッファロー吾郎A", "竹若元博"] },
+        { "name": "テンダラー", "members": ["浜本広晃", "白川悟実"] }
+      ]
+    },
+    {
+      "classNumber": 9,
+      "school": "osaka",
+      "enrollmentYear": 1990,
+      "notableGraduates": [
+        { "name": "ナインティナイン", "members": ["岡村隆史", "矢部浩之"] },
+        { "name": "宮川大輔" },
+        { "name": "矢野・兵動", "members": ["矢野勝也", "兵動大樹"] },
+        { "name": "ほっしゃん。（星田英利）" },
+        { "name": "川畑泰史" }
+      ]
+    },
+    {
+      "classNumber": 10,
+      "school": "osaka",
+      "enrollmentYear": 1991,
+      "notableGraduates": [
+        { "name": "2丁拳銃", "members": ["小堀裕之", "川谷修士"] },
+        { "name": "りあるキッズ" }
+      ]
+    },
+    {
+      "classNumber": 11,
+      "school": "osaka",
+      "enrollmentYear": 1992,
+      "notableGraduates": [
+        { "name": "中川家", "members": ["中川剛", "中川礼二"] },
+        { "name": "ケンドーコバヤシ" },
+        { "name": "陣内智則" },
+        { "name": "たむらけんじ" },
+        { "name": "ハリガネロック", "members": ["ユウキロック", "大上邦博"] }
+      ]
+    },
+    {
+      "classNumber": 12,
+      "school": "osaka",
+      "enrollmentYear": 1993,
+      "notableGraduates": [
+        { "name": "シャンプーハット", "members": ["こいで", "てつじ"] },
+        { "name": "ルート33" },
+        { "name": "烏川耕一" }
+      ]
+    },
+    {
+      "classNumber": 13,
+      "school": "osaka",
+      "enrollmentYear": 1994,
+      "notableGraduates": [
+        { "name": "次長課長", "members": ["河本準一", "井上聡"] },
+        { "name": "チュートリアル", "members": ["徳井義実", "福田充徳"] },
+        { "name": "ブラックマヨネーズ", "members": ["吉田敬", "小杉竜一"] },
+        { "name": "野性爆弾", "members": ["くっきー!", "ロッシー"] },
+        { "name": "友近" },
+        { "name": "徳井義実" }
+      ]
+    },
+    {
+      "classNumber": 14,
+      "school": "osaka",
+      "enrollmentYear": 1995,
+      "notableGraduates": [
+        { "name": "ザ・プラン9" },
+        { "name": "ストリーク" },
+        { "name": "レギュラー", "members": ["松本康太", "西川晃啓"] }
+      ]
+    },
+    {
+      "classNumber": 15,
+      "school": "osaka",
+      "enrollmentYear": 1996,
+      "notableGraduates": [
+        { "name": "笑い飯", "members": ["哲夫", "西田幸治"] },
+        { "name": "千鳥", "members": ["大悟", "ノブ"] },
+        { "name": "フットボールアワー", "members": ["後藤輝基", "岩尾望"] },
+        { "name": "麒麟", "members": ["川島明", "田村裕"] }
+      ]
+    },
+    {
+      "classNumber": 16,
+      "school": "osaka",
+      "enrollmentYear": 1997,
+      "notableGraduates": [
+        { "name": "南海キャンディーズ", "members": ["山里亮太", "しずちゃん"] },
+        { "name": "スーパーマラドーナ", "members": ["武智", "田中一彦"] }
+      ]
+    },
+    {
+      "classNumber": 17,
+      "school": "osaka",
+      "enrollmentYear": 1998,
+      "notableGraduates": [
+        { "name": "ダイアン", "members": ["津田篤宏", "ユースケ"] },
+        { "name": "プラスマイナス", "members": ["岩橋良昌", "兼光タカシ"] }
+      ]
+    },
+    {
+      "classNumber": 18,
+      "school": "osaka",
+      "enrollmentYear": 1999,
+      "notableGraduates": [
+        { "name": "スマイル", "members": ["ウーイェイよしたか", "瀬戸洋祐"] }
+      ]
+    },
+    {
+      "classNumber": 19,
+      "school": "osaka",
+      "enrollmentYear": 2000,
+      "notableGraduates": [
+        { "name": "とろサーモン", "members": ["久保田かずのぶ", "村田秀亮"] },
+        { "name": "天竺鼠", "members": ["川原克己", "瀬下豊"] },
+        { "name": "モンスターエンジン", "members": ["西森洋一", "大林健二"] }
+      ]
+    },
+    {
+      "classNumber": 20,
+      "school": "osaka",
+      "enrollmentYear": 2001,
+      "notableGraduates": [
+        { "name": "銀シャリ", "members": ["鰻和弘", "橋本直"] },
+        { "name": "藤崎マーケット", "members": ["田崎佑一", "トキ"] }
+      ]
+    },
+    {
+      "classNumber": 21,
+      "school": "osaka",
+      "enrollmentYear": 2002,
+      "notableGraduates": [
+        { "name": "NON STYLE", "members": ["石田明", "井上裕介"] },
+        { "name": "かまいたち", "members": ["山内健司", "濱家隆一"] }
+      ]
+    },
+    {
+      "classNumber": 22,
+      "school": "osaka",
+      "enrollmentYear": 2003,
+      "notableGraduates": [
+        { "name": "和牛", "members": ["水田信二", "川西賢志郎"] },
+        { "name": "アキナ", "members": ["秋山賢太", "山名文和"] }
+      ]
+    },
+    {
+      "classNumber": 23,
+      "school": "osaka",
+      "enrollmentYear": 2004,
+      "notableGraduates": [
+        { "name": "学天即", "members": ["奥田修二", "四条和也"] },
+        { "name": "祇園", "members": ["木﨑太郎", "櫻井健一朗"] }
+      ]
+    },
+    {
+      "classNumber": 24,
+      "school": "osaka",
+      "enrollmentYear": 2005,
+      "notableGraduates": [
+        { "name": "コロコロチキチキペッパーズ", "members": ["ナダル", "西野創人"] },
+        { "name": "藤崎マーケット" }
+      ]
+    },
+    {
+      "classNumber": 25,
+      "school": "osaka",
+      "enrollmentYear": 2006,
+      "notableGraduates": [
+        { "name": "アインシュタイン", "members": ["稲田直樹", "河井ゆずる"] },
+        { "name": "吉田たち", "members": ["吉田裕", "吉田敬"] }
+      ]
+    },
+    {
+      "classNumber": 26,
+      "school": "osaka",
+      "enrollmentYear": 2007,
+      "notableGraduates": [
+        { "name": "見取り図", "members": ["盛山晋太郎", "リリー"] },
+        { "name": "ミキ", "members": ["昴生", "亜生"] },
+        { "name": "からし蓮根", "members": ["伊織", "杉本青空"] }
+      ]
+    },
+    {
+      "classNumber": 27,
+      "school": "osaka",
+      "enrollmentYear": 2008,
+      "notableGraduates": [
+        { "name": "霜降り明星", "members": ["粗品", "せいや"] },
+        { "name": "ラニーノーズ", "members": ["洲崎貴郁", "山田健人"] }
+      ]
+    },
+    {
+      "classNumber": 28,
+      "school": "osaka",
+      "enrollmentYear": 2009,
+      "notableGraduates": [
+        { "name": "ロングコートダディ", "members": ["堂前透", "兎"] },
+        { "name": "ニューヨーク", "members": ["嶋佐和也", "屋敷裕政"] }
+      ]
+    },
+    {
+      "classNumber": 29,
+      "school": "osaka",
+      "enrollmentYear": 2010,
+      "notableGraduates": [
+        { "name": "さや香", "members": ["新山士彦", "石井誠一"] },
+        { "name": "カベポスター", "members": ["永見大吾", "浜田順平"] }
+      ]
+    },
+    {
+      "classNumber": 30,
+      "school": "osaka",
+      "enrollmentYear": 2011,
+      "notableGraduates": [
+        { "name": "ヘンダーソン", "members": ["中村フー", "子林勇輝"] },
+        { "name": "ドーナツ・ピーナツ" }
+      ]
+    },
+    {
+      "classNumber": 31,
+      "school": "osaka",
+      "enrollmentYear": 2012,
+      "notableGraduates": [
+        { "name": "オズワルド", "members": ["畠中悠", "伊藤俊介"] },
+        { "name": "ビスケットブラザーズ", "members": ["きん", "原田泰雅"] }
+      ]
+    },
+    {
+      "classNumber": 32,
+      "school": "osaka",
+      "enrollmentYear": 2013,
+      "notableGraduates": [
+        { "name": "令和ロマン", "members": ["髙比良くるま", "松井ケムリ"] },
+        { "name": "ダブルヒガシ" }
+      ]
+    },
+    {
+      "classNumber": 33,
+      "school": "osaka",
+      "enrollmentYear": 2014,
+      "notableGraduates": [
+        { "name": "エバース", "members": ["町田和樹", "佐々木隆史"] },
+        { "name": "フースーヤ", "members": ["田中ショータイム", "谷口理"] }
+      ]
+    },
+    {
+      "classNumber": 34,
+      "school": "osaka",
+      "enrollmentYear": 2015,
+      "notableGraduates": [
+        { "name": "カゲヤマ" },
+        { "name": "ドリフターズ" }
+      ]
+    },
+    {
+      "classNumber": 35,
+      "school": "osaka",
+      "enrollmentYear": 2016,
+      "notableGraduates": [
+        { "name": "ヤーレンズ", "members": ["楢原真樹", "出井隼之介"] },
+        { "name": "バッテリィズ", "members": ["寺家公太", "エース"] }
+      ]
+    },
+    {
+      "classNumber": 36,
+      "school": "osaka",
+      "enrollmentYear": 2017,
+      "notableGraduates": [
+        { "name": "ダンビラムーチョ", "members": ["大原優一", "原田フニャオ"] }
+      ]
+    },
+    {
+      "classNumber": 37,
+      "school": "osaka",
+      "enrollmentYear": 2018,
+      "notableGraduates": []
+    },
+    {
+      "classNumber": 38,
+      "school": "osaka",
+      "enrollmentYear": 2019,
+      "notableGraduates": []
+    },
+    {
+      "classNumber": 39,
+      "school": "osaka",
+      "enrollmentYear": 2020,
+      "notableGraduates": []
+    },
+    {
+      "classNumber": 40,
+      "school": "osaka",
+      "enrollmentYear": 2021,
+      "notableGraduates": []
+    },
+    {
+      "classNumber": 41,
+      "school": "osaka",
+      "enrollmentYear": 2022,
+      "notableGraduates": []
+    },
+    {
+      "classNumber": 42,
+      "school": "osaka",
+      "enrollmentYear": 2023,
+      "notableGraduates": []
+    },
+    {
+      "classNumber": 43,
+      "school": "osaka",
+      "enrollmentYear": 2024,
+      "notableGraduates": []
+    },
+    {
+      "classNumber": 44,
+      "school": "osaka",
+      "enrollmentYear": 2025,
+      "notableGraduates": []
+    }
+  ]
+}
