@@ -8,7 +8,7 @@ export default function SchoolTabs({ active }: SchoolTabsProps) {
   return (
     <div className="flex border-b border-gray-200 dark:border-gray-700 mb-6">
       <Link
-        href="/osaka"
+        href="/nsc/osaka"
         className={`px-6 py-3 text-sm font-medium border-b-2 transition-colors ${
           active === "osaka"
             ? "border-yoshimoto-red text-yoshimoto-red"
@@ -18,7 +18,7 @@ export default function SchoolTabs({ active }: SchoolTabsProps) {
         大阪校
       </Link>
       <Link
-        href="/tokyo"
+        href="/nsc/tokyo"
         className={`px-6 py-3 text-sm font-medium border-b-2 transition-colors ${
           active === "tokyo"
             ? "border-yoshimoto-red text-yoshimoto-red"

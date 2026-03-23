@@ -11,15 +11,12 @@ export default function Header() {
     <header className="bg-yoshimoto-red text-white shadow-lg sticky top-0 z-40">
       <div className="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
         <Link href="/" className="text-xl font-bold tracking-tight hover:opacity-90">
-          NSC期別リスト
+          芸人データベース
         </Link>
         <div className="flex items-center gap-2">
           <nav className="hidden sm:flex gap-4 text-sm">
-            <Link href="/osaka" className="hover:underline underline-offset-4">
-              大阪校
-            </Link>
-            <Link href="/tokyo" className="hover:underline underline-offset-4">
-              東京校
+            <Link href="/nsc" className="hover:underline underline-offset-4">
+              NSC期別リスト
             </Link>
           </nav>
           <ThemeToggle />
@@ -41,15 +38,22 @@ export default function Header() {
       {menuOpen && (
         <nav className="sm:hidden border-t border-white/20 px-4 py-2 space-y-1">
           <Link
-            href="/osaka"
+            href="/nsc"
             className="block py-2 hover:bg-white/10 rounded px-2"
+            onClick={() => setMenuOpen(false)}
+          >
+            NSC期別リスト
+          </Link>
+          <Link
+            href="/nsc/osaka"
+            className="block py-2 hover:bg-white/10 rounded px-2 pl-6 text-sm opacity-90"
             onClick={() => setMenuOpen(false)}
           >
             大阪校
           </Link>
           <Link
-            href="/tokyo"
-            className="block py-2 hover:bg-white/10 rounded px-2"
+            href="/nsc/tokyo"
+            className="block py-2 hover:bg-white/10 rounded px-2 pl-6 text-sm opacity-90"
             onClick={() => setMenuOpen(false)}
           >
             東京校

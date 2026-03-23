@@ -5,9 +5,9 @@ import Header from "@/components/Header";
 import ScrollToTop from "@/components/ScrollToTop";
 
 export const metadata: Metadata = {
-  title: "NSC期別リスト - 吉本総合芸能学院 卒業生一覧",
+  title: "芸人データベース - お笑い芸人情報サイト",
   description:
-    "NSC（吉本総合芸能学院）大阪校・東京校の期別卒業生リスト。ダウンタウンの1期から最新期まで検索・閲覧できます。",
+    "お笑い芸人に関する情報をまとめたデータベースサイト。NSC期別卒業生リストなどを掲載しています。",
   other: {
     "google-adsense-account": "ca-pub-9401062424277030",
   },
