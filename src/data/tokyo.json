@@ -97,8 +97,7 @@
       "notableGraduates": [
         { "name": "トレンディエンジェル", "members": ["斎藤司", "たかし"] },
         { "name": "はんにゃ", "members": ["金田哲", "川島章良"] },
-        { "name": "フルーツポンチ", "members": ["村上健志", "亘健太郎"] },
-        { "name": "しずる" }
+        { "name": "フルーツポンチ", "members": ["村上健志", "亘健太郎"] }
       ]
     },
     {
@@ -134,8 +133,7 @@
       "school": "tokyo",
       "enrollmentYear": 2008,
       "notableGraduates": [
-        { "name": "宮下草薙", "members": ["宮下兼史鷹", "草薙航基"] },
-        { "name": "蛙亭", "members": ["岩倉美里", "中野周平"] }
+        { "name": "宮下草薙", "members": ["宮下兼史鷹", "草薙航基"] }
       ]
     },
     {
@@ -143,7 +141,6 @@
       "school": "tokyo",
       "enrollmentYear": 2009,
       "notableGraduates": [
-        { "name": "コウテイ", "members": ["九条ジョー", "下田真生"] },
         { "name": "ラランド", "members": ["サーヤ", "ニシダ"] }
       ]
     },
@@ -161,8 +158,11 @@
       "school": "tokyo",
       "enrollmentYear": 2011,
       "notableGraduates": [
-        { "name": "真空ジェシカ", "members": ["川北茂澄", "ガク"] },
-        { "name": "ダウ90000" }
+        { "name": "オズワルド", "members": ["畠中悠", "伊藤俊介"] },
+        { "name": "空気階段", "members": ["鈴木もぐら", "水川かたまり"] },
+        { "name": "ガーリィレコード", "members": ["高井佳佑", "フェニックス"] },
+        { "name": "コットン", "members": ["西村真二", "きょん"] },
+        { "name": "真空ジェシカ", "members": ["川北茂澄", "ガク"] }
       ]
     },
     {
@@ -170,7 +170,8 @@
       "school": "tokyo",
       "enrollmentYear": 2012,
       "notableGraduates": [
-        { "name": "カミナリ", "members": ["竹内まなぶ", "石田たくみ"] }
+        { "name": "カミナリ", "members": ["竹内まなぶ", "石田たくみ"] },
+        { "name": "ダウ90000" }
       ]
     },
     {
@@ -178,7 +179,7 @@
       "school": "tokyo",
       "enrollmentYear": 2013,
       "notableGraduates": [
-        { "name": "ぼる塾", "members": ["きりやはるか", "あんり", "田辺智加", "酒寄希望"] }
+        { "name": "ストレッチーズ", "members": ["高木貫太", "福島敏貴"] }
       ]
     },
     {
@@ -186,38 +187,53 @@
       "school": "tokyo",
       "enrollmentYear": 2014,
       "notableGraduates": [
-        { "name": "ストレッチーズ", "members": ["高木貫太", "福島敏貴"] }
+        { "name": "ぼる塾", "members": ["きりやはるか", "あんり", "田辺智加", "酒寄希望"] },
+        { "name": "3時のヒロイン", "members": ["福田麻貴", "ゆめっち", "かなで"] },
+        { "name": "東京ホテイソン", "members": ["たける", "ショーゴ"] }
       ]
     },
     {
       "classNumber": 21,
       "school": "tokyo",
       "enrollmentYear": 2015,
-      "notableGraduates": []
+      "notableGraduates": [
+        { "name": "エバース", "members": ["町田和樹", "佐々木隆史"] }
+      ]
     },
     {
       "classNumber": 22,
       "school": "tokyo",
       "enrollmentYear": 2016,
-      "notableGraduates": []
+      "notableGraduates": [
+        { "name": "ナイチンゲールダンス", "members": ["中野なかるてぃん", "ヤス"] }
+      ]
     },
     {
       "classNumber": 23,
       "school": "tokyo",
       "enrollmentYear": 2017,
-      "notableGraduates": []
+      "notableGraduates": [
+        { "name": "令和ロマン", "members": ["髙比良くるま", "松井ケムリ"] },
+        { "name": "ヨネダ2000", "members": ["誠", "愛"] },
+        { "name": "ヤーレンズ", "members": ["楢原真樹", "出井隼之介"] }
+      ]
     },
     {
       "classNumber": 24,
       "school": "tokyo",
       "enrollmentYear": 2018,
-      "notableGraduates": []
+      "notableGraduates": [
+        { "name": "金魚番長" }
+      ]
     },
     {
       "classNumber": 25,
       "school": "tokyo",
       "enrollmentYear": 2019,
-      "notableGraduates": []
+      "notableGraduates": [
+        { "name": "シングシング" },
+        { "name": "家族チャーハン" }
+      ]
     },
     {
       "classNumber": 26,
