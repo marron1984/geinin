@@ -7,9 +7,6 @@ export const metadata: Metadata = {
   title: "NSC期別リスト - 吉本総合芸能学院 卒業生一覧",
   description:
     "NSC（吉本総合芸能学院）大阪校・東京校の期別卒業生リスト。ダウンタウンの1期から最新期まで検索・閲覧できます。",
-  other: {
-    "google-adsense-account": "ca-pub-9401062424277030",
-  },
 };
 
 export default function RootLayout({
@@ -20,6 +17,10 @@ export default function RootLayout({
   return (
     <html lang="ja">
       <head>
+        <meta
+          name="google-adsense-account"
+          content="ca-pub-9401062424277030"
+        />
         <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9401062424277030"
