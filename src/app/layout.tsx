@@ -5,9 +5,9 @@ import Header from "@/components/Header";
 import ScrollToTop from "@/components/ScrollToTop";
 
 export const metadata: Metadata = {
-  title: "芸人データベース - お笑い芸人情報サイト",
+  title: "芸人データベース - 若手芸人ニュース＆お笑い情報サイト",
   description:
-    "お笑い芸人に関する情報をまとめたデータベースサイト。NSC期別卒業生リストなどを掲載しています。",
+    "若手芸人の最新ニュースとお笑い芸人データベース。NSC期別卒業生リストや芸人に関するコメント機能も充実。",
   other: {
     "google-adsense-account": "ca-pub-9401062424277030",
   },

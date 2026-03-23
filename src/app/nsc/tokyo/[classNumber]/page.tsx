@@ -1,5 +1,6 @@
 import { getTokyoData, getClassByNumber } from "@/lib/data";
 import ComedianTag from "@/components/ComedianTag";
+import CommentSection from "@/components/CommentSection";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
@@ -74,6 +75,11 @@ export default function TokyoClassPage({
           主な卒業生のデータはまだありません
         </div>
       )}
+
+      {/* コメント欄 */}
+      <div className="bg-white dark:bg-gray-800 rounded-lg shadow-sm border border-gray-100 dark:border-gray-700 p-6">
+        <CommentSection target={`nsc/tokyo/${classNumber}`} />
+      </div>
 
       <div className="flex justify-between pt-4">
         {classNumber > 1 ? (

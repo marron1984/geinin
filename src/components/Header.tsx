@@ -18,6 +18,9 @@ export default function Header() {
             <Link href="/nsc" className="hover:underline underline-offset-4">
               NSC期別リスト
             </Link>
+            <Link href="/mypage" className="hover:underline underline-offset-4">
+              マイページ
+            </Link>
           </nav>
           <ThemeToggle />
           <button
@@ -57,6 +60,13 @@ export default function Header() {
             onClick={() => setMenuOpen(false)}
           >
             東京校
+          </Link>
+          <Link
+            href="/mypage"
+            className="block py-2 hover:bg-white/10 rounded px-2"
+            onClick={() => setMenuOpen(false)}
+          >
+            マイページ
           </Link>
         </nav>
       )}
