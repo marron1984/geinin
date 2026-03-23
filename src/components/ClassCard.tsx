@@ -11,13 +11,13 @@ export default function ClassCard({ cls, highlightNames = [] }: ClassCardProps) 
   const schoolPath = cls.school === "osaka" ? "osaka" : "tokyo";
 
   return (
-    <div className="bg-white rounded-lg shadow-sm border border-gray-100 p-4 hover:shadow-md transition-shadow">
+    <div className="bg-white dark:bg-gray-800 rounded-lg shadow-sm border border-gray-100 dark:border-gray-700 p-4 hover:shadow-md transition-all hover:-translate-y-0.5">
       <Link href={`/${schoolPath}/${cls.classNumber}`}>
         <div className="flex items-baseline gap-3 mb-3">
           <span className="text-2xl font-bold text-yoshimoto-red">
             {cls.classNumber}期
           </span>
-          <span className="text-sm text-gray-500">
+          <span className="text-sm text-gray-500 dark:text-gray-400">
             {cls.enrollmentYear}年入学
           </span>
         </div>
@@ -33,7 +33,7 @@ export default function ClassCard({ cls, highlightNames = [] }: ClassCardProps) 
           ))}
         </div>
       ) : (
-        <p className="text-sm text-gray-400">データなし</p>
+        <p className="text-sm text-gray-400 dark:text-gray-500">データなし</p>
       )}
     </div>
   );

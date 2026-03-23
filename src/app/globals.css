@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
+}
+
+/* Smooth dark mode transition */
+html.dark {
+  color-scheme: dark;
 }
