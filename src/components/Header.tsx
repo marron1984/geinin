@@ -1,21 +1,41 @@
+"use client";
+
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 export default function Header() {
   return (
-    <header className="bg-yoshimoto-red text-white shadow-lg">
+    <motion.header
+      initial={{ y: -60 }}
+      animate={{ y: 0 }}
+      transition={{ type: "spring", stiffness: 200, damping: 25 }}
+      className="bg-yoshimoto-red text-white shadow-lg"
+    >
       <div className="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
-        <Link href="/" className="text-xl font-bold tracking-tight hover:opacity-90">
-          NSC期別リスト
-        </Link>
-        <nav className="flex gap-4 text-sm">
-          <Link href="/osaka" className="hover:underline underline-offset-4">
-            大阪校
+        <motion.div whileTap={{ scale: 0.95 }}>
+          <Link href="/" className="text-xl font-bold tracking-tight">
+            NSC期別リスト
           </Link>
-          <Link href="/tokyo" className="hover:underline underline-offset-4">
-            東京校
-          </Link>
+        </motion.div>
+        <nav className="flex gap-1 text-sm">
+          <motion.div
+            whileTap={{ scale: 0.9, backgroundColor: "rgba(255,255,255,0.15)" }}
+            className="rounded-lg"
+          >
+            <Link href="/osaka" className="block px-3 py-2 rounded-lg active:bg-white/10">
+              大阪校
+            </Link>
+          </motion.div>
+          <motion.div
+            whileTap={{ scale: 0.9, backgroundColor: "rgba(255,255,255,0.15)" }}
+            className="rounded-lg"
+          >
+            <Link href="/tokyo" className="block px-3 py-2 rounded-lg active:bg-white/10">
+              東京校
+            </Link>
+          </motion.div>
         </nav>
       </div>
-    </header>
+    </motion.header>
   );
 }

@@ -2,11 +2,13 @@
 
 import { useRouter, useSearchParams } from "next/navigation";
 import { useState, useEffect, useCallback, Suspense } from "react";
+import { motion } from "framer-motion";
 
 function SearchBarInner() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const [query, setQuery] = useState(searchParams.get("q") || "");
+  const [isFocused, setIsFocused] = useState(false);
 
   const handleSearch = useCallback(
     (value: string) => {
@@ -28,20 +30,35 @@ function SearchBarInner() {
 
   return (
     <div className="w-full max-w-xl mx-auto">
-      <div className="relative">
+      <motion.div
+        className="relative"
+        animate={{
+          scale: isFocused ? 1.02 : 1,
+        }}
+        transition={{ type: "spring", stiffness: 300, damping: 25 }}
+      >
+        <motion.div
+          className="absolute -inset-1 rounded-xl bg-yoshimoto-red/10"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: isFocused ? 1 : 0 }}
+          transition={{ duration: 0.2 }}
+        />
         <input
           type="text"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
+          onFocus={() => setIsFocused(true)}
+          onBlur={() => setIsFocused(false)}
           onKeyDown={(e) => {
             if (e.key === "Enter") handleSearch(query);
           }}
           placeholder="芸人名・期番号・年で検索..."
-          className="w-full px-4 py-3 pr-12 rounded-lg border border-gray-300 focus:border-yoshimoto-red focus:ring-2 focus:ring-yoshimoto-red/20 outline-none text-gray-800 bg-white shadow-sm"
+          className="relative w-full px-4 py-3 pr-12 rounded-lg border border-gray-300 focus:border-yoshimoto-red focus:ring-2 focus:ring-yoshimoto-red/20 outline-none text-gray-800 bg-white shadow-sm"
         />
-        <button
+        <motion.button
           onClick={() => handleSearch(query)}
-          className="absolute right-2 top-1/2 -translate-y-1/2 p-2 text-gray-400 hover:text-yoshimoto-red"
+          whileTap={{ scale: 0.8, rotate: -15 }}
+          className="absolute right-2 top-1/2 -translate-y-1/2 p-2 text-gray-400 hover:text-yoshimoto-red z-10"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -57,8 +74,8 @@ function SearchBarInner() {
               d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
             />
           </svg>
-        </button>
-      </div>
+        </motion.button>
+      </motion.div>
     </div>
   );
 }

@@ -4,4 +4,19 @@
 
 body {
   font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* スムーズスクロール */
+html {
+  scroll-behavior: smooth;
+}
+
+/* モバイルタッチ操作のためのスタイル */
+@media (hover: none) and (pointer: coarse) {
+  /* タッチデバイスでの選択防止（ボタン類） */
+  button, a {
+    -webkit-user-select: none;
+    user-select: none;
+  }
 }

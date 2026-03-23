@@ -140,6 +140,46 @@ export function StaggerContainer({
   );
 }
 
+// タップリップル（モバイル向けタップ反応ボタン）
+export function TapButton({
+  children,
+  className,
+}: {
+  children: ReactNode;
+  className?: string;
+}) {
+  return (
+    <motion.div
+      whileTap={{ scale: 0.92 }}
+      whileHover={{ scale: 1.03 }}
+      transition={{ type: "spring", stiffness: 400, damping: 17 }}
+      className={className}
+    >
+      {children}
+    </motion.div>
+  );
+}
+
+// ページ全体のエントランスアニメーション（モバイル向け）
+export function PageTransition({
+  children,
+  className,
+}: {
+  children: ReactNode;
+  className?: string;
+}) {
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: 12 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.35, ease: "easeOut" }}
+      className={className}
+    >
+      {children}
+    </motion.div>
+  );
+}
+
 // スタガーアイテム
 export function StaggerItem({
   children,

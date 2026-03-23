@@ -3,7 +3,7 @@ import ComedianTag from "@/components/ComedianTag";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { FadeInUp, FadeIn, SlideInLeft } from "@/components/MotionWrapper";
+import { FadeInUp, FadeIn, SlideInLeft, TapButton } from "@/components/MotionWrapper";
 
 export function generateStaticParams() {
   const data = getTokyoData();
@@ -81,22 +81,26 @@ export default function TokyoClassPage({
       <FadeIn delay={0.35}>
         <div className="flex justify-between pt-4">
           {classNumber > 1 ? (
-            <Link
-              href={`/tokyo/${classNumber - 1}`}
-              className="text-yoshimoto-red hover:underline"
-            >
-              ← {classNumber - 1}期
-            </Link>
+            <TapButton>
+              <Link
+                href={`/tokyo/${classNumber - 1}`}
+                className="inline-flex items-center gap-1 text-yoshimoto-red hover:underline px-3 py-2 -mx-3 rounded-lg active:bg-red-50"
+              >
+                ← {classNumber - 1}期
+              </Link>
+            </TapButton>
           ) : (
             <div />
           )}
           {classNumber < maxClass ? (
-            <Link
-              href={`/tokyo/${classNumber + 1}`}
-              className="text-yoshimoto-red hover:underline"
-            >
-              {classNumber + 1}期 →
-            </Link>
+            <TapButton>
+              <Link
+                href={`/tokyo/${classNumber + 1}`}
+                className="inline-flex items-center gap-1 text-yoshimoto-red hover:underline px-3 py-2 -mx-3 rounded-lg active:bg-red-50"
+              >
+                {classNumber + 1}期 →
+              </Link>
+            </TapButton>
           ) : (
             <div />
           )}

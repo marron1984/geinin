@@ -1,7 +1,7 @@
 import Link from "next/link";
 import SearchBar from "@/components/SearchBar";
 import { getOsakaData, getTokyoData } from "@/lib/data";
-import { FadeInUp, FadeIn, HoverLift } from "@/components/MotionWrapper";
+import { FadeInUp, FadeIn, HoverLift, TapButton } from "@/components/MotionWrapper";
 
 export default function Home() {
   const osaka = getOsakaData();
