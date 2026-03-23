@@ -240,7 +240,9 @@
       "classNumber": 25,
       "school": "osaka",
       "enrollmentYear": 2002,
-      "notableGraduates": []
+      "notableGraduates": [
+        { "name": "ガチャガチャ" }
+      ]
     },
     {
       "classNumber": 26,
@@ -285,7 +287,10 @@
         { "name": "コマンダンテ", "members": ["石井輝明", "安田邦祐"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2834" },
         { "name": "見取り図", "members": ["盛山晋太郎", "リリー"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2876" },
         { "name": "ヘンダーソン", "members": ["中村フー", "子林勇輝"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5191" },
-        { "name": "吉田たち", "members": ["吉田裕", "吉田敬"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2873" }
+        
+        { "name": "吉田たち", "members": ["吉田裕", "吉田敬"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2873" },
+        { "name": "デルマバンゲ" },
+        { "name": "ラビットラ" }
       ]
     },
     {
@@ -314,6 +319,11 @@
         { "name": "セルライトスパ", "members": ["大須賀健剛", "肥後裕之"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5177" },
         { "name": "ロングコートダディ", "members": ["堂前透", "兎"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5217" },
         { "name": "Dr.ハインリッヒ", "members": ["幕田圭", "児玉健司"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5220" }
+        { "name": "セルライトスパ", "members": ["大須賀健剛", "肥後裕之"] },
+        { "name": "ロングコートダディ", "members": ["堂前透", "兎"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5217" },
+        { "name": "マイスイートメモリーズ" },
+        { "name": "マグリット" },
+        { "name": "シゲカズです" }
       ]
     },
     {
@@ -326,6 +336,13 @@
         { "name": "マルセイユ", "members": ["津田康平", "別府貴之"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5160" },
         { "name": "ダイヤモンド", "members": ["小野竜輔", "野澤輸出"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=7257" },
         { "name": "ニューヨーク", "members": ["屋敷裕政", "嶋佐和也"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5152" }
+        { "name": "牛ベベ" },
+        { "name": "黒帯" },
+        { "name": "超速バギー" },
+        { "name": "武者武者" },
+        { "name": "モンスーン" },
+        { "name": "苺ちゃん" },
+        { "name": "アイラブ地球" }
       ]
     },
     {
@@ -343,7 +360,9 @@
         { "name": "紅しょうが", "members": ["稲田美紀", "熊元プロレス"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6365" },
         { "name": "ネイビーズアフロ", "members": ["皆川和気", "みながわ"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5928" },
         { "name": "ヒガシ逢ウサカ" },
-        { "name": "kento fukaya" }
+        { "name": "kento fukaya" },
+        { "name": "ザ・布団" },
+        { "name": "しゅんすけ" }
       ]
     },
     {
@@ -355,7 +374,15 @@
         { "name": "蛙亭", "members": ["岩倉美里", "中野周平"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5175" },
         { "name": "ファイヤーサンダー", "members": ["藤田崇之", "﨑山祐"] },
         { "name": "エンペラー" },
-        { "name": "隣人", "members": ["玉元風海人", "三島凌輔"] }
+        { "name": "隣人", "members": ["玉元風海人", "三島凌輔"] },
+        { "name": "鬼としみちゃむ" },
+        { "name": "華山" },
+        { "name": "侍スライス" },
+        { "name": "スナフキンズ" },
+        { "name": "センリーズ" },
+        { "name": "ビーンズ" },
+        { "name": "檸檬" },
+        { "name": "白くま" }
       ]
     },
     {
@@ -371,7 +398,11 @@
         { "name": "にぼしいわし", "members": ["大林健二", "つじ"] },
         { "name": "ラニーノーズ", "members": ["洲崎貴郁", "山田健人"] },
         { "name": "田津原理音" },
-        { "name": "もも", "members": ["せめだいん", "まもる。"] }
+        { "name": "もも", "members": ["せめだいん", "まもる。"] },
+        { "name": "茜250cc" },
+        { "name": "イノシカチョウ" },
+        { "name": "ナナ" },
+        { "name": "やまぐちたけし" }
       ]
     },
     {
@@ -384,7 +415,15 @@
         { "name": "ダブルヒガシ", "members": ["東良介", "東拓海"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5781" },
         { "name": "8.6秒バズーカー", "members": ["はまやねん", "田中シングル"] },
         { "name": "オダウエダ", "members": ["小田結希", "植田紫帆"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=7229" },
-        { "name": "イチオク" }
+        { "name": "イチオク" },
+        { "name": "オーサカクレオパトラ" },
+        { "name": "カンフーカンフー" },
+        { "name": "豪快キャプテン" },
+        { "name": "ドーナツ・ピーナツ" },
+        { "name": "盆と正月" },
+        { "name": "ポチ" },
+        { "name": "丸亀じゃんご" },
+        { "name": "真輝志" }
       ]
     },
     {
@@ -394,7 +433,9 @@
       "notableGraduates": [
         { "name": "たくろう", "members": ["赤木裕", "木村バンド"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6202" },
         { "name": "チェリー大作戦", "members": ["宗安", "鎌田キテレツ", "ねんど"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6654" },
-        { "name": "9番街レトロ", "members": ["京極風斗", "なかむらしゅん"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=7028" }
+        { "name": "9番街レトロ", "members": ["京極風斗", "なかむらしゅん"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=7028" },
+        { "name": "翠星チークダンス" },
+        { "name": "千日前ゴールデンポップス" }
       ]
     },
     {
@@ -406,7 +447,8 @@
         { "name": "天才ピアニスト", "members": ["ますみ", "竹内知咲"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6698" },
         { "name": "フースーヤ", "members": ["田中ショータイム", "谷口理"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6285" },
         { "name": "オフローズ" },
-        { "name": "タチマチ", "members": ["安達健太郎", "胡内佑介"] }
+        { "name": "愛凛冴" },
+        { "name": "ゴエモン" }
       ]
     },
     {
@@ -417,7 +459,12 @@
         { "name": "爛々" },
         { "name": "タレンチ" },
         { "name": "ソマオ・ミートボール" },
-        { "name": "ぎょうぶ" }
+        { "name": "ぎょうぶ" },
+        { "name": "タチマチ" },
+        { "name": "いつもたいしゃ" },
+        { "name": "うただ" },
+        { "name": "とくいち" },
+        { "name": "ルージュ" }
       ]
     },
     {
@@ -436,10 +483,17 @@
       "school": "osaka",
       "enrollmentYear": 2018,
       "notableGraduates": [
-        { "name": "キャツミ" },
-        { "name": "タイムキーパー" },
+        { "name": "アポロ軍曹" },
         { "name": "cacao" },
-        { "name": "三遊間" }
+        { "name": "ごそうろっぷ" },
+        { "name": "コブラマン" },
+        { "name": "三遊間" },
+        { "name": "シャガール" },
+        { "name": "タイムキーパー" },
+        { "name": "ときヲりびーと" },
+        { "name": "どんちっち" },
+        { "name": "はるかぜとともに" },
+        { "name": "ファンファーレと熱狂" }
       ]
     },
     {
@@ -447,9 +501,16 @@
       "school": "osaka",
       "enrollmentYear": 2019,
       "notableGraduates": [
-        { "name": "マーメイド" },
+        { "name": "もくめ蝶" },
+        { "name": "半年記念日" },
+        { "name": "西野" },
+        { "name": "オニイチャン" },
         { "name": "空前メテオ" },
-        { "name": "ぐろう" }
+        { "name": "ぐろう" },
+        { "name": "シスター" },
+        { "name": "ジョックロック" },
+        { "name": "マーメイド" },
+        { "name": "ライムギ" }
       ]
     },
     {
@@ -457,21 +518,43 @@
       "school": "osaka",
       "enrollmentYear": 2020,
       "notableGraduates": [
-        { "name": "テキサスマウンテンローレル" },
-        { "name": "例えば炎" }
+        { "name": "キョンビ" },
+        { "name": "九ノ段" },
+        { "name": "シカノシンプ" },
+        { "name": "例えば炎" },
+        { "name": "電気ジュース" },
+        { "name": "天ロクの丘" },
+        { "name": "マーティー" },
+        { "name": "清川雄司" }
       ]
     },
     {
       "classNumber": 44,
       "school": "osaka",
       "enrollmentYear": 2021,
-      "notableGraduates": []
+      "notableGraduates": [
+        { "name": "釈迦虎" },
+        { "name": "彼岸花" },
+        { "name": "満丸" },
+        { "name": "ミケネ系" },
+        { "name": "ミステリーハンター" }
+      ]
     },
     {
       "classNumber": 45,
       "school": "osaka",
       "enrollmentYear": 2022,
-      "notableGraduates": []
+      "notableGraduates": [
+        { "name": "あんよの日" },
+        { "name": "ウーロンパンダ" },
+        { "name": "銀鬼" },
+        { "name": "東雲" },
+        { "name": "生姜猫" },
+        { "name": "入学卒業" },
+        { "name": "バタークッキークラブ" },
+        { "name": "バリアシオン" },
+        { "name": "はるかぜに告ぐ" }
+      ]
     },
     {
       "classNumber": 46,
@@ -483,7 +566,10 @@
       "classNumber": 47,
       "school": "osaka",
       "enrollmentYear": 2024,
-      "notableGraduates": []
+      "notableGraduates": [
+        { "name": "おもしろジャンケン" },
+        { "name": "ちあき" }
+      ]
     },
     {
       "classNumber": 48,
