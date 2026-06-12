@@ -228,10 +228,6 @@
         {
           "name": "大山英雄",
           "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=648"
-        },
-        {
-          "name": "チャンス大城",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6517"
         }
       ]
     },
@@ -438,7 +434,8 @@
         },
         {
           "name": "チャンス大城",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6517"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6517",
+          "note": "8期入学後中退、13期で再入学"
         },
         {
           "name": "騎兵隊",
@@ -531,9 +528,6 @@
         },
         {
           "name": "コウカズヤ"
-        },
-        {
-          "name": "風藤松原"
         }
       ]
     },
@@ -885,7 +879,7 @@
             "鰻和弘",
             "橋本直"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=353"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=399"
         },
         {
           "name": "プラス・マイナス",
@@ -1571,7 +1565,7 @@
             "昴生",
             "亜生"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6040",
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5104",
           "note": "NSC出身ではないが34期同期扱い"
         },
         {
@@ -1625,9 +1619,6 @@
         },
         {
           "name": "白くま"
-        },
-        {
-          "name": "侍スライス"
         }
       ]
     },
@@ -1827,7 +1818,13 @@
           "name": "豪快キャプテン"
         },
         {
-          "name": "ドーナツ・ピーナツ"
+          "name": "ドーナツ・ピーナツ",
+          "members": [
+            "ドーナツ",
+            "ピーナツ"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6437",
+          "note": "NSC東京19期卒業後、大阪に拠点を移し大阪36期も卒業"
         },
         {
           "name": "ポチ"
