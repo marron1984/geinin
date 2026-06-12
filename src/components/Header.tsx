@@ -35,6 +35,12 @@ export default function Header() {
             >
               東京校
             </Link>
+            <Link
+              href="/timeline"
+              className="px-3 py-2 text-sm font-medium text-gray-600 hover:text-yoshimoto-red hover:bg-red-50 rounded-md transition-colors"
+            >
+              年表
+            </Link>
           </nav>
         </div>
       </div>

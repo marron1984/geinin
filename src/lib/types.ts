@@ -18,3 +18,17 @@ export interface SchoolData {
   startYear: number;
   classes: NscClass[];
 }
+
+export interface Award {
+  contest: string;
+  year: number;
+  result: "優勝" | "準優勝";
+  name: string;
+}
+
+export interface TimelineEntry {
+  year: number;
+  osakaClass?: NscClass;
+  tokyoClass?: NscClass;
+  awards: Award[];
+}
