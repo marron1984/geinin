@@ -22,14 +22,8 @@
             "ハチミツ二郎",
             "松田大輔"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2803"
-        },
-        {
-          "name": "キャラメルマシーン",
-          "members": [
-            "SADA",
-            "おだじ"
-          ]
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2803",
+          "note": "ハチミツ二郎がNSC東京1期。松田大輔はNSC出身ではない"
         },
         {
           "name": "浜ロン"
@@ -358,6 +352,13 @@
           "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=528"
         },
         {
+          "name": "ゆったり感",
+          "members": [
+            "江崎ばもん",
+            "中村ひでゆき"
+          ]
+        },
+        {
           "name": "囲碁将棋",
           "members": [
             "文田大介",
@@ -371,21 +372,8 @@
             "赤羽健壱",
             "児玉智洋"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6115"
-        },
-        {
-          "name": "モグライダー",
-          "members": [
-            "芝大輔",
-            "ともしげ"
-          ]
-        },
-        {
-          "name": "ゆったり感",
-          "members": [
-            "江崎ばもん",
-            "中村ひでゆき"
-          ]
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6115",
+          "note": "元ジューシーズ。キングオブコント2023優勝"
         }
       ]
     },
@@ -561,19 +549,8 @@
           "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=3449"
         },
         {
-          "name": "ピスタチオ",
-          "members": [
-            "伊地知大樹",
-            "小澤慎一朗"
-          ]
-        },
-        {
           "name": "たつろう",
           "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6970"
-        },
-        {
-          "name": "浜中英昌",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=8847"
         },
         {
           "name": "ボーイフレンド",
@@ -581,6 +558,19 @@
             "黒沼誠",
             "宮川英二"
           ]
+        },
+        {
+          "name": "ピスタチオ",
+          "members": [
+            "伊地知大樹",
+            "小澤慎一朗"
+          ],
+          "note": "2022年解散"
+        },
+        {
+          "name": "浜中英昌",
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=8847",
+          "note": "シシガシラのメンバー"
         }
       ]
     },
@@ -607,14 +597,6 @@
           "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=3182"
         },
         {
-          "name": "スパイク",
-          "members": [
-            "松浦志穂",
-            "小川暖奈"
-          ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=3176"
-        },
-        {
           "name": "カゲヤマ",
           "members": [
             "タバやん。",
@@ -637,6 +619,14 @@
         {
           "name": "渡辺銀次",
           "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=7312"
+        },
+        {
+          "name": "スパイク",
+          "members": [
+            "松浦志穂",
+            "小川暖奈"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=3176"
         }
       ]
     },
@@ -660,14 +650,6 @@
             "金ちゃん"
           ],
           "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=3537"
-        },
-        {
-          "name": "おかずクラブ",
-          "members": [
-            "オカリナ",
-            "ゆいP"
-          ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=4253"
         },
         {
           "name": "デニス",
@@ -714,6 +696,14 @@
             "山口誠",
             "零士"
           ]
+        },
+        {
+          "name": "おかずクラブ",
+          "members": [
+            "オカリナ",
+            "ゆいP"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=4253"
         }
       ]
     },
@@ -781,14 +771,6 @@
           "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6711"
         },
         {
-          "name": "空気階段",
-          "members": [
-            "鈴木もぐら",
-            "水川かたまり"
-          ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=4656"
-        },
-        {
           "name": "コットン",
           "members": [
             "西村真二",
@@ -819,6 +801,15 @@
             "門田"
           ],
           "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6649"
+        },
+        {
+          "name": "空気階段",
+          "members": [
+            "鈴木もぐら",
+            "水川かたまり"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=4656",
+          "note": "キングオブコント2021優勝"
         }
       ]
     },
@@ -956,7 +947,7 @@
             "かなで"
           ],
           "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6579",
-          "note": "かなでが20期（福田麻貴はNSC大阪女性タレントコース5期、ゆめっちは大阪NSC36期）。THE W 2019優勝"
+          "note": "かなでのみNSC東京20期。福田麻貴はNSC大阪32期、ゆめっちはNSC大阪36期出身"
         },
         {
           "name": "東京ホテイソン",
@@ -965,7 +956,7 @@
             "ショーゴ"
           ],
           "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6325",
-          "note": "ショーゴが20期入学も1ヶ月で中退。たけるはNSC非出身"
+          "note": "たけるはNSC東京20期入学だが1ヶ月で中退。ショーゴはNSC未経験でスカウト入社"
         },
         {
           "name": "ブラゴーリ",
