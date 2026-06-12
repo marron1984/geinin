@@ -8,8 +8,32 @@
       "school": "tokyo",
       "enrollmentYear": 1995,
       "notableGraduates": [
-        { "name": "品川庄司", "members": ["品川祐", "庄司智春"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=136" },
-        { "name": "東京ダイナマイト", "members": ["ハチミツ二郎", "松田大輔"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=145" }
+        {
+          "name": "品川庄司",
+          "members": [
+            "品川祐",
+            "庄司智春"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=54"
+        },
+        {
+          "name": "東京ダイナマイト",
+          "members": [
+            "ハチミツ二郎",
+            "松田大輔"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2803"
+        },
+        {
+          "name": "キャラメルマシーン",
+          "members": [
+            "SADA",
+            "おだじ"
+          ]
+        },
+        {
+          "name": "浜ロン"
+        }
       ]
     },
     {
@@ -17,10 +41,38 @@
       "school": "tokyo",
       "enrollmentYear": 1996,
       "notableGraduates": [
-        { "name": "佐久間一行" },
-        { "name": "ハイキングウォーキング", "members": ["松田洋昌", "鈴木Q太郎"] },
-        { "name": "ガリットチュウ", "members": ["福島善成", "熊谷岳大"] },
-        { "name": "くまだまさし" }
+        {
+          "name": "佐久間一行",
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=683"
+        },
+        {
+          "name": "ハイキングウォーキング",
+          "members": [
+            "松田洋昌",
+            "鈴木Q太郎"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=210"
+        },
+        {
+          "name": "ガリットチュウ",
+          "members": [
+            "福島善成",
+            "熊谷茶"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=448"
+        },
+        {
+          "name": "くまだまさし",
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=681"
+        },
+        {
+          "name": "Mr.都市伝説 関暁夫",
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2754"
+        },
+        {
+          "name": "キートン",
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=870"
+        }
       ]
     },
     {
@@ -28,8 +80,35 @@
       "school": "tokyo",
       "enrollmentYear": 1997,
       "notableGraduates": [
-        { "name": "ロバート", "members": ["秋山竜次", "馬場裕之", "山本博"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=117" },
-        { "name": "ドランクドラゴン", "members": ["鈴木拓", "塚地武雅"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=141" }
+        {
+          "name": "トータルテンボス",
+          "members": [
+            "藤田憲右",
+            "大村朋宏"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=143"
+        },
+        {
+          "name": "はいじぃ",
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=867"
+        },
+        {
+          "name": "永井佑一郎"
+        },
+        {
+          "name": "サイクロンZ"
+        },
+        {
+          "name": "AMEMIYA"
+        },
+        {
+          "name": "ポテト少年団",
+          "members": [
+            "中谷崇宏",
+            "菊地智義",
+            "内藤照彦"
+          ]
+        }
       ]
     },
     {
@@ -37,10 +116,58 @@
       "school": "tokyo",
       "enrollmentYear": 1998,
       "notableGraduates": [
-        { "name": "森三中", "members": ["大島美幸", "村上知子", "黒沢かずこ"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=119" },
-        { "name": "インパルス", "members": ["板倉俊之", "堤下敦"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=130" },
-        { "name": "ライセンス", "members": ["藤原一裕", "井本貴史"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=142" },
-        { "name": "パンクブーブー", "members": ["佐藤哲夫", "黒瀬純"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=175" }
+        {
+          "name": "ロバート",
+          "members": [
+            "秋山竜次",
+            "馬場裕之",
+            "山本博"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=117"
+        },
+        {
+          "name": "森三中",
+          "members": [
+            "大島美幸",
+            "村上知子",
+            "黒沢かずこ"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=119"
+        },
+        {
+          "name": "インパルス",
+          "members": [
+            "板倉俊之",
+            "堤下敦"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=130"
+        },
+        {
+          "name": "椿鬼奴",
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=731"
+        },
+        {
+          "name": "POISON GIRL BAND",
+          "members": [
+            "阿部智則",
+            "吉田大吾"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=232"
+        },
+        {
+          "name": "コンマニセンチ",
+          "members": [
+            "堀内貴司",
+            "竹永善隆"
+          ]
+        },
+        {
+          "name": "アホマイルド",
+          "members": [
+            "坂本雅仁",
+            "高橋邦彦"
+          ]
+        }
       ]
     },
     {
@@ -48,9 +175,50 @@
       "school": "tokyo",
       "enrollmentYear": 1999,
       "notableGraduates": [
-        { "name": "平成ノブシコブシ", "members": ["吉村崇", "徳井健太"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=171" },
-        { "name": "ピース", "members": ["綾部祐二", "又吉直樹"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=172" },
-        { "name": "ダイノジ", "members": ["大谷ノブ彦", "大地洋輔"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=157" }
+        {
+          "name": "平成ノブシコブシ",
+          "members": [
+            "吉村崇",
+            "徳井健太"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=171"
+        },
+        {
+          "name": "ピース",
+          "members": [
+            "綾部祐二",
+            "又吉直樹"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=172"
+        },
+        {
+          "name": "三瓶",
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=650"
+        },
+        {
+          "name": "大西ライオン",
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=680"
+        },
+        {
+          "name": "5GAP",
+          "members": [
+            "トモ",
+            "クボケン"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=421"
+        },
+        {
+          "name": "ラフ・コントロール",
+          "members": [
+            "重岡謙作",
+            "森木俊介"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=531"
+        },
+        {
+          "name": "遠山大輔",
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=456"
+        }
       ]
     },
     {
@@ -58,8 +226,45 @@
       "school": "tokyo",
       "enrollmentYear": 2000,
       "notableGraduates": [
-        { "name": "キングコング", "members": ["西野亮廣", "梶原雄太"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=116" },
-        { "name": "はりけ～んず", "members": ["前田登", "荒木良明"] }
+        {
+          "name": "とにかく明るい安村",
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2551"
+        },
+        {
+          "name": "ものいい",
+          "members": [
+            "吉田サラダ",
+            "横山きよし"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2538"
+        },
+        {
+          "name": "グランジ",
+          "members": [
+            "五明拓弥",
+            "佐藤大",
+            "遠山大輔"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=454"
+        },
+        {
+          "name": "ロシアンモンキー",
+          "members": [
+            "すーなか",
+            "川口清行"
+          ]
+        },
+        {
+          "name": "マキシマムパーパーサム",
+          "members": [
+            "長澤喜稔",
+            "つよし"
+          ]
+        },
+        {
+          "name": "ピクニック",
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2762"
+        }
       ]
     },
     {
@@ -67,8 +272,26 @@
       "school": "tokyo",
       "enrollmentYear": 2001,
       "notableGraduates": [
-        { "name": "パンサー", "members": ["向井慧", "尾形貴弘", "菅良太郎"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2852" },
-        { "name": "LLR", "members": ["伊藤智博", "福田恵悟"] }
+        {
+          "name": "LLR",
+          "members": [
+            "伊藤智博",
+            "福田恵悟"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=424"
+        },
+        {
+          "name": "もう中学生",
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=836"
+        },
+        {
+          "name": "こがけん",
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6708"
+        },
+        {
+          "name": "ですよ。",
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=835"
+        }
       ]
     },
     {
@@ -76,9 +299,34 @@
       "school": "tokyo",
       "enrollmentYear": 2002,
       "notableGraduates": [
-        { "name": "オリエンタルラジオ", "members": ["中田敦彦", "藤森慎吾"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2862" },
-        { "name": "トータルテンボス", "members": ["藤田憲右", "大村朋宏"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=143" },
-        { "name": "ハライチ", "members": ["澤部佑", "岩井勇気"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2838" }
+        {
+          "name": "ジョイマン",
+          "members": [
+            "高木晋哉",
+            "池谷和志"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=612"
+        },
+        {
+          "name": "スリムクラブ",
+          "members": [
+            "真栄田賢",
+            "内間政成"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=476"
+        },
+        {
+          "name": "こりゃめでてーな",
+          "members": [
+            "おお江健次",
+            "伊藤こう大"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=458"
+        },
+        {
+          "name": "パンサー尾形貴弘",
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2758"
+        }
       ]
     },
     {
@@ -86,8 +334,59 @@
       "school": "tokyo",
       "enrollmentYear": 2003,
       "notableGraduates": [
-        { "name": "しずる", "members": ["村上純", "池田一真"] },
-        { "name": "ジャングルポケット", "members": ["斉藤慎二", "おたけ", "太田博久"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2850" }
+        {
+          "name": "しずる",
+          "members": [
+            "村上純",
+            "池田一真"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=470"
+        },
+        {
+          "name": "ハリセンボン",
+          "members": [
+            "近藤春菜",
+            "箕輪はるか"
+          ]
+        },
+        {
+          "name": "ライス",
+          "members": [
+            "関町知弘",
+            "田所仁"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=528"
+        },
+        {
+          "name": "囲碁将棋",
+          "members": [
+            "文田大介",
+            "根建太一"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2784"
+        },
+        {
+          "name": "サルゴリラ",
+          "members": [
+            "赤羽健壱",
+            "児玉智洋"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6115"
+        },
+        {
+          "name": "モグライダー",
+          "members": [
+            "芝大輔",
+            "ともしげ"
+          ]
+        },
+        {
+          "name": "ゆったり感",
+          "members": [
+            "江崎ばもん",
+            "中村ひでゆき"
+          ]
+        }
       ]
     },
     {
@@ -95,9 +394,61 @@
       "school": "tokyo",
       "enrollmentYear": 2004,
       "notableGraduates": [
-        { "name": "トレンディエンジェル", "members": ["斎藤司", "たかし"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2871" },
-        { "name": "はんにゃ", "members": ["金田哲", "川島章良"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2837" },
-        { "name": "フルーツポンチ", "members": ["村上健志", "亘健太郎"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2868" }
+        {
+          "name": "オリエンタルラジオ",
+          "members": [
+            "中田敦彦",
+            "藤森慎吾"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2862"
+        },
+        {
+          "name": "はんにゃ",
+          "members": [
+            "金田哲",
+            "川島章良"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2837"
+        },
+        {
+          "name": "トレンディエンジェル",
+          "members": [
+            "斎藤司",
+            "たかし"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2871"
+        },
+        {
+          "name": "フルーツポンチ",
+          "members": [
+            "村上健志",
+            "亘健太郎"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2868"
+        },
+        {
+          "name": "インポッシブル",
+          "members": [
+            "ひるちゃん",
+            "えいじ"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=436"
+        },
+        {
+          "name": "うるとらブギーズ",
+          "members": [
+            "八木崇",
+            "佐々木崇博"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6553"
+        },
+        {
+          "name": "少年少女",
+          "members": [
+            "坂口真弓",
+            "阿部磨有香"
+          ]
+        }
       ]
     },
     {
@@ -105,9 +456,50 @@
       "school": "tokyo",
       "enrollmentYear": 2005,
       "notableGraduates": [
-        { "name": "チョコレートプラネット", "members": ["長田庄平", "松尾駿"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2832" },
-        { "name": "シソンヌ", "members": ["じろう", "長谷川忍"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5183" },
-        { "name": "横澤夏子", "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5103" }
+        {
+          "name": "パンサー",
+          "members": [
+            "向井慧",
+            "尾形貴弘",
+            "菅良太郎"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2755"
+        },
+        {
+          "name": "チョコレートプラネット",
+          "members": [
+            "長田庄平",
+            "松尾駿"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2832"
+        },
+        {
+          "name": "シソンヌ",
+          "members": [
+            "じろう",
+            "長谷川忍"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5183"
+        },
+        {
+          "name": "タモンズ",
+          "members": [
+            "大波康平",
+            "安部浩章"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2741"
+        },
+        {
+          "name": "エド・はるみ",
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=748"
+        },
+        {
+          "name": "好井まさお"
+        },
+        {
+          "name": "上原チョー",
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=3288"
+        }
       ]
     },
     {
@@ -115,8 +507,32 @@
       "school": "tokyo",
       "enrollmentYear": 2006,
       "notableGraduates": [
-        { "name": "三四郎", "members": ["小宮浩信", "相田周二"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5180" },
-        { "name": "ゆにばーす", "members": ["はら", "川瀬名人"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6265" }
+        {
+          "name": "ジャングルポケット",
+          "members": [
+            "おたけ",
+            "太田博久",
+            "斉藤慎二"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2534"
+        },
+        {
+          "name": "渡辺直美",
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2710"
+        },
+        {
+          "name": "ジェラードン",
+          "members": [
+            "アタック西本",
+            "海野裕二",
+            "かみちぃ"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=3450"
+        },
+        {
+          "name": "ウエスP",
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6639"
+        }
       ]
     },
     {
@@ -124,8 +540,48 @@
       "school": "tokyo",
       "enrollmentYear": 2007,
       "notableGraduates": [
-        { "name": "ゾフィー", "members": ["上田航平", "サイトウナオキ"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5190" },
-        { "name": "ハナコ", "members": ["菊田竜大", "秋山寛貴", "岡部大"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5918" }
+        {
+          "name": "山崎ケイ",
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=3402"
+        },
+        {
+          "name": "田畑藤本",
+          "members": [
+            "田畑勇一",
+            "藤本淳史"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2985"
+        },
+        {
+          "name": "TEAM BANANA",
+          "members": [
+            "藤本友美",
+            "山田愛実"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=3449"
+        },
+        {
+          "name": "ピスタチオ",
+          "members": [
+            "伊地知大樹",
+            "小澤慎一朗"
+          ]
+        },
+        {
+          "name": "たつろう",
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6970"
+        },
+        {
+          "name": "浜中英昌",
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=8847"
+        },
+        {
+          "name": "ボーイフレンド",
+          "members": [
+            "黒沼誠",
+            "宮川英二"
+          ]
+        }
       ]
     },
     {
@@ -133,7 +589,55 @@
       "school": "tokyo",
       "enrollmentYear": 2008,
       "notableGraduates": [
-        { "name": "宮下草薙", "members": ["宮下兼史鷹", "草薙航基"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6308" }
+        {
+          "name": "ネルソンズ",
+          "members": [
+            "和田まんじゅう",
+            "青山フォール勝ち",
+            "岸健之助"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=3451"
+        },
+        {
+          "name": "ダイタク",
+          "members": [
+            "吉本大",
+            "吉本拓"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=3182"
+        },
+        {
+          "name": "スパイク",
+          "members": [
+            "松浦志穂",
+            "小川暖奈"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=3176"
+        },
+        {
+          "name": "カゲヤマ",
+          "members": [
+            "タバやん。",
+            "益田康平"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=4187"
+        },
+        {
+          "name": "山添寛",
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=3430"
+        },
+        {
+          "name": "りんたろー。",
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6548"
+        },
+        {
+          "name": "かじがや卓哉",
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6537"
+        },
+        {
+          "name": "渡辺銀次",
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=7312"
+        }
       ]
     },
     {
@@ -141,7 +645,76 @@
       "school": "tokyo",
       "enrollmentYear": 2009,
       "notableGraduates": [
-        { "name": "ラランド", "members": ["サーヤ", "ニシダ"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6668" }
+        {
+          "name": "ニューヨーク",
+          "members": [
+            "嶋佐和也",
+            "屋敷裕政"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=3153"
+        },
+        {
+          "name": "鬼越トマホーク",
+          "members": [
+            "良ちゃん",
+            "金ちゃん"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=3537"
+        },
+        {
+          "name": "おかずクラブ",
+          "members": [
+            "オカリナ",
+            "ゆいP"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=4253"
+        },
+        {
+          "name": "デニス",
+          "members": [
+            "植野行雄",
+            "松下宣夫"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=3254"
+        },
+        {
+          "name": "マテンロウ",
+          "members": [
+            "アントニー",
+            "大トニー"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=3202"
+        },
+        {
+          "name": "横澤夏子",
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5103"
+        },
+        {
+          "name": "西村ヒロチョ",
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=3492"
+        },
+        {
+          "name": "いぬ",
+          "members": [
+            "太田隆司",
+            "有馬徹"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6034"
+        },
+        {
+          "name": "ビスケッティ",
+          "members": [
+            "佐竹正史",
+            "岩橋淳"
+          ]
+        },
+        {
+          "name": "カナメストーン",
+          "members": [
+            "山口誠",
+            "零士"
+          ]
+        }
       ]
     },
     {
@@ -149,8 +722,49 @@
       "school": "tokyo",
       "enrollmentYear": 2010,
       "notableGraduates": [
-        { "name": "ウエストランド", "members": ["井口浩之", "河本太"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6282" },
-        { "name": "マヂカルラブリー", "members": ["野田クリスタル", "村上"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5127" }
+        {
+          "name": "ゆにばーす",
+          "members": [
+            "はら",
+            "川瀬名人"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=3532"
+        },
+        {
+          "name": "ダンビラムーチョ",
+          "members": [
+            "大原優一",
+            "原田フニャオ"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=4459"
+        },
+        {
+          "name": "やさしいズ",
+          "members": [
+            "佐伯元輝",
+            "タイ"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=3543"
+        },
+        {
+          "name": "スクールゾーン",
+          "members": [
+            "橋本稜",
+            "俵山峻"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=4438"
+        },
+        {
+          "name": "しゅんしゅんクリニックP",
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=4444"
+        },
+        {
+          "name": "ランパンプス",
+          "members": [
+            "寺内ゆうき",
+            "小林良行"
+          ]
+        }
       ]
     },
     {
@@ -158,11 +772,54 @@
       "school": "tokyo",
       "enrollmentYear": 2011,
       "notableGraduates": [
-        { "name": "オズワルド", "members": ["畠中悠", "伊藤俊介"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6297" },
-        { "name": "空気階段", "members": ["鈴木もぐら", "水川かたまり"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6279" },
-        { "name": "ガーリィレコード", "members": ["高井佳佑", "フェニックス"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6285" },
-        { "name": "コットン", "members": ["西村真二", "きょん"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6367" },
-        { "name": "真空ジェシカ", "members": ["川北茂澄", "ガク"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6487" }
+        {
+          "name": "オズワルド",
+          "members": [
+            "畠中悠",
+            "伊藤俊介"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6711"
+        },
+        {
+          "name": "空気階段",
+          "members": [
+            "鈴木もぐら",
+            "水川かたまり"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=4656"
+        },
+        {
+          "name": "コットン",
+          "members": [
+            "西村真二",
+            "きょん"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6040"
+        },
+        {
+          "name": "ガーリィレコード",
+          "members": [
+            "高井佳佑",
+            "フェニックス"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6626"
+        },
+        {
+          "name": "くらげ",
+          "members": [
+            "杉昇",
+            "渡辺翔太"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6886"
+        },
+        {
+          "name": "侍スライス",
+          "members": [
+            "加藤",
+            "門田"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6649"
+        }
       ]
     },
     {
@@ -170,8 +827,46 @@
       "school": "tokyo",
       "enrollmentYear": 2012,
       "notableGraduates": [
-        { "name": "カミナリ", "members": ["竹内まなぶ", "石田たくみ"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6271" },
-        { "name": "ダウ90000", "members": ["蓮見翔"] }
+        {
+          "name": "レインボー",
+          "members": [
+            "ジャンボたかお",
+            "池田直人"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6447"
+        },
+        {
+          "name": "そいつどいつ",
+          "members": [
+            "市川刺身",
+            "松本竹馬"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6796"
+        },
+        {
+          "name": "おばたのお兄さん",
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=4972"
+        },
+        {
+          "name": "ひょっこりはん",
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6450"
+        },
+        {
+          "name": "猫塾",
+          "members": [
+            "田辺智加",
+            "酒寄希望"
+          ],
+          "note": "後にしんぼる(20期)と合流しぼる塾として活動"
+        },
+        {
+          "name": "ケビンス",
+          "members": [
+            "仁木恭平",
+            "山口コンボイ"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=7295"
+        }
       ]
     },
     {
@@ -179,7 +874,62 @@
       "school": "tokyo",
       "enrollmentYear": 2013,
       "notableGraduates": [
-        { "name": "ストレッチーズ", "members": ["高木貫太", "福島敏貴"] }
+        {
+          "name": "EXIT",
+          "members": [
+            "りんたろー。",
+            "兼近大樹"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6547",
+          "note": "兼近大樹が19期（りんたろー。は14期）"
+        },
+        {
+          "name": "ドンデコルテ",
+          "members": [
+            "小橋共作",
+            "渡辺銀次"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=7310",
+          "note": "小橋共作が19期（渡辺銀次は14期）。M-1グランプリ2025決勝進出・準優勝"
+        },
+        {
+          "name": "ドーナツ・ピーナツ",
+          "members": [
+            "ドーナツ",
+            "ピーナツ"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6437",
+          "note": "上方漫才協会大賞2025大賞受賞"
+        },
+        {
+          "name": "世間知らズ",
+          "members": [
+            "さおり",
+            "椎木ゆうた"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6589"
+        },
+        {
+          "name": "エレガント人生",
+          "members": [
+            "中込悠",
+            "山井祥子"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=8730"
+        },
+        {
+          "name": "ミカボ",
+          "members": [
+            "山田裕磨",
+            "土屋翼"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=8813",
+          "note": "山田裕磨が19期（土屋翼は20期）。M-1グランプリ2025準決勝進出"
+        },
+        {
+          "name": "赤嶺総理",
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=8961"
+        }
       ]
     },
     {
@@ -187,9 +937,52 @@
       "school": "tokyo",
       "enrollmentYear": 2014,
       "notableGraduates": [
-        { "name": "ぼる塾", "members": ["きりやはるか", "あんり", "田辺智加", "酒寄希望"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=7036" },
-        { "name": "3時のヒロイン", "members": ["福田麻貴", "ゆめっち", "かなで"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6800" },
-        { "name": "東京ホテイソン", "members": ["たける", "ショーゴ"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6325" }
+        {
+          "name": "ぼる塾",
+          "members": [
+            "きりやはるか",
+            "あんり",
+            "田辺智加",
+            "酒寄希望"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6892",
+          "note": "きりやはるか・あんりが20期（田辺智加・酒寄希望は18期）。元しんぼると元猫塾が2019年合流"
+        },
+        {
+          "name": "3時のヒロイン",
+          "members": [
+            "福田麻貴",
+            "ゆめっち",
+            "かなで"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6579",
+          "note": "かなでが20期（福田麻貴はNSC大阪女性タレントコース5期、ゆめっちは大阪NSC36期）。THE W 2019優勝"
+        },
+        {
+          "name": "東京ホテイソン",
+          "members": [
+            "たける",
+            "ショーゴ"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6325",
+          "note": "ショーゴが20期入学も1ヶ月で中退。たけるはNSC非出身"
+        },
+        {
+          "name": "ブラゴーリ",
+          "members": [
+            "塚田裕輝",
+            "鈴木大介"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6889"
+        },
+        {
+          "name": "おミュータンツ",
+          "members": [
+            "川嶋おもち",
+            "宮戸フィルム"
+          ],
+          "note": "2019年5月結成。ぐるナイ LIVE STAND SP優勝"
+        }
       ]
     },
     {
@@ -197,7 +990,36 @@
       "school": "tokyo",
       "enrollmentYear": 2015,
       "notableGraduates": [
-        { "name": "エバース", "members": ["町田和樹", "佐々木隆史"] }
+        {
+          "name": "エバース",
+          "members": [
+            "佐々木隆史",
+            "町田和樹"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=8988"
+        },
+        {
+          "name": "ネイチャーバーガー",
+          "members": [
+            "三浦リョースケ",
+            "笹本はやて"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=7019",
+          "note": "2025年6月解散"
+        },
+        {
+          "name": "ド桜",
+          "members": [
+            "村田大樹",
+            "かつやま"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=11088"
+        },
+        {
+          "name": "マサルコ",
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=11055",
+          "note": "元ギガスラッシュ!!（21期首席）、2026年吉本退所"
+        }
       ]
     },
     {
@@ -205,7 +1027,64 @@
       "school": "tokyo",
       "enrollmentYear": 2016,
       "notableGraduates": [
-        { "name": "ナイチンゲールダンス", "members": ["中野なかるてぃん", "ヤス"] }
+        {
+          "name": "ナイチンゲールダンス",
+          "members": [
+            "中野なかるてぃん",
+            "ヤス"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=7031",
+          "note": "22期首席"
+        },
+        {
+          "name": "めぞん",
+          "members": [
+            "吉野おいなり君",
+            "原一刻"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=8835"
+        },
+        {
+          "name": "軟水",
+          "members": [
+            "大川内聡",
+            "つるまる"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=8902"
+        },
+        {
+          "name": "バリカタ友情飯",
+          "members": [
+            "松下遼太郎",
+            "狩野大"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=8763",
+          "note": "旧名:まんぷくユナイテッド"
+        },
+        {
+          "name": "ピュート",
+          "members": [
+            "ポイント",
+            "竹内智也"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=8773"
+        },
+        {
+          "name": "マリーマリー",
+          "members": [
+            "タコス",
+            "えびちゃん"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=8839"
+        },
+        {
+          "name": "おとうふ",
+          "members": [
+            "武藤バブルス",
+            "山中伸之"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=9276"
+        }
       ]
     },
     {
@@ -213,9 +1092,60 @@
       "school": "tokyo",
       "enrollmentYear": 2017,
       "notableGraduates": [
-        { "name": "令和ロマン", "members": ["髙比良くるま", "松井ケムリ"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=7212" },
-        { "name": "ヨネダ2000", "members": ["誠", "愛"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=7181" },
-        { "name": "ヤーレンズ", "members": ["楢原真樹", "出井隼之介"], "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6991" }
+        {
+          "name": "令和ロマン",
+          "members": [
+            "髙比良くるま",
+            "松井ケムリ"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6646",
+          "note": "NSC東京23期首席（旧コンビ名：魔人無骨）。M-1グランプリ2023・2024王者"
+        },
+        {
+          "name": "ヨネダ2000",
+          "members": [
+            "誠",
+            "愛"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=8816",
+          "note": "2020年結成。THE W 2022決勝進出、M-1グランプリ2022決勝進出"
+        },
+        {
+          "name": "サンタモニカ",
+          "members": [
+            "ポール",
+            "マイム"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=8883",
+          "note": "2018年4月結成。ABCお笑いグランプリ決勝進出"
+        },
+        {
+          "name": "インテイク",
+          "members": [
+            "鈴木龍平",
+            "まえかず"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=8976",
+          "note": "2017年5月結成。ツギクル芸人グランプリ2023決勝進出"
+        },
+        {
+          "name": "アケガラス",
+          "members": [
+            "King Boy",
+            "ガネ"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=9147",
+          "note": "2017年4月結成"
+        },
+        {
+          "name": "世界クジラ",
+          "members": [
+            "和泉壮",
+            "村田優斗"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=9163",
+          "note": "2021年5月結成"
+        }
       ]
     },
     {
@@ -223,7 +1153,51 @@
       "school": "tokyo",
       "enrollmentYear": 2018,
       "notableGraduates": [
-        { "name": "金魚番長" }
+        {
+          "name": "金魚番長",
+          "members": [
+            "箕輪智征",
+            "古市勇介"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=7034",
+          "note": "NSC東京24期首席"
+        },
+        {
+          "name": "ゼロカラン",
+          "members": [
+            "ワキユウタ",
+            "たいが"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=10754",
+          "note": "2019年4月結成"
+        },
+        {
+          "name": "イチゴ",
+          "members": [
+            "イクト",
+            "木原優一"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=9160",
+          "note": "2021年5月結成。ONE CHANCE 2026王者"
+        },
+        {
+          "name": "狛犬",
+          "members": [
+            "坂口トラック",
+            "櫛野駿太郎"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=9755",
+          "note": "2022年7月結成。上方漫才協会大賞文芸部門賞受賞"
+        },
+        {
+          "name": "アロハペンギン",
+          "members": [
+            "北山友洋",
+            "前内はるき"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=9749",
+          "note": "2019年4月結成"
+        }
       ]
     },
     {
@@ -231,45 +1205,334 @@
       "school": "tokyo",
       "enrollmentYear": 2019,
       "notableGraduates": [
-        { "name": "シングシング" },
-        { "name": "家族チャーハン" }
+        {
+          "name": "家族チャーハン",
+          "members": [
+            "大石敦也",
+            "江頭一馬"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=10836",
+          "note": "2023年結成、2026年4月解散。M-1グランプリ2024準決勝進出"
+        },
+        {
+          "name": "シングシング",
+          "members": [
+            "なかたつ",
+            "森主仁"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=9880"
+        },
+        {
+          "name": "定点計画",
+          "members": [
+            "司場才蔵",
+            "高杉箱"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=10013"
+        },
+        {
+          "name": "今夜はブルース",
+          "members": [
+            "ソウヤタニグチ",
+            "清家タロウ"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=9015"
+        },
+        {
+          "name": "山内仁平",
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=11691",
+          "note": "元10億円（2021-2024）。2025年に渡辺ポット（東京NSC20期）と大王を結成。M-1グランプリ2025準決勝進出"
+        },
+        {
+          "name": "テキセツの街",
+          "members": [
+            "山下よしあき",
+            "東郷"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=9705",
+          "note": "山下よしあきが25期、東郷が26期。2021年結成"
+        }
       ]
     },
     {
       "classNumber": 26,
       "school": "tokyo",
       "enrollmentYear": 2020,
-      "notableGraduates": []
+      "notableGraduates": [
+        {
+          "name": "ボニータ",
+          "members": [
+            "赤坂舜平",
+            "下岸勇斗"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=9933",
+          "note": "NSC東京26期首席（NSC大ライブTOKYO 2021優勝）"
+        },
+        {
+          "name": "兄弟",
+          "members": [
+            "体制",
+            "紅葉"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=9761",
+          "note": "実の兄弟によるコンビ。2021年4月結成"
+        },
+        {
+          "name": "エアコンぶんぶんお姉さん",
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=10131",
+          "note": "ピン芸人。THE W 2020準決勝進出（養成所在学中）"
+        }
+      ]
     },
     {
       "classNumber": 27,
       "school": "tokyo",
       "enrollmentYear": 2021,
-      "notableGraduates": []
+      "notableGraduates": [
+        {
+          "name": "ミヤコジマ",
+          "members": [
+            "道古風杜",
+            "ねぎ"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=9930",
+          "note": "NSC大ライブTOKYO 2022 優勝（首席）、2023年解散"
+        },
+        {
+          "name": "青いデルタ",
+          "members": [
+            "トミー",
+            "ワタコ"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=11651",
+          "note": "NSC大ライブTOKYO 2022 準優勝"
+        },
+        {
+          "name": "かけおち",
+          "members": [
+            "青木マッチョ",
+            "赤木細マッチョ"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=9962"
+        },
+        {
+          "name": "イワサキ",
+          "members": [
+            "リュウ",
+            "カズ"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=10017"
+        },
+        {
+          "name": "ザンゾウ",
+          "members": [
+            "タヨリ",
+            "ベントウ"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=10990"
+        },
+        {
+          "name": "クニサダ",
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=11034"
+        },
+        {
+          "name": "ひぐちこうめ",
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=10989"
+        },
+        {
+          "name": "マイファザー",
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=9936"
+        },
+        {
+          "name": "私東京"
+        },
+        {
+          "name": "準新作"
+        },
+        {
+          "name": "ガシヒ"
+        }
+      ]
     },
     {
       "classNumber": 28,
       "school": "tokyo",
       "enrollmentYear": 2022,
-      "notableGraduates": []
+      "notableGraduates": [
+        {
+          "name": "江戸ベルト",
+          "members": [
+            "キタムラタクロー",
+            "スーパーかつ。"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=10923",
+          "note": "NSC大ライブTOKYO 2023 優勝（首席）、2025年1月解散"
+        },
+        {
+          "name": "ボブのコーラ",
+          "members": [
+            "とあ",
+            "本田たかお"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=10839"
+        },
+        {
+          "name": "セカンドロット",
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=11732"
+        },
+        {
+          "name": "アリハガ",
+          "members": [
+            "アリ",
+            "ハガ"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=11037"
+        },
+        {
+          "name": "ヘニ",
+          "members": [
+            "イサト",
+            "渋谷輔"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=11091"
+        },
+        {
+          "name": "メンブレン",
+          "note": "NSC大ライブTOKYO 2023 準優勝"
+        },
+        {
+          "name": "ダイナモ",
+          "note": "NSC大ライブTOKYO 2023 3位"
+        },
+        {
+          "name": "烏骨鶏"
+        },
+        {
+          "name": "女優"
+        },
+        {
+          "name": "友禅ロビン"
+        }
+      ]
     },
     {
       "classNumber": 29,
       "school": "tokyo",
       "enrollmentYear": 2023,
-      "notableGraduates": []
+      "notableGraduates": [
+        {
+          "name": "ド天国",
+          "members": [
+            "ゴトウタイガ",
+            "河村勇一郎"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=11653"
+        },
+        {
+          "name": "けいごステファニー",
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=11687"
+        },
+        {
+          "name": "スキャマンダー",
+          "members": [
+            "くぼ",
+            "ふじしょー"
+          ]
+        },
+        {
+          "name": "アミダライン",
+          "members": [
+            "和氣",
+            "陽常"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=13982"
+        },
+        {
+          "name": "とりせん",
+          "members": [
+            "松平",
+            "ミイ"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=11884"
+        },
+        {
+          "name": "エリー",
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=11887"
+        },
+        {
+          "name": "おくばやし"
+        }
+      ]
     },
     {
       "classNumber": 30,
       "school": "tokyo",
       "enrollmentYear": 2024,
-      "notableGraduates": []
+      "notableGraduates": [
+        {
+          "name": "シネマ特区",
+          "members": [
+            "和深",
+            "嶋田奨太"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=11899"
+        },
+        {
+          "name": "照山おうちごはん",
+          "members": [
+            "金山",
+            "ほかぞの",
+            "YO竹"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=11908"
+        },
+        {
+          "name": "ドンココ",
+          "members": [
+            "ひろ",
+            "りゅう"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=11902"
+        },
+        {
+          "name": "居候"
+        },
+        {
+          "name": "モックアップ"
+        },
+        {
+          "name": "キューブリック"
+        }
+      ]
     },
     {
       "classNumber": 31,
       "school": "tokyo",
       "enrollmentYear": 2025,
-      "notableGraduates": []
+      "notableGraduates": [
+        {
+          "name": "ゴーヤゴー",
+          "members": [
+            "たま",
+            "米持"
+          ]
+        },
+        {
+          "name": "トラモチーフ"
+        },
+        {
+          "name": "昼間陸上"
+        },
+        {
+          "name": "ストロングブルジュニア"
+        },
+        {
+          "name": "ミックストマトジュース"
+        },
+        {
+          "name": "御恩と奉公と痛み"
+        }
+      ]
     }
   ]
 }

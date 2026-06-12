@@ -2,6 +2,7 @@ export interface Comedian {
   name: string;
   members?: string[];
   profileUrl?: string;
+  note?: string;
 }
 
 export interface NscClass {
