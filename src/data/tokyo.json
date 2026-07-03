@@ -7,6 +7,7 @@
       "classNumber": 1,
       "school": "tokyo",
       "enrollmentYear": 1995,
+      "classNote": "1995年開校のNSC東京校第1期生。品川庄司はNSC東京1期出身者同士で結成された唯一の現役コンビとされる",
       "notableGraduates": [
         {
           "name": "品川庄司",
@@ -14,7 +15,8 @@
             "品川祐",
             "庄司智春"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=54"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=54",
+          "note": "1995年8月結成。M-1グランプリ2005決勝進出（4位）。品川祐は品川ヒロシ名義で映画監督としても活動（『ドロップ』『漫才ギャング』）。庄司智春は2009年に藤本美貴と結婚"
         },
         {
           "name": "東京ダイナマイト",
@@ -23,10 +25,11 @@
             "松田大輔"
           ],
           "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2803",
-          "note": "ハチミツ二郎がNSC東京1期。松田大輔はNSC出身ではない"
+          "note": "ハチミツ二郎がNSC東京1期。松田大輔はNSC出身ではない。M-1グランプリ2004・2009決勝進出。オフィス北野などを経て2009年に吉本興業へ復帰"
         },
         {
-          "name": "浜ロン"
+          "name": "浜ロン",
+          "note": "ピン芸人・放送作家。品川庄司と同期のNSC東京1期生"
         }
       ]
     },
@@ -34,10 +37,12 @@
       "classNumber": 2,
       "school": "tokyo",
       "enrollmentYear": 1996,
+      "classNote": "1996年入学。R-1ぐらんぷり2011王者の佐久間一行や『Mr.都市伝説』関暁夫を輩出した期",
       "notableGraduates": [
         {
           "name": "佐久間一行",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=683"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=683",
+          "note": "R-1ぐらんぷり2011優勝。イラストや歌を交えた独自のネタで知られる"
         },
         {
           "name": "ハイキングウォーキング",
@@ -45,7 +50,8 @@
             "松田洋昌",
             "鈴木Q太郎"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=210"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=210",
+          "note": "松田洋昌がNSC東京2期（鈴木Q太郎は3期）。2003年結成、「卑弥呼様」ネタで『エンタの神様』などで人気"
         },
         {
           "name": "ガリットチュウ",
@@ -53,15 +59,18 @@
             "福島善成",
             "熊谷茶"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=448"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=448",
+          "note": "福島善成は『とんねるずのみなさんのおかげでした』の「細かすぎて伝わらないモノマネ選手権」で優勝するなど、ものまね芸でブレイク"
         },
         {
           "name": "くまだまさし",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=681"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=681",
+          "note": "小道具を使ったギャグ芸のピン芸人。浅草を拠点に活動"
         },
         {
           "name": "Mr.都市伝説 関暁夫",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2754"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2754",
+          "note": "元ハローバイバイ（1996年結成、2009年解散。相方は同期の千葉公平）。著書『関暁夫の都市伝説』シリーズと『やりすぎ都市伝説』の「信じるか信じないかはあなた次第です」で人気"
         },
         {
           "name": "キートン",

@@ -1732,7 +1732,8 @@
             "伊織",
             "青空"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5233"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5233",
+          "note": "M-1グランプリ2019決勝進出"
         },
         {
           "name": "ガンバレルーヤ",
@@ -1747,18 +1748,21 @@
           "members": [
             "九条ジョー",
             "下田真生"
-          ]
+          ],
+          "note": "2023年1月解散。九条ジョーはピン芸人として活動"
         },
         {
           "name": "濱田祐太郎",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6293"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6293",
+          "note": "R-1ぐらんぷり2018王者。視覚障害のある漫談家として大会史上初の栄冠"
         },
         {
           "name": "にぼしいわし",
           "members": [
-            "香空にぼし",
-            "伽説いわし"
-          ]
+            "にぼし",
+            "いわし"
+          ],
+          "note": "THE W 2024優勝（8代目女王）。吉本退所後、事務所無所属のフリーとして史上初の優勝を果たし話題に"
         },
         {
           "name": "ラニーノーズ",
@@ -1770,7 +1774,8 @@
         },
         {
           "name": "田津原理音",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6288"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6288",
+          "note": "R-1グランプリ2023王者"
         },
         {
           "name": "もも",
@@ -1778,7 +1783,8 @@
             "せめる。",
             "まもる。"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6824"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6824",
+          "note": "M-1グランプリ2021決勝進出"
         },
         {
           "name": "20世紀",
@@ -1796,7 +1802,16 @@
           "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=8052"
         },
         {
-          "name": "熊元プロレス"
+          "name": "熊元プロレス",
+          "note": "紅しょうが（相方・稲田美紀は33期）のメンバーとしてTHE W 2023優勝"
+        },
+        {
+          "name": "加賀翔（かが屋）",
+          "note": "マセキ芸能社所属のかが屋のメンバー。キングオブコント2019決勝進出。NSC大阪35期出身"
+        },
+        {
+          "name": "福本ユウショウ（ジョックロック）",
+          "note": "ジョックロックのメンバーとしてM-1グランプリ2024決勝進出（結成2年半での初決勝）"
         },
         {
           "name": "茜250cc",
@@ -1831,6 +1846,7 @@
       "classNumber": 36,
       "school": "osaka",
       "enrollmentYear": 2013,
+      "classNote": "首席はトリオのサンパウロ（NSC大ライブ2014優勝、同年解散しメンバーはイチオクを結成）。バッテリィズのM-1 2024準優勝、きむらバンド（たくろう）のM-1 2025制覇、カベポスター・ダブルヒガシによるytv漫才新人賞＆ABCお笑いグランプリの2年連続同期2冠など、近年の賞レースを席巻する世代。THE W王者もオダウエダ、ゆめっち（3時のヒロイン）と複数輩出",
       "notableGraduates": [
         {
           "name": "カベポスター",
@@ -1838,7 +1854,8 @@
             "永見大吾",
             "浜田順平"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6356"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6356",
+          "note": "M-1グランプリ2022・2023決勝進出。2022年に第11回ytv漫才新人賞と第43回ABCお笑いグランプリの2冠"
         },
         {
           "name": "バッテリィズ",
@@ -2778,86 +2795,99 @@
           "members": [
             "こけ若",
             "池田てんこ盛り"
-          ]
+          ],
+          "note": "48期首席。大ライブOSAKA2026優勝。ゆりやんレトリィバァ以来13年ぶりの女性首席となった女性コンビ。在学中の2025年12月に結成"
         },
         {
           "name": "黄金の回転",
           "members": [
             "アンカー",
             "角行"
-          ]
+          ],
+          "note": "大ライブOSAKA2026決勝進出"
         },
         {
           "name": "グゴゴ0.9",
           "members": [
             "良心",
             "友人"
-          ]
+          ],
+          "note": "大ライブOSAKA2026決勝進出"
         },
         {
           "name": "麺ドラゴン",
           "members": [
             "竹本",
             "三宅"
-          ]
+          ],
+          "note": "大ライブOSAKA2026決勝進出"
         },
         {
           "name": "春巻",
           "members": [
             "小松なおき",
             "明石"
-          ]
+          ],
+          "note": "大ライブOSAKA2026決勝進出"
         },
         {
           "name": "じゃがいもソラニン",
           "members": [
             "奥村雄樹",
             "本凛太"
-          ]
+          ],
+          "note": "大ライブOSAKA2026決勝進出"
         },
         {
           "name": "りんかく先生",
           "members": [
             "西村こぶし",
             "タカヤマ"
-          ]
+          ],
+          "note": "大ライブOSAKA2026決勝進出"
         },
         {
           "name": "よからばってん",
           "members": [
             "金城ながら",
             "たく"
-          ]
+          ],
+          "note": "大ライブOSAKA2026決勝進出"
         },
         {
           "name": "ロクデナシ",
           "members": [
             "だいき",
             "尾田"
-          ]
+          ],
+          "note": "大ライブOSAKA2026決勝進出"
         },
         {
           "name": "天下茶屋",
           "members": [
             "野村敬介",
             "小松"
-          ]
+          ],
+          "note": "大ライブOSAKA2026決勝進出"
         },
         {
           "name": "どかン",
           "members": [
             "てんくも",
             "しゃうま"
-          ]
+          ],
+          "note": "大ライブOSAKA2026決勝進出"
         },
         {
           "name": "燦然",
           "members": [
             "城野大裕",
             "キキ"
-          ]
+          ],
+          "note": "大ライブOSAKA2026決勝進出"
         }
-      ]
+      ],
+      "classNote": "2025年4月入学。首席は女性コンビの国背負い（2026年4月8日開催の大ライブOSAKA2026で169組の頂点）。女性の首席はゆりやんレトリィバァ以来13年ぶり。掲載しているのは決勝進出12組"
     }
   ]
 }
