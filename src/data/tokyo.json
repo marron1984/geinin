@@ -1506,6 +1506,7 @@
       "classNumber": 27,
       "school": "tokyo",
       "enrollmentYear": 2021,
+      "classNote": "2021年4月入学。首席はミヤコジマ（NSC大ライブ TOKYO 2022優勝、準優勝は青いデルタ、3位はカリン）。卒業ライブは2022年2月28日に有観客＋オンライン配信で開催された。卒業後は神保町よしもと漫才劇場で同期ライブ「27の日」を開催。青木マッチョ（かけおち）がオリコン「2025年 ブレイク芸人ランキング」1位に輝くなど出世頭も現れている",
       "notableGraduates": [
         {
           "name": "ミヤコジマ",
@@ -1514,16 +1515,17 @@
             "ねぎ"
           ],
           "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=9930",
-          "note": "NSC大ライブTOKYO 2022 優勝（首席）、2023年解散"
+          "note": "NSC東京27期首席（NSC大ライブ TOKYO 2022優勝）。ともに大阪市都島区出身の再入学組コンビで、コンビ名も都島区に由来。2022年12月に神保町よしもと漫才劇場所属となったが、2023年8月31日に解散（エントリー済みだったM-1グランプリ2023には解散後も出場し3回戦進出）"
         },
         {
           "name": "青いデルタ",
           "members": [
             "トミー",
-            "ワタコ"
+            "ワタコ",
+            "カメ"
           ],
           "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=11651",
-          "note": "NSC大ライブTOKYO 2022 準優勝"
+          "note": "NSC大ライブ TOKYO 2022準優勝。トミー・ワタコ・カメ（亀谷凌太）の大阪府出身同い年トリオで全員27期。2024年8月に神保町よしもと漫才劇場所属"
         },
         {
           "name": "かけおち",
@@ -1531,7 +1533,8 @@
             "青木マッチョ",
             "赤木細マッチョ"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=9962"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=9962",
+          "note": "2022年4月に青木マッチョ・鈴木ロン毛らのトリオとして結成、2024年11月の鈴木ロン毛脱退でコンビに（相方は2025年2月に赤木細マッチョへ改名）。青木マッチョは『ラヴィット！』出演などでブレイクし、オリコン「2025年 ブレイク芸人ランキング」1位を獲得。野田クリスタル経営のジムのトレーナーも務める"
         },
         {
           "name": "イワサキ",
@@ -1539,33 +1542,43 @@
             "リュウ",
             "カズ"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=10017"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=10017",
+          "note": "リュウとカズによる同期コンビ。M-1グランプリ2025で準々決勝進出。神保町よしもと漫才劇場の同期ライブ「27の日」にも出演"
         },
         {
           "name": "ザンゾウ",
           "members": [
             "タヨリ",
+            "スティック",
             "ベントウ"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=10990"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=10990",
+          "note": "日本大学文理学部落語研究会出身のタヨリ・スティック・ベントウによるトリオ（全員27期）。2022年4月結成。2026年2月に神保町よしもと漫才劇場で初単独ライブを開催"
         },
         {
           "name": "クニサダ",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=11034"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=11034",
+          "note": "サワイマコトと河豚ニによる広島県出身同士のコンビ。NSC入学前の2019年に結成し、そろって27期に入学。NSC現役生ライブ『RUSH』でも高評価を受けた"
         },
         {
           "name": "ひぐちこうめ",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=10989"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=10989",
+          "note": "埼玉県さいたま市出身の女性ピン芸人。イラストやLINEスタンプ作りを特技とする"
         },
         {
           "name": "マイファザー",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=9936"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=9936",
+          "note": "実の兄弟（兄・篠原匠、弟・るん）によるコンビ。2022年4月結成。コンビ名はAviciiの楽曲「My Father Told Me」に由来"
         },
         {
-          "name": "私東京"
+          "name": "私東京",
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=11890",
+          "note": "時生と電四郎によるコンビ。卒業後の2023年10月結成"
         },
         {
-          "name": "ガシヒ"
+          "name": "ガシヒ",
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=10926",
+          "note": "奈良県大和郡山市出身のピン芸人。作曲を特技とし、今宮戎マンザイ新人コンクール2024で奨励賞を受賞"
         }
       ]
     },
@@ -1573,6 +1586,7 @@
       "classNumber": 28,
       "school": "tokyo",
       "enrollmentYear": 2022,
+      "classNote": "2022年4月入学。首席は江戸ベルト（NSC大ライブ TOKYO 2023優勝、準優勝はメンブレン、3位はダイナモ）。卒業ライブの決勝（2023年2月14日）には予選を通過した12組が進出した。首席の江戸ベルトが2025年1月に解散する一方、ボブのコーラは芸歴1年目で同期初の神保町よしもと漫才劇場所属となった",
       "notableGraduates": [
         {
           "name": "江戸ベルト",
@@ -1581,7 +1595,7 @@
             "スーパーかつ。"
           ],
           "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=10923",
-          "note": "NSC大ライブTOKYO 2023 優勝（首席）、2025年1月解散"
+          "note": "NSC東京28期首席（NSC大ライブ TOKYO 2023優勝）。元プロダクション人力舎芸人のキタムラタクローと、お笑いに疎い元建設現場監督のスーパーかつ。による当時29歳同士の遅咲きコンビとして話題に。2025年1月30日に解散"
         },
         {
           "name": "ボブのコーラ",
@@ -1589,11 +1603,13 @@
             "とあ",
             "本田たかお"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=10839"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=10839",
+          "note": "とあと本田たかおによる千葉県出身・小中高同級生の幼なじみコンビ。2023年4月結成。NSC大ライブ TOKYO 2023決勝進出。2023年8月のJimbochoサバイバルバトルで総合1位となり、芸歴1年目・同期初の神保町よしもと漫才劇場所属メンバーに"
         },
         {
           "name": "セカンドロット",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=11732"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=11732",
+          "note": "飛田和哉とニワによるコンビ。NSC大ライブ TOKYO 2023決勝進出（決勝12組）"
         },
         {
           "name": "アリハガ",
@@ -1601,7 +1617,8 @@
             "アリ",
             "ハガ"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=11037"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=11037",
+          "note": "アリとハガによる埼玉県深谷市出身の同郷コンビ。2023年4月結成"
         },
         {
           "name": "ヘニ",
@@ -1609,21 +1626,24 @@
             "イサト",
             "渋谷輔"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=11091"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=11091",
+          "note": "イサト（広島県尾道市出身）と渋谷輔（愛知県知多半島出身）によるコンビ。NSC入学時の2022年4月結成"
         },
         {
           "name": "メンブレン",
-          "note": "NSC大ライブTOKYO 2023 準優勝"
+          "note": "NSC大ライブ TOKYO 2023準優勝の漫才コンビ"
         },
         {
           "name": "ダイナモ",
-          "note": "NSC大ライブTOKYO 2023 3位"
+          "note": "NSC大ライブ TOKYO 2023で3位のコント師。予選2部を4位で通過し決勝進出"
         },
         {
-          "name": "烏骨鶏"
+          "name": "烏骨鶏",
+          "note": "NSC大ライブ TOKYO 2023決勝進出（決勝12組）"
         },
         {
-          "name": "女優"
+          "name": "女優",
+          "note": "NSC大ライブ TOKYO 2023決勝進出（決勝7位）の漫才コンビ"
         },
         {
           "name": "友禅ロビン"
