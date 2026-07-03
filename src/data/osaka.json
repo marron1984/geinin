@@ -799,7 +799,6 @@
         },
         {
           "name": "林健（ギャロップ）",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=353",
           "note": "相方の毛利大亮は21期。ギャロップとしてTHE SECOND 2023初代王者"
         }
       ]
@@ -1056,7 +1055,6 @@
             "瀬戸洋祐",
             "ウーイェイよしたか"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=630",
           "note": "2009年NHK新人演芸大賞（演芸部門）大賞、2010年MBS新世代漫才アワード優勝"
         },
         {
@@ -1709,7 +1707,6 @@
         },
         {
           "name": "別府貴之",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5160",
           "note": "マルセイユのメンバー。相方の津田康平はNSC大阪30期"
         }
       ],
@@ -2065,10 +2062,11 @@
         {
           "name": "バッテリィズ",
           "members": [
-            "寺家公太",
-            "エース"
+            "エース",
+            "寺家"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6752"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6752",
+          "note": "M-1グランプリ2024準優勝（ファーストラウンド1位通過）。エースの「アホ漫才」で大ブレイク"
         },
         {
           "name": "ダブルヒガシ",
@@ -2076,7 +2074,8 @@
             "東良介",
             "大東翔生"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5781"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5781",
+          "note": "2023年に第12回ytv漫才新人賞と第44回ABCお笑いグランプリの2冠（前年のカベポスターに続く同期連覇）"
         },
         {
           "name": "8.6秒バズーカー",
@@ -2084,7 +2083,8 @@
             "はまやねん",
             "タナカシングル"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5755"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5755",
+          "note": "2015年に「ラッスンゴレライ」で大ブレイク"
         },
         {
           "name": "オダウエダ",
@@ -2092,15 +2092,18 @@
             "小田結希",
             "植田紫帆"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=7229"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=7229",
+          "note": "THE W 2021優勝（5代目女王）"
         },
         {
           "name": "真輝志",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6280"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6280",
+          "note": "R-1グランプリ2024・2026決勝進出。コンビ・きんめ鯛の解散（2022年）を経てピンで活動"
         },
         {
           "name": "ゆめっち",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6580"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6580",
+          "note": "3時のヒロインのメンバーとしてTHE W 2019優勝"
         },
         {
           "name": "素敵じゃないか",
@@ -2126,7 +2129,12 @@
           "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=8394"
         },
         {
-          "name": "イチオク"
+          "name": "イチオク",
+          "note": "36期首席のトリオ・サンパウロの元メンバーが結成したコンビ"
+        },
+        {
+          "name": "きむらバンド（たくろう）",
+          "note": "たくろうのツッコミ担当としてM-1グランプリ2025王者に。相方・赤木裕は37期"
         },
         {
           "name": "カンフーカンフー"
@@ -2453,15 +2461,18 @@
             "こうちゃん",
             "奥慎太郎"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=7004"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=7004",
+          "note": "NSC在学中の2018年結成。M-1グランプリ3回戦進出常連。マンゲキを中心に活動"
         },
         {
           "name": "キャツミ",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6788"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6788",
+          "note": "独学ピアノの弾き語りネタが「ラヴィット!」出演で話題に。R-1グランプリ準々決勝進出"
         },
         {
           "name": "白桃ピーチよぴぴ",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=7293"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=7293",
+          "note": "SNS発で人気の女性ピン芸人。R-1グランプリ準々決勝進出（2022・2025）"
         },
         {
           "name": "レモンコマドリ",
@@ -2476,7 +2487,8 @@
             "竹岡航太",
             "青木智紀"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=7686"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=7686",
+          "note": "2人とも島根県出身。UNDER5 AWARD 2023ファイナリスト、M-1グランプリ2022準々決勝進出。2021年10月からマンゲキ所属"
         },
         {
           "name": "はるかぜとともに",
@@ -2484,7 +2496,8 @@
             "サジ",
             "やすお"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=7763"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=7763",
+          "note": "男女コンビ。2023年10月からマンゲキ所属、2026年4月に活動拠点を東京へ移す"
         },
         {
           "name": "もくめ蝶"
@@ -2596,8 +2609,7 @@
           "name": "モンデン"
         },
         {
-          "name": "西野",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=7146"
+          "name": "西野"
         },
         {
           "name": "ジョックロック",

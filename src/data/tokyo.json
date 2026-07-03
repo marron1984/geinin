@@ -201,6 +201,7 @@
       "classNumber": 5,
       "school": "tokyo",
       "enrollmentYear": 1999,
+      "classNote": "ピース、平成ノブシコブシらを輩出した期。「闇の6期」「谷間の7期」「地獄の8期」と続く不作期の直前にあたる比較的豊作の期とされる。2012年3月には同期で「芸人データベース〜5期同窓会〜」ライブをヨシモト∞ホールで開催。首席制度が公式化されたのは東京17期（2011年度入学）以降のため、公式な首席は存在しない",
       "notableGraduates": [
         {
           "name": "平成ノブシコブシ",
@@ -208,7 +209,8 @@
             "吉村崇",
             "徳井健太"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=171"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=171",
+          "note": "2000年結成。吉村崇は「破天荒キャラ」でブレイク。徳井健太は文筆・お笑い評論でも活動"
         },
         {
           "name": "ピース",
@@ -216,15 +218,18 @@
             "綾部祐二",
             "又吉直樹"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=172"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=172",
+          "note": "又吉直樹は2015年に小説『火花』で第153回芥川賞を受賞。綾部祐二は2017年に渡米しニューヨークを拠点に、2022年からはロサンゼルスに移住して活動"
         },
         {
           "name": "三瓶",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=650"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=650",
+          "note": "自己紹介ギャグ「三瓶です！」で2000年代前半にブレイク"
         },
         {
           "name": "大西ライオン",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=680"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=680",
+          "note": "ミュージカル『ライオンキング』風の「心配ないさ〜！」の一発ギャグでブレイク"
         },
         {
           "name": "5GAP",
@@ -232,7 +237,8 @@
             "トモ",
             "クボケン"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=421"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=421",
+          "note": "コンビ名は2人の年齢差（5歳）に由来。現在も活動中"
         },
         {
           "name": "ラフ・コントロール",
@@ -240,11 +246,13 @@
             "重岡謙作",
             "森木俊介"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=531"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=531",
+          "note": "2016年5月にNSC東京8期の安武を加えトリオ「ラフコン」に改名、2018年3月の安武脱退に伴いコンビ「ラフ・コントロール」として再始動"
         },
         {
           "name": "遠山大輔",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=456"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=456",
+          "note": "2005年4月に6期の五明拓弥・佐藤大とトリオ「グランジ」を結成。ラジオパーソナリティとしても活動"
         }
       ]
     },
@@ -252,10 +260,20 @@
       "classNumber": 6,
       "school": "tokyo",
       "enrollmentYear": 2000,
+      "classNote": "通称「闇の6期」。スターが出ないことを自虐した呼び名で、7期・8期と「闇の6期 VS 谷間の7期 VS 地獄の8期」と銘打った合同ライブも開催された。2014年末にはロシアンモンキーとマキシマムパーパーサムが合同解散ライブを開催。後にとにかく明るい安村がR-1決勝進出、さらに英『ブリテンズ・ゴット・タレント』決勝進出で世界的にブレイクし、「闇」返上の出世頭となった。首席制度公式化（東京17期〜）以前のため公式な首席はなし",
       "notableGraduates": [
         {
           "name": "とにかく明るい安村",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2551"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=428",
+          "note": "元アームストロング（2014年解散）。ピン転向後「安心してください、穿いてますよ」で2015年にブレイクしR-1ぐらんぷり2015決勝進出、同フレーズは新語・流行語大賞トップテン入り。2023年には英『ブリテンズ・ゴット・タレント』に「TONIKAKU」として出演し決勝進出、世界的な話題となった"
+        },
+        {
+          "name": "アームストロング",
+          "members": [
+            "栗山直人",
+            "安村昇剛"
+          ],
+          "note": "2000年結成、2014年4月13日のライブをもって解散。安村昇剛は「とにかく明るい安村」と改名しピン芸人に、栗山直人は芸人を引退しパチスロライター「くり」として活動"
         },
         {
           "name": "ものいい",
@@ -263,7 +281,8 @@
             "吉田サラダ",
             "横山きよし"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2538"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2538",
+          "note": "それぞれ別コンビの解散を経て2006年1月に同期同士で結成。吉田サラダは富山県に移住し、よしもと芸人と地域おこし協力隊の二刀流で活動"
         },
         {
           "name": "グランジ",
@@ -272,25 +291,29 @@
             "佐藤大",
             "遠山大輔"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=454"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=454",
+          "note": "2005年4月結成のトリオ。遠山大輔のみNSC東京5期。THE MANZAI 2011認定漫才師50組に選出、キングオブコントでは準決勝常連だった"
         },
         {
           "name": "ロシアンモンキー",
           "members": [
             "すーなか",
             "川口清行"
-          ]
+          ],
+          "note": "2014年12月29日、ルミネtheよしもとでマキシマムパーパーサムとの合同解散ライブ「スパイダーおかんがハゲとるやないか!!」を開催し解散"
         },
         {
           "name": "マキシマムパーパーサム",
           "members": [
             "長澤喜稔",
             "つよし"
-          ]
+          ],
+          "note": "2014年12月29日、ロシアンモンキーとの合同解散ライブをルミネtheよしもとで開催し解散"
         },
         {
           "name": "ピクニック",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2762"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2762",
+          "note": "NSC「大ライブ」の予選MCを務めるなど同期ライブ・裏方でも活動"
         }
       ]
     },
@@ -298,6 +321,7 @@
       "classNumber": 7,
       "school": "tokyo",
       "enrollmentYear": 2001,
+      "classNote": "通称「谷間の7期」。「闇の6期」と「地獄の8期」に挟まれた谷間を自虐した呼び名。売れっ子は少なかったが同期の結束が固く、同期ライブを長く継続。後にこがけんが「おいでやすこが」でM-1グランプリ2020準優勝、もう中学生が2020年頃に再ブレイクするなど遅咲きの活躍が目立つ。首席制度公式化（東京17期〜）以前のため公式な首席はなし",
       "notableGraduates": [
         {
           "name": "LLR",
@@ -305,19 +329,28 @@
             "伊藤智博",
             "福田恵悟"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=424"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=424",
+          "note": "2002年4月結成。爆笑オンエアバトルなどライブシーンを中心に活動し、「谷間の7期」同期ライブの常連"
         },
         {
           "name": "もう中学生",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=836"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=836",
+          "note": "自作の段ボール工作を使ったピン芸で知られる。2007年には同期のですよ。とユニット「もう中学生ですよ。」でM-1に出場。テレビ出演減少期を経て、2020年頃に麒麟・川島明の紹介や『有吉の壁』出演をきっかけに再ブレイク"
         },
         {
           "name": "こがけん",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6708"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6708",
+          "note": "R-1ぐらんぷり2019決勝進出。2020年にはおいでやす小田とのユニット「おいでやすこが」でM-1グランプリ2020決勝に進出し準優勝"
         },
         {
           "name": "ですよ。",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=835"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=835",
+          "note": "リズムネタ「あ〜い、とぅいまてぇ〜ん」で『エンタの神様』を中心にブレイク。2007年には同期のもう中学生とユニットでM-1に出場"
+        },
+        {
+          "name": "新道竜巳",
+          "profileUrl": "https://www.m-1gp.com/combi/390.html",
+          "note": "2008年にNSC東京8期の平井\"ファラオ\"光とコンビ「馬鹿よ貴方は」を結成。THE MANZAI 2014認定漫才師、M-1グランプリ2015決勝進出。オフィス北野、サンミュージックを経て2025年9月からフリーで活動"
         }
       ]
     },
@@ -325,6 +358,7 @@
       "classNumber": 8,
       "school": "tokyo",
       "enrollmentYear": 2002,
+      "classNote": "通称「地獄の8期」。6期・7期と並ぶ「暗黒期」を自虐した呼び名だが、実際にはスリムクラブ（M-1グランプリ2010準優勝）、ジョイマン、パンサー尾形貴弘ら後にブレイクする芸人を多数輩出した。首席制度公式化（東京17期〜）以前のため公式な首席はなし",
       "notableGraduates": [
         {
           "name": "ジョイマン",
@@ -332,7 +366,8 @@
             "高木晋哉",
             "池谷和志"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=612"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=612",
+          "note": "2003年4月結成。2008年頃にラップ調のリズムネタ「ナナナナー」で大ブレイク。「一発屋」と呼ばれた低迷期を経て、2014年の「サイン会0人事件」のSNS拡散を機に再注目され、営業本数が吉本トップクラスとなる再ブレイクを果たした"
         },
         {
           "name": "スリムクラブ",
@@ -340,19 +375,44 @@
             "真栄田賢",
             "内間政成"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=476"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=476",
+          "note": "2005年2月結成、沖縄出身コンビ。M-1グランプリ2010準優勝で大ブレイク。2019年6月に闇営業問題で無期限謹慎処分を受け、同年11月に処分解除"
         },
         {
           "name": "こりゃめでてーな",
           "members": [
-            "おお江健次",
+            "大江健次",
             "伊藤こう大"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=458"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=458",
+          "note": "大江健次がボケ・ネタ作り担当。解散せず現在も活動中で、YouTubeチャンネルも運営"
         },
         {
           "name": "パンサー尾形貴弘",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2758"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2758",
+          "note": "2008年6月に菅良太郎（NSC東京9期）・向井慧（同11期）とトリオ「パンサー」を結成。「サンキュー!!」のギャグで知られる"
+        },
+        {
+          "name": "デスペラード",
+          "members": [
+            "武井志門",
+            "エマミ・シュン・サラミ"
+          ],
+          "note": "2004年9月結成、2020年1月解散。ボケのエマミ・シュン・サラミはイラン出身でNSC東京8期"
+        },
+        {
+          "name": "キャベツ確認中",
+          "members": [
+            "しまぞうZ",
+            "トシダマイケル"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=3167",
+          "note": "2002年結成。劇団アニメ座のメンバーとしても活動し、FM西東京でレギュラー番組を持つ"
+        },
+        {
+          "name": "平井\"ファラオ\"光",
+          "profileUrl": "https://www.yu-shu-an.com/",
+          "note": "2008年にNSC東京7期の新道竜巳とコンビ「馬鹿よ貴方は」を結成。THE MANZAI 2014認定漫才師、M-1グランプリ2015決勝進出。サンミュージックを経て2025年9月からフリーで活動"
         }
       ]
     },
@@ -1277,7 +1337,16 @@
       "classNumber": 25,
       "school": "tokyo",
       "enrollmentYear": 2019,
+      "classNote": "2019年4月入学。首席はゴヤ（NSC大ライブTOKYO 2020優勝）。卒業公演の大ライブには120組が出場し、ゴヤ・シングシング・ロンゲストスプリングの3組が最終決戦に進出。卒業後は神保町よしもと漫才劇場で同期ライブ『25karats』を継続開催している",
       "notableGraduates": [
+        {
+          "name": "ゴヤ",
+          "members": [
+            "Bりょう",
+            "山路亮太郎"
+          ],
+          "note": "NSC東京25期首席（NSC大ライブTOKYO 2020優勝・審査員7票中6票獲得）。共に早稲田大学のお笑いサークル出身で、令和ロマン（当時・魔人無骨）の誘いでNSCに入学した高学歴コンビ。2022年12月解散"
+        },
         {
           "name": "家族チャーハン",
           "members": [
@@ -1285,7 +1354,7 @@
             "江頭一馬"
           ],
           "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=10836",
-          "note": "2023年結成、2026年4月解散。M-1グランプリ2024準決勝進出"
+          "note": "2023年結成。M-1グランプリ2024準決勝進出。神保町よしもと漫才劇場所属。2026年4月19日、神保町の同期ライブ『25karats』への出演を最後に「方向性の違い」で解散"
         },
         {
           "name": "シングシング",
@@ -1293,15 +1362,26 @@
             "なかたつ",
             "森主仁"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=9880"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=9880",
+          "note": "NSC在学中の2019年10月結成。NSC大ライブTOKYO 2020で最終決戦進出（上位3組）"
+        },
+        {
+          "name": "ロンゲストスプリング",
+          "members": [
+            "高山涼",
+            "江頭一馬"
+          ],
+          "note": "2019年4月結成。NSC大ライブTOKYO 2020で最終決戦進出（上位3組）。2022年8月解散。江頭一馬はその後、同期の大石敦也と家族チャーハンを結成"
         },
         {
           "name": "定点計画",
           "members": [
             "司場才蔵",
-            "高杉箱"
+            "高杉箱",
+            "三部高德"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=10013"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=10013",
+          "note": "2022年4月結成の男女トリオ。2023年2月より神保町よしもと漫才劇場所属。UNDER5 AWARD 2024準決勝進出"
         },
         {
           "name": "今夜はブルース",
@@ -1309,7 +1389,8 @@
             "ソウヤタニグチ",
             "清家タロウ"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=9015"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=9015",
+          "note": "2020年4月結成。神保町よしもと漫才劇場の同期ライブ『25karats』に出演"
         },
         {
           "name": "山内仁平",
@@ -1323,7 +1404,7 @@
             "東郷"
           ],
           "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=9705",
-          "note": "山下よしあきが25期、東郷が26期。2021年結成"
+          "note": "山下よしあきが25期、東郷が26期。2021年結成。2025年4月発表の渋谷・神保町よしもと漫才劇場所属メンバー122組に選出"
         }
       ]
     },
