@@ -82,6 +82,7 @@
       "classNumber": 3,
       "school": "tokyo",
       "enrollmentYear": 1997,
+      "classNote": "1997年入学。M-1グランプリ2007準優勝のトータルテンボスを筆頭に、R-1準優勝のAMEMIYA、髭男爵・山田ルイ53世（中退）らを輩出",
       "notableGraduates": [
         {
           "name": "トータルテンボス",
@@ -89,28 +90,43 @@
             "藤田憲右",
             "大村朋宏"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=143"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=143",
+          "note": "M-1グランプリ2007準優勝。2004・2006・2008年も決勝進出。「ハンパねぇ」のフレーズで知られる"
         },
         {
           "name": "はいじぃ",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=867"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=867",
+          "note": "ピン芸人。YouTubeチャンネル『はいじぃ迷作劇場』は登録者100万人を超える"
         },
         {
-          "name": "永井佑一郎"
+          "name": "永井佑一郎",
+          "note": "ピン芸人。『エンタの神様』のリズムネタ「アクセルホッパー」（♪パンパン!スパパン!）でブレイク"
         },
         {
-          "name": "サイクロンZ"
+          "name": "サイクロンZ",
+          "note": "北海道根室市出身のピン芸人。現在は太田プロダクション所属"
         },
         {
-          "name": "AMEMIYA"
+          "name": "AMEMIYA",
+          "note": "歌ネタ「冷やし中華はじめました」でR-1ぐらんぷり2011準優勝（優勝は2期の佐久間一行）。現在はソニー・ミュージックアーティスツ所属"
         },
         {
           "name": "ポテト少年団",
           "members": [
-            "中谷崇宏",
+            "中谷貴寛",
             "菊地智義",
-            "内藤照彦"
-          ]
+            "内藤輝彦"
+          ],
+          "note": "2015年解散。菊地智義は解散後「キクチウソツカナイ。」と改名しピン芸人として活動"
+        },
+        {
+          "name": "髭男爵",
+          "members": [
+            "山田ルイ53世",
+            "ひぐち君"
+          ],
+          "profileUrl": "https://sunmusic-gp.co.jp/talent/higedanshaku/",
+          "note": "山田ルイ53世がNSC東京3期（中退）。1999年に大学の同級生ひぐち君と結成しサンミュージック所属。「ルネッサ〜ンス!」の貴族ネタで2008年ブレイク。山田は文筆家としても活躍"
         }
       ]
     },
@@ -118,6 +134,7 @@
       "classNumber": 4,
       "school": "tokyo",
       "enrollmentYear": 1998,
+      "classNote": "「花の4期」と呼ばれる黄金世代（1998年入学）。ロバート・森三中・インパルスなど人気芸人を多数輩出。同時期に入学した千鳥・レギュラーら大阪NSC22期と芸歴同期にあたる",
       "notableGraduates": [
         {
           "name": "ロバート",
@@ -126,7 +143,8 @@
             "馬場裕之",
             "山本博"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=117"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=117",
+          "note": "キングオブコント2011優勝（1st・2ndステージともに1位の完全優勝）。秋山竜次は『クリエイターズ・ファイル』などキャラクター芸でも人気"
         },
         {
           "name": "森三中",
@@ -135,7 +153,8 @@
             "村上知子",
             "黒沢かずこ"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=119"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=119",
+          "note": "NSC在学中の1998年に結成された女性トリオ。大島美幸は2002年に放送作家・鈴木おさむと結婚"
         },
         {
           "name": "インパルス",
@@ -143,11 +162,13 @@
             "板倉俊之",
             "堤下敦"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=130"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=130",
+          "note": "キングオブコント2009・2011決勝進出（ともに4位）。板倉俊之は小説『トリガー』を出版するなど作家としても活動"
         },
         {
           "name": "椿鬼奴",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=731"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=731",
+          "note": "OL勤務を経てNSC東京4期（夜クラス）に入学。2015年にグランジ・佐藤大（NSC東京6期）と結婚"
         },
         {
           "name": "POISON GIRL BAND",
@@ -155,21 +176,24 @@
             "阿部智則",
             "吉田大吾"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=232"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=232",
+          "note": "M-1グランプリ2004・2006・2007決勝進出。予選から決勝まで毎回ネタを変える「吉田ルール」で知られた"
         },
         {
           "name": "コンマニセンチ",
           "members": [
             "堀内貴司",
             "竹永善隆"
-          ]
+          ],
+          "note": "1998年結成、2017年解散。堀内は「堀内馬鹿祭」、竹永は「竹永よしたか」としてピン芸人・YouTuberで活動"
         },
         {
           "name": "アホマイルド",
           "members": [
             "坂本雅仁",
             "高橋邦彦"
-          ]
+          ],
+          "note": "1999年結成、2015年解散。坂本雅仁はキュートンに参加し神奈川県住みます芸人として活動、クニ（高橋邦彦）は構成作家に転身"
         }
       ]
     },

@@ -120,14 +120,17 @@
       "classNumber": 5,
       "school": "osaka",
       "enrollmentYear": 1986,
+      "classNote": "1986年入学。首席制度導入前の期（首席選出は大阪34期から）。心斎橋筋2丁目劇場を拠点とした世代で、吉本新喜劇の看板座長となる辻本茂雄や『キム兄』こと木村祐一（同期扱い）を輩出した",
       "notableGraduates": [
         {
           "name": "ぜんじろう",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=709"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=709",
+          "note": "心斎橋筋2丁目劇場出身。1987年に上岡龍太郎に直訴して入門した直弟子。後にスタンダップコメディアンとして海外へ進出し、1998年L.A. Comedy Store Stand Up Competition 2位、2015年第1回タイ国際コメディフェスティバル優勝"
         },
         {
           "name": "辻本茂雄",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=714"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=714",
+          "note": "コンビ『三角公園USA』解散後の1989年に吉本新喜劇入団。1999年座長就任、2004年上方お笑い大賞受賞。人気キャラ『茂造じいさん』で知られ、新喜劇60周年の新体制移行に伴い2019年に座長を勇退"
         },
         {
           "name": "ティーアップ",
@@ -135,14 +138,17 @@
             "前田勝",
             "長谷川宏"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=34"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=34",
+          "note": "1988年結成（NSC5期出身は前田勝。長谷川は里見まさとの弟子）。1990年NHK上方漫才コンテスト最優秀賞、2008年第43回上方漫才大賞受賞の正統派しゃべくり漫才コンビ"
         },
         {
-          "name": "亀山房代"
+          "name": "亀山房代",
+          "note": "『4時ですよーだ』レギュラーを経て1989年に里見まさとと漫才コンビ『里見まさと・亀山房代』を結成し1998年上方漫才大賞受賞。2001年に結婚・出産のためコンビ解消。2009年11月に心室細動のため42歳で死去"
         },
         {
           "name": "木村祐一",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=649"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=649",
+          "note": "NSC出身ではないが1986年入社で5期生と同期扱い。コンビ『オールディーズ』が1990年に解散した後はピン芸人に。放送作家・俳優・料理愛好家としても活動し『キム兄』の愛称で知られる"
         }
       ]
     },
@@ -150,16 +156,20 @@
       "classNumber": 6,
       "school": "osaka",
       "enrollmentYear": 1987,
+      "classNote": "1987年入学。公式卒業生リストには月亭方正のみが記載される少数の期。方正と軌保博光は同期でコンビ『GSX（後のTEAM-0）』を組んでいた",
       "notableGraduates": [
         {
           "name": "月亭方正",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=708"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=708",
+          "note": "旧芸名・山崎邦正。同期の軌保博光とコンビ『GSX（後のTEAM-0）』を結成し、1993年の解散後はピン芸人として『ダウンタウンのガキの使いやあらへんで!』などで活躍。2008年に落語家として月亭八方に入門し、2013年に芸名を山崎邦正から月亭方正に改名"
         },
         {
-          "name": "田中章（プリンプリン）"
+          "name": "田中章（プリンプリン）",
+          "note": "1993年にうな加藤とコンビ『プリンプリン』を結成し『タモリのボキャブラ天国』などで人気に。後に吉本を離れフリーとなり、2018年に漫才協会へ入会して現在も活動中"
         },
         {
-          "name": "軌保博光"
+          "name": "軌保博光",
+          "note": "月亭方正（山崎邦正）の元相方（GSX→TEAM-0）。1993年のコンビ解散後は吉本を退社し映画監督・路上詩人に転身、2002年に芸名を『てんつくマン』に改名"
         }
       ]
     },
@@ -167,6 +177,7 @@
       "classNumber": 7,
       "school": "osaka",
       "enrollmentYear": 1988,
+      "classNote": "1988年入学。雨上がり決死隊、ベイブルース、なるみら心斎橋筋2丁目劇場ブームの担い手を輩出。蛍原徹の最初の相方がコラアゲンはいごうまんだったなど、同期内でのコンビ組み替えも多かった期",
       "notableGraduates": [
         {
           "name": "雨上がり決死隊",
@@ -174,28 +185,43 @@
             "宮迫博之",
             "蛍原徹"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=9101"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=9101",
+          "note": "1989年結成。『アメトーーク!』など人気番組のMCを務めたが、2019年に宮迫が闇営業問題で吉本興業との契約を解消され、2021年8月17日の『解散報告会』をもって解散"
+        },
+        {
+          "name": "ベイブルース",
+          "members": [
+            "河本栄得",
+            "高山知浩"
+          ],
+          "note": "1988年結成。1990年第11回ABCお笑い新人グランプリ最優秀新人賞を受賞し将来を嘱望されたが、1994年10月に河本栄得が劇症肝炎のため25歳で急逝"
         },
         {
           "name": "なるみ",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=717"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=717",
+          "note": "同級生のしずかと女性コンビ『トゥナイト』を結成し高校在学中にNSC入学。1999年に相方の留学・引退により解散後は関西ローカルの司会者として活躍し、『なるみ・岡村の過ぎるTV』MCなどを務める"
         },
         {
           "name": "高山トモヒロ",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=163"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=163",
+          "note": "ベイブルースとして活動後、相方・河本栄得の急逝を経てケツカッチンを結成。河本との日々を綴った著書『ベイブルース 25歳と364日』で知られる"
         },
         {
           "name": "安尾信乃助",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=666"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=666",
+          "note": "吉本新喜劇座員"
         },
         {
-          "name": "たかおみゆき"
+          "name": "たかおみゆき",
+          "note": "吉本新喜劇座員。高校生の年齢でデビューし、1989年の『吉本新喜劇やめよッカナ!?』キャンペーン期から新喜劇の舞台に立つ"
         },
         {
-          "name": "矢部美幸"
+          "name": "矢部美幸",
+          "note": "ナインティナイン・矢部浩之の実兄。コンビ『ちゃんねるず』で活動した後に芸人を引退し、芸能事務所ラフェイスの社長・作家に転身"
         },
         {
-          "name": "コラアゲンはいごうまん"
+          "name": "コラアゲンはいごうまん",
+          "note": "蛍原徹（雨上がり決死隊）の元相方。吉本退社後の2003年からWAHAHA商店（ワハハ本舗）に参加し、体当たり取材型の漫談で知られる"
         }
       ]
     },
@@ -203,6 +229,7 @@
       "classNumber": 8,
       "school": "osaka",
       "enrollmentYear": 1989,
+      "classNote": "1989年入学。千原兄弟・FUJIWARAら、ナインティナイン（9期）とともに90年代の若手ユニット『吉本印天然素材』を担う世代を輩出した豊作の期。チャンス大城が一度入学して中退した期でもある",
       "notableGraduates": [
         {
           "name": "千原兄弟",
@@ -210,7 +237,8 @@
             "千原せいじ",
             "千原ジュニア"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=19"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=19",
+          "note": "1989年結成。心斎橋筋2丁目劇場でカリスマ的人気を博した。千原ジュニアは『人志松本のすべらない話』などで東京でも活躍、せいじはバラエティや海外ロケで知られる"
         },
         {
           "name": "FUJIWARA",
@@ -218,7 +246,8 @@
             "藤本敏史",
             "原西孝幸"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=25"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=25",
+          "note": "1990年結成。若手ユニット『吉本印天然素材』のメンバーとして人気を博し、現在もバラエティの常連として活躍"
         },
         {
           "name": "バッファロー吾郎",
@@ -226,11 +255,13 @@
             "バッファロー吾郎A",
             "竹若元博"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=107"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=107",
+          "note": "2008年に第1回キングオブコント王者。木村明浩は2013年に芸名を『バッファロー吾郎A』に改名"
         },
         {
           "name": "なだぎ武",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=85"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=85",
+          "note": "同期の松村博司とのコンビ『スミス夫人』を経て2002年にザ・プラン9へ加入（2015年脱退）。ディラン・マッケイのキャラなどでR-1ぐらんぷり2007・2008を制した大会史上唯一の2連覇王者"
         },
         {
           "name": "テンダラー",
@@ -238,11 +269,13 @@
             "浜本広晃",
             "白川悟実"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=627"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=627",
+          "note": "1994年結成（NSC8期出身は白川悟実）。1998年ABCお笑い新人グランプリ新人賞、2015年第50回上方漫才大賞を受賞した実力派しゃべくり漫才コンビ"
         },
         {
           "name": "大山英雄",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=648"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=648",
+          "note": "吉本新喜劇座員。強面の悪役キャラで知られる"
         }
       ]
     },
@@ -688,6 +721,7 @@
       "classNumber": 20,
       "school": "osaka",
       "enrollmentYear": 1997,
+      "classNote": "1997年10月入学。大阪13〜20期まで続いた年2回入学制の最後の期。麒麟・アジアン・ギャロップ林健ら賞レースで実績を残す実力派を輩出した",
       "notableGraduates": [
         {
           "name": "麒麟",
@@ -695,7 +729,8 @@
             "川島明",
             "田村裕"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=91"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=91",
+          "note": "1999年結成。第1回M-1グランプリ（2001）にほぼ無名で決勝進出し、ダークホースを指す「麒麟枠」の語源に（M-1決勝進出は通算5回）。田村裕の自伝『ホームレス中学生』（2007）はベストセラー。川島明は『ラヴィット！』（TBS）MC"
         },
         {
           "name": "アジアン",
@@ -703,7 +738,8 @@
             "馬場園梓",
             "隅田美保"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=144"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=144",
+          "note": "M-1グランプリ2005で女性コンビとして初の決勝進出。2021年6月に解散、2人とも吉本に残り個人で活動"
         },
         {
           "name": "ソラシド",
@@ -711,7 +747,8 @@
             "本坊元児",
             "水口靖一郎"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=390"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=390",
+          "note": "2001年結成。2018年から山形県住みます芸人。本坊元児の農業に取り組む姿は映画『脱・東京芸人』の題材に"
         },
         {
           "name": "ヘッドライト",
@@ -719,7 +756,8 @@
             "和田友徳",
             "町田星児"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=384"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=384",
+          "note": "2000年結成。第25回ABCお笑い新人グランプリ（2004）新人賞"
         },
         {
           "name": "ツーナッカン",
@@ -727,7 +765,13 @@
             "中本幸一",
             "中山逸紀"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=491"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=491",
+          "note": "2000年結成、東京吉本所属のしゃべくり漫才コンビ"
+        },
+        {
+          "name": "林健（ギャロップ）",
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=353",
+          "note": "相方の毛利大亮は21期。ギャロップとしてTHE SECOND 2023初代王者"
         }
       ]
     },
@@ -735,6 +779,7 @@
       "classNumber": 21,
       "school": "osaka",
       "enrollmentYear": 1998,
+      "classNote": "天津・レギュラー・カナリアらを輩出。とろサーモン村田、ギャロップ毛利など「華の22期」の人気コンビの相方を多く含む期",
       "notableGraduates": [
         {
           "name": "天津",
@@ -742,7 +787,8 @@
             "木村卓寛",
             "天津飯大郎"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=167"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=167",
+          "note": "木村は2008年にエロ詩吟「あると思います」でブレイク。向清太朗は2024年に「天津飯大郎」へ改名"
         },
         {
           "name": "レギュラー",
@@ -750,14 +796,16 @@
             "松本康太",
             "西川晃啓"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=89"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=89",
+          "note": "リズムネタ「あるある探検隊」でブレイク。介護職員初任者研修の資格を取得し介護分野でも活動"
         },
         {
           "name": "カナリア",
           "members": [
             "安達健太郎",
             "ボン溝黒"
-          ]
+          ],
+          "note": "2018年4月解散。安達健太郎はピン芸人・役者・作家として活動、ボン溝黒は「ボンざわーるど」へ改名"
         },
         {
           "name": "チャド・マレーン",
@@ -765,17 +813,22 @@
             "チャド・イアン・マレーン",
             "ティ・カトウ"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=473"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=473",
+          "note": "チャドはオーストラリア出身。お笑い映画の字幕翻訳家としても活躍"
         },
         {
           "name": "ボンざわーるど",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=307"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=307",
+          "note": "元カナリア・ボン溝黒。2018年のコンビ解散を機に改名し、吉本新喜劇を中心に活動"
         },
         {
-          "name": "村田秀亮（とろサーモン）"
+          "name": "村田秀亮（とろサーモン）",
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6869",
+          "note": "とろサーモンのツッコミ。相方・久保田かずのぶ（22期）とのコンビでM-1グランプリ2017王者"
         },
         {
-          "name": "毛利大亮（ギャロップ）"
+          "name": "毛利大亮（ギャロップ）",
+          "note": "ギャロップのボケ。相方・林健（22期）とのコンビでTHE SECOND 2023初代王者"
         }
       ]
     },
@@ -783,6 +836,7 @@
       "classNumber": 22,
       "school": "osaka",
       "enrollmentYear": 1999,
+      "classNote": "「華の22期」と呼ばれる黄金世代。M-1王者NON STYLE・とろサーモン久保田、THE MANZAI王者ウーマンラッシュアワー村本、R-1王者中山功太、THE SECOND初代王者ギャロップ林など賞レース王者を多数輩出",
       "notableGraduates": [
         {
           "name": "NON STYLE",
@@ -790,7 +844,8 @@
             "石田明",
             "井上裕介"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=164"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=164",
+          "note": "M-1グランプリ2008王者"
         },
         {
           "name": "キングコング",
@@ -798,7 +853,8 @@
             "西野亮廣",
             "梶原雄太"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=93"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=93",
+          "note": "M-1グランプリ2001（第1回）決勝進出、2007年は3位。西野は絵本『えんとつ町のプペル』作者、梶原はYouTuber・カジサックとしても活躍"
         },
         {
           "name": "ダイアン",
@@ -806,11 +862,13 @@
             "津田篤宏",
             "ユースケ"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=173"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=173",
+          "note": "M-1グランプリ2007・2008決勝進出。ユースケは2019年に「西澤裕介」から改名"
         },
         {
           "name": "久保田かずのぶ（とろサーモン）",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=288"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=288",
+          "note": "とろサーモンのボケ。結成15年目のラストイヤーでM-1グランプリ2017王者。相方・村田秀亮は21期"
         },
         {
           "name": "ギャロップ",
@@ -818,7 +876,8 @@
             "林健",
             "毛利大亮"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=353"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=353",
+          "note": "THE SECOND 2023初代王者。林健が22期（再入学）、毛利大亮は21期"
         },
         {
           "name": "南海キャンディーズ",
@@ -826,7 +885,8 @@
             "山里亮太",
             "しずちゃん"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=166"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=166",
+          "note": "M-1グランプリ2004準優勝。山里はラジオ・司会業でも活躍、しずちゃんは女優・ボクシングでも活動"
         },
         {
           "name": "スーパーマラドーナ",
@@ -834,14 +894,17 @@
             "武智",
             "田中一彦"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=387"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=387",
+          "note": "M-1グランプリ2015〜2018年に4年連続決勝進出"
         },
         {
-          "name": "なかやまきんに君"
+          "name": "なかやまきんに君",
+          "note": "筋肉キャラのピン芸人。2021年12月末で吉本興業を退所しフリーに。YouTube「ザ・きんにくTV」でも活躍"
         },
         {
           "name": "中山功太",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=658"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=658",
+          "note": "R-1ぐらんぷり2009王者"
         },
         {
           "name": "ミサイルマン",
@@ -849,11 +912,18 @@
             "岩部彰",
             "西代洋"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=185"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=185",
+          "note": "関西の年末特番「オールザッツ漫才」常連として知られる実力派コンビ"
         },
         {
           "name": "ネゴシックス",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=657"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=657",
+          "note": "R-1ぐらんぷり2004準優勝。脱力系フリップ芸で知られる"
+        },
+        {
+          "name": "村本大輔（ウーマンラッシュアワー）",
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2851",
+          "note": "ウーマンラッシュアワーのボケ。相方・中川パラダイス（23期）とのコンビでTHE MANZAI 2013王者・NHK上方漫才コンテスト2013優勝。近年は渡米しスタンダップコメディに挑戦"
         }
       ]
     },
@@ -861,14 +931,17 @@
       "classNumber": 23,
       "school": "osaka",
       "enrollmentYear": 2000,
+      "classNote": "友近、ウーマンラッシュアワー中川パラダイス、おいでやす小田らを輩出。吉本新喜劇の吉田裕・今別府直之も同期",
       "notableGraduates": [
         {
           "name": "友近",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=154"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=154",
+          "note": "キャラクターネタの名手として女性ピン芸人の第一人者に。演歌歌手・水谷千重子としても活動"
         },
         {
           "name": "おいでやす小田",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=3373"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=3373",
+          "note": "ピン芸人。こがけんとのユニット「おいでやすこが」でM-1グランプリ2020準優勝"
         },
         {
           "name": "チーモンチョーチュウ",
@@ -876,38 +949,47 @@
             "白井鉄也",
             "菊地浩輔"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=485"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=485",
+          "note": "キングオブコント2010決勝進出"
         },
         {
           "name": "中川パラダイス",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2852"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2852",
+          "note": "ウーマンラッシュアワーのツッコミ。THE MANZAI 2013王者。相方・村本大輔は22期"
         },
         {
           "name": "西森洋一",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=351"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=351",
+          "note": "モンスターエンジンのボケ。M-1グランプリ2008・2009決勝、キングオブコント2009・2011決勝進出。コント「神々の遊び」で人気"
         },
         {
           "name": "ムーディ勝山",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=298"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=298",
+          "note": "2007年に歌ネタ「右から来たものを左へ受け流すの歌」で大ブレイク"
         },
         {
           "name": "三浦マイルド",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=3494"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=3494",
+          "note": "R-1ぐらんぷり2013王者。広島弁ネタで知られる"
         },
         {
           "name": "吉田裕",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=790"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=790",
+          "note": "吉本新喜劇座員を経て2023年に座長へ就任。すっちーとの「乳首ドリル」ギャグで人気"
         },
         {
           "name": "今別府直之",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=826"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=826",
+          "note": "吉本新喜劇座員"
         },
         {
           "name": "ガリガリガリクソン",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2887"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2887",
+          "note": "2017年の飲酒運転問題による活動休止を経て復帰。株式投資家・YouTuberとしても活動"
         },
         {
-          "name": "市川義一"
+          "name": "市川義一",
+          "note": "コンビ「女と男」のメンバー。相方・ワダちゃんは24期"
         }
       ]
     },
@@ -915,9 +997,11 @@
       "classNumber": 24,
       "school": "osaka",
       "enrollmentYear": 2001,
+      "classNote": "エハラマサヒロ、スマイルらを輩出。R-1準優勝者やNHK新人演芸大賞受賞コンビなど個性派が揃う期",
       "notableGraduates": [
         {
-          "name": "エハラマサヒロ"
+          "name": "エハラマサヒロ",
+          "note": "R-1ぐらんぷり2009・2010準優勝。ものまねを武器に活躍し、2024年11月に吉本興業を退所しフリーに"
         },
         {
           "name": "イシバシハザマ",
@@ -925,14 +1009,31 @@
             "石橋尊久",
             "硲陽平"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=303"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=303",
+          "note": "石橋は吉本芸人初の商工会議所職員（横須賀商工会議所）としても活動"
         },
         {
           "name": "若井おさむ",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=678"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=678",
+          "note": "『機動戦士ガンダム』アムロ・レイのものまねで知られる「ガンダム芸人」。元はちみつメロン"
         },
         {
-          "name": "ワダちゃん"
+          "name": "ワダちゃん",
+          "note": "コンビ「女と男」のメンバー。相方・市川義一は23期"
+        },
+        {
+          "name": "スマイル",
+          "members": [
+            "瀬戸洋祐",
+            "ウーイェイよしたか"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=630",
+          "note": "2009年NHK新人演芸大賞（演芸部門）大賞、2010年MBS新世代漫才アワード優勝"
+        },
+        {
+          "name": "宮川たま子",
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=859",
+          "note": "沖縄県出身の女性ピン芸人"
         }
       ]
     },
@@ -2244,7 +2345,17 @@
             "高橋",
             "たっぺい"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=7289"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=7289",
+          "note": "41期同期3人で2020年結成のトリオ。キングオブコント2024ファイナリスト（史上最多3139組から決勝進出）"
+        },
+        {
+          "name": "ハイツ友の会",
+          "members": [
+            "清水香奈芽",
+            "西野"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=7146",
+          "note": "女性コンビ。NHK新人お笑い大賞2021準優勝、M-1グランプリ2022準決勝進出、THE W 2023ファイナリスト。2024年3月末に解散し、西野はピン芸人として活動継続"
         },
         {
           "name": "タイムキーパー",
@@ -2252,7 +2363,8 @@
             "ひでき",
             "まついあきら"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6792"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6792",
+          "note": "M-1グランプリ2020でコンビ結成2年目にして準決勝進出。よしもと漫才劇場（マンゲキ）所属。ひできは旧芸名・安土から改名"
         },
         {
           "name": "三遊間",
