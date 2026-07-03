@@ -41,6 +41,12 @@ export default function Header() {
             >
               年表
             </Link>
+            <Link
+              href="/news"
+              className="px-3 py-2 text-sm font-medium text-gray-600 hover:text-yoshimoto-red hover:bg-red-50 rounded-md transition-colors"
+            >
+              ニュース
+            </Link>
           </nav>
         </div>
       </div>

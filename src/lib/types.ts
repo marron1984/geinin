@@ -33,3 +33,11 @@ export interface TimelineEntry {
   tokyoClass?: NscClass;
   awards: Award[];
 }
+
+export interface NewsItem {
+  title: string;
+  url: string;
+  date: string;
+  source: string;
+  matched: string[];
+}

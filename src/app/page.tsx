@@ -1,6 +1,11 @@
 import Link from "next/link";
-import { getOsakaData, getTokyoData } from "@/lib/data";
+import { getOsakaData, getTokyoData, getNews } from "@/lib/data";
 import ComedianTag from "@/components/ComedianTag";
+
+function formatNewsDate(iso: string) {
+  const d = new Date(iso);
+  return `${d.getMonth() + 1}/${d.getDate()}`;
+}
 
 function getHeroClass() {
   const osaka = getOsakaData();
@@ -40,6 +45,7 @@ export default function Home() {
   const hero = getHeroClass();
   const featured = getFeaturedClasses();
   const latest = getLatestClasses();
+  const news = getNews().slice(0, 5);
 
   return (
     <div className="space-y-8">
@@ -69,6 +75,38 @@ export default function Home() {
           ))}
         </div>
       </div>
+
+      {/* 最新ニュース */}
+      {news.length > 0 && (
+        <section>
+          <div className="flex items-center justify-between mb-4">
+            <h2 className="text-xl font-black text-gray-900 border-l-4 border-yoshimoto-red pl-3">
+              最新ニュース
+            </h2>
+            <Link href="/news" className="text-xs text-yoshimoto-red hover:underline">
+              もっと見る →
+            </Link>
+          </div>
+          <div className="bg-white rounded-lg border border-gray-200 divide-y divide-gray-100">
+            {news.map((item, i) => (
+              <a
+                key={i}
+                href={item.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-baseline gap-3 px-4 py-3 hover:bg-red-50 transition-colors"
+              >
+                <span className="text-xs text-gray-400 flex-shrink-0 w-10">
+                  {formatNewsDate(item.date)}
+                </span>
+                <span className="text-sm font-medium text-gray-900 leading-snug">
+                  {item.title}
+                </span>
+              </a>
+            ))}
+          </div>
+        </section>
+      )}
 
       {/* 校舎カード */}
       <div className="grid md:grid-cols-2 gap-4">

@@ -1,7 +1,12 @@
 import osakaData from "@/data/osaka.json";
 import tokyoData from "@/data/tokyo.json";
 import awardsData from "@/data/awards.json";
-import { SchoolData, NscClass, Award, TimelineEntry } from "./types";
+import newsData from "@/data/news.json";
+import { SchoolData, NscClass, Award, TimelineEntry, NewsItem } from "./types";
+
+export function getNews(): NewsItem[] {
+  return newsData as NewsItem[];
+}
 
 export function getOsakaData(): SchoolData {
   return osakaData as SchoolData;
