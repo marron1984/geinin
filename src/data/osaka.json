@@ -406,6 +406,7 @@
       "classNumber": 13,
       "school": "osaka",
       "enrollmentYear": 1994,
+      "classNote": "「華の13期」と呼ばれる黄金世代。大阪13〜20期は年2回入学制で、13期は1994年4月入学の前期組。M-1王者のブラックマヨネーズ・チュートリアルをはじめ、次長課長・野性爆弾など多数のスターを輩出した",
       "notableGraduates": [
         {
           "name": "次長課長",
@@ -413,7 +414,8 @@
             "河本準一",
             "井上聡"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=96"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=96",
+          "note": "1994年結成。2000年代に東京進出しコント・バラエティで全国区の人気に"
         },
         {
           "name": "チュートリアル",
@@ -421,7 +423,8 @@
             "徳井義実",
             "福田充徳"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=122"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=122",
+          "note": "M-1グランプリ2006王者。最終決戦で審査員7人全員の票を獲得する完全優勝"
         },
         {
           "name": "ブラックマヨネーズ",
@@ -429,7 +432,8 @@
             "吉田敬",
             "小杉竜一"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=99"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=99",
+          "note": "M-1グランプリ2005王者"
         },
         {
           "name": "野性爆弾",
@@ -437,7 +441,8 @@
             "くっきー!",
             "ロッシー"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=94"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=94",
+          "note": "くっきー!（旧名・川島邦裕）は独特のシュールな芸風で東京でもブレイク"
         },
         {
           "name": "シャンプーハット",
@@ -445,7 +450,8 @@
             "こいで",
             "てつじ"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=110"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=110",
+          "note": "関西ローカルの看板コンビとして長年活躍"
         },
         {
           "name": "チャンス大城",
@@ -458,10 +464,20 @@
             "柳瀬たかお",
             "野呂祐介"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=345"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=345",
+          "note": "1994年結成、2006年解散。柳瀬たかおはピン芸人として活動後、2024年12月死去（享年49）。野呂祐介は飲食店経営に転身"
         },
         {
-          "name": "藤井ペイジ（飛石連休）"
+          "name": "藤井ペイジ（飛石連休）",
+          "note": "後に東京で飛石連休として活動"
+        },
+        {
+          "name": "くわばたりえ",
+          "note": "後に小原正子（NSC出身ではない）とクワバタオハラを結成。現在はホリプロコム所属"
+        },
+        {
+          "name": "三浦誠己",
+          "note": "芸人を経て俳優に転身、映画・ドラマで活躍"
         }
       ]
     },
@@ -469,6 +485,7 @@
       "classNumber": 14,
       "school": "osaka",
       "enrollmentYear": 1994,
+      "classNote": "1994年10月入学（年2回入学制の後期組）。半年先輩の「華の13期」と同世代で、M-1王者フットボールアワーを輩出した",
       "notableGraduates": [
         {
           "name": "フットボールアワー",
@@ -476,13 +493,20 @@
             "後藤輝基",
             "岩尾望"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=37"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=37",
+          "note": "M-1グランプリ2003王者、2006年準優勝"
         },
         {
-          "name": "コカドケンタロウ（ロッチ）"
+          "name": "コカドケンタロウ（ロッチ）",
+          "note": "2005年に中岡創一（NSC大阪16期）とロッチを結成。ワタナベエンターテインメント所属"
         },
         {
-          "name": "カネシゲタカシ"
+          "name": "カネシゲタカシ",
+          "note": "芸人引退後、野球漫画家・イラストレーターに転身"
+        },
+        {
+          "name": "国崎恵美",
+          "note": "フットボールアワー・コカドケンタロウと同期の女性タレント"
         }
       ]
     },
@@ -490,6 +514,7 @@
       "classNumber": 15,
       "school": "osaka",
       "enrollmentYear": 1995,
+      "classNote": "1995年4月入学（年2回入学制の前期組）。M-1グランプリ2010王者・笑い飯の西田幸治を輩出した",
       "notableGraduates": [
         {
           "name": "笑い飯",
@@ -497,7 +522,8 @@
             "哲夫",
             "西田幸治"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=95"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=95",
+          "note": "M-1グランプリ2010王者（2002年から9年連続決勝進出）。西田幸治が15期入学（中退）、哲夫はNSC出身ではなく18期同期扱い"
         },
         {
           "name": "ランディーズ",
@@ -505,7 +531,8 @@
             "中川貴志",
             "高井俊彦"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=113"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=113",
+          "note": "2007年に2人揃って吉本新喜劇に正座員として加入。2017年解散、高井俊彦は新喜劇で活動継続"
         },
         {
           "name": "ストリーク",
@@ -513,7 +540,8 @@
             "山田スタジアム",
             "吉本峰之"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=159"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=159",
+          "note": "2012年4月解散。山田大介は「山田スタジアム」に改名しピン芸人・兵庫県住みます芸人として活動、吉本峰之は芸能界を引退"
         },
         {
           "name": "烏龍パーク",
@@ -525,10 +553,20 @@
         },
         {
           "name": "清水けんじ",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=3245"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=3245",
+          "note": "吉本新喜劇座員"
         },
         {
           "name": "伊賀健二"
+        },
+        {
+          "name": "山本吉貴",
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=832",
+          "note": "元チャイルドマシーン（1995年結成、2004年解散）"
+        },
+        {
+          "name": "デッカチャン",
+          "note": "ピン芸人。後に吉本を離れて活動"
         }
       ]
     },
@@ -536,13 +574,19 @@
       "classNumber": 16,
       "school": "osaka",
       "enrollmentYear": 1995,
+      "classNote": "1995年10月入学（年2回入学制の後期組）。R-1ぐらんぷり2004王者の浅越ゴエ、ロッチの中岡創一を輩出した",
       "notableGraduates": [
         {
           "name": "浅越ゴエ",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=86"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=86",
+          "note": "R-1ぐらんぷり2004（第2回）王者。2001年にお〜い!久馬・鈴木つかさらとザ・プラン9を結成"
         },
         {
           "name": "コウカズヤ"
+        },
+        {
+          "name": "中岡創一（ロッチ）",
+          "note": "高校在学中に16期入学。2005年にコカドケンタロウ（NSC大阪14期）とロッチを結成。ワタナベエンターテインメント所属"
         }
       ]
     },
@@ -550,10 +594,12 @@
       "classNumber": 17,
       "school": "osaka",
       "enrollmentYear": 1996,
+      "classNote": "1996年4月入学。大阪13〜20期は半年ごとに募集する年2回入学制の時期で、17期は春入学組。バイきんぐ・ゴリけん・おぐ（ロビンフット）ら、後に吉本以外の事務所で花開く芸人を多く輩出した期",
       "notableGraduates": [
         {
           "name": "ヤナギブソン",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=88"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=88",
+          "note": "5人組コントユニット「ザ・プラン9」メンバー。R-1ぐらんぷり2003・2012・2013ファイナリスト"
         },
         {
           "name": "青空",
@@ -561,20 +607,26 @@
             "岡友美",
             "須藤理恵"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=176"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=176",
+          "note": "1997年結成の女性漫才コンビ。2023年5月に須藤理恵が45歳で死去し、コンビとしての活動に幕"
         },
         {
           "name": "バイきんぐ",
           "members": [
             "小峠英二",
             "西村瑞樹"
-          ]
+          ],
+          "profileUrl": "https://www.sma.co.jp/s/sma/artist/231",
+          "note": "NSC在学中の1996年5月結成。上京後ワタナベエンターテインメント・東京吉本を経てソニー・ミュージックアーティスツ（SMA）へ移籍。キングオブコント2012王者（当時大会史上最高得点での優勝）"
         },
         {
-          "name": "ゴリけん"
+          "name": "ゴリけん",
+          "note": "本名・町田健一郎。ピン芸人として福岡に拠点を移しワタナベエンターテインメント九州所属。パラシュート部隊との『ゴリパラ見聞録』で九州の人気者に"
         },
         {
-          "name": "おぐ（ロビンフット）"
+          "name": "おぐ（ロビンフット）",
+          "profileUrl": "https://www.sma.co.jp/s/sma/artist/527",
+          "note": "2000年結成のコントコンビ「ロビンフット」として活動。同期のバイきんぐと同じSMA所属"
         }
       ]
     },
@@ -582,6 +634,7 @@
       "classNumber": 18,
       "school": "osaka",
       "enrollmentYear": 1996,
+      "classNote": "1996年10月入学の秋入学組（年2回入学制）。風藤松原・えとう窓口・浜辺のウルフなど、後に吉本以外の事務所へ移って活動する芸人を輩出した期",
       "notableGraduates": [
         {
           "name": "ファミリーレストラン",
@@ -589,20 +642,26 @@
             "ハラダ",
             "しもばやし"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=182"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=182",
+          "note": "旧コンビ名: ジャンクション（2009年に改名）。2011年から滋賀県住みます芸人として活動"
         },
         {
           "name": "風藤松原",
           "members": [
             "風藤康二",
             "松原義和"
-          ]
+          ],
+          "profileUrl": "https://www.ohtapro.co.jp/talent/futoumatsubara.html",
+          "note": "吉本興業を経て太田プロダクション所属。THE MANZAI 2013決勝進出"
         },
         {
-          "name": "えとう窓口（Wエンジン）"
+          "name": "えとう窓口（Wエンジン）",
+          "profileUrl": "https://www.watanabepro.co.jp/mypage/4000006/",
+          "note": "チャンカワイとのコンビ「Wエンジン」で活動。ワタナベエンターテインメント所属"
         },
         {
-          "name": "浜辺のウルフ"
+          "name": "浜辺のウルフ",
+          "note": "元吉本のトリオ「モストデンジャラス」を経て、グレープカンパニー所属のピン芸人として活動"
         }
       ]
     },
@@ -610,13 +669,15 @@
       "classNumber": 19,
       "school": "osaka",
       "enrollmentYear": 1997,
+      "classNote": "1997年4月入学の春入学組（年2回入学制）。著名な卒業生が特に少ない期として知られる",
       "notableGraduates": [
         {
-          "name": "ティカトウ（チャド・マレーン）",
+          "name": "ティ・カトウ（チャド・マレーン）",
           "members": [
-            "ティカトウ（加藤貴博）"
+            "ティ・カトウ（加藤貴博）"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=474"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=474",
+          "note": "本名・加藤貴博。21期のチャド・イアン・マレーンと「ジパング上陸作戦」を結成し、2009年9月にコンビ名を「チャド・マレーン」へ改名"
         },
         {
           "name": "ハンプティダンプティ"
@@ -2433,6 +2494,7 @@
       "classNumber": 45,
       "school": "osaka",
       "enrollmentYear": 2022,
+      "classNote": "2022年4月入学。首席は日熊（2023年2月17日開催のNSC大ライブOSAKA2023で優勝、2位風天ダスト・3位入学卒業）。大ライブにはNSC生223組が参加。結成1年目でTHE W 2023決勝に進出したはるかぜに告ぐを輩出した期",
       "notableGraduates": [
         {
           "name": "日熊",
@@ -2440,7 +2502,8 @@
             "まつこ",
             "若"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=10639"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=10639",
+          "note": "45期首席。NSC大ライブOSAKA2023でトップバッターから優勝。同志社大・立命館大出身で社会人経験を経て入学した高学歴コンビ"
         },
         {
           "name": "風天ダスト",
@@ -2448,14 +2511,22 @@
             "京介",
             "山田青空"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=10662"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=10662",
+          "note": "NSC大ライブOSAKA2023準優勝。2023年6月からよしもと漫才劇場（マンゲキ）所属"
         },
         {
           "name": "千年ぶり",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=10599"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=10599",
+          "note": "NSC大ライブOSAKA2023決勝進出"
         },
         {
-          "name": "はるかぜに告ぐ"
+          "name": "はるかぜに告ぐ",
+          "members": [
+            "とんず",
+            "花妃"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=10386",
+          "note": "結成1年目でTHE W 2023決勝進出。よしもと漫才劇場（マンゲキ）所属。花妃は2025年7月に一色といろから改名"
         },
         {
           "name": "柴田B柴田"
@@ -2474,7 +2545,8 @@
           "name": "エイトマイル"
         },
         {
-          "name": "入学卒業"
+          "name": "入学卒業",
+          "note": "NSC大ライブOSAKA2023で3位"
         },
         {
           "name": "ドス舞妓"
@@ -2492,10 +2564,17 @@
           "name": "東雲"
         },
         {
-          "name": "生姜猫"
+          "name": "生姜猫",
+          "note": "よしもと漫才劇場（マンゲキ）翔メンバー"
         },
         {
-          "name": "バタークッキークラブ"
+          "name": "バタークッキークラブ",
+          "members": [
+            "山縣とかげ",
+            "佐藤じゃろ丸"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=10380",
+          "note": "2022年4月結成。2025年9月のKakeru翔チャレンジバトルWESTで昇格し、よしもと漫才劇場（マンゲキ）翔メンバーに"
         },
         {
           "name": "バリアシオン"
@@ -2506,6 +2585,7 @@
       "classNumber": 46,
       "school": "osaka",
       "enrollmentYear": 2023,
+      "classNote": "2023年4月入学。首席はトリオのアマルフィん（2024年2月29日開催のNSC大ライブ2024 OSAKAでNSC生214組の頂点、2位はリッケンジョリーナ）。アマルフィんはNSC在学生として史上初のよしもと漫才劇場（マンゲキ）所属を果たした",
       "notableGraduates": [
         {
           "name": "アマルフィん",
@@ -2514,14 +2594,17 @@
             "うえむら",
             "ハスキ"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=11075"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=11075",
+          "note": "46期首席。NSC大ライブ2024 OSAKA優勝。幼馴染同士で2023年4月に結成したトリオ。NSC在学生として史上初のよしもと漫才劇場（マンゲキ）所属"
         },
         {
           "name": "翠星の如く",
           "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=11507"
         },
         {
-          "name": "リッケンジョリーナ"
+          "name": "リッケンジョリーナ",
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=11355",
+          "note": "NSC大ライブ2024 OSAKAで2位。学生お笑い出身、2023年4月結成"
         },
         {
           "name": "ドリルランチャー",

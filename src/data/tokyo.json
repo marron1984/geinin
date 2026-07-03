@@ -761,6 +761,7 @@
       "classNumber": 17,
       "school": "tokyo",
       "enrollmentYear": 2011,
+      "classNote": "2011年入学。首席はほっとライス（後に解散）。空気階段（キングオブコント2021王者）、オズワルド（M-1グランプリ2021準優勝）、コットン（キングオブコント2022準優勝）と賞レース実績が突出した期。ほかにワラバランス、スカイサーキット、ぬまんづ、まんじろうらも同期",
       "notableGraduates": [
         {
           "name": "オズワルド",
@@ -768,7 +769,8 @@
             "畠中悠",
             "伊藤俊介"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6711"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6711",
+          "note": "2人とも17期で別々のコンビを経て2014年11月結成。M-1グランプリ2019〜2022年4年連続決勝進出、2021年準優勝。伊藤俊介は女優・伊藤沙莉の実兄"
         },
         {
           "name": "コットン",
@@ -776,7 +778,8 @@
             "西村真二",
             "きょん"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6040"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6040",
+          "note": "2012年結成。旧コンビ名ラフレクラン（2021年3月末まで、噛みやすい名前のため改名）。キングオブコント2022準優勝。西村真二は元広島ホームテレビアナウンサー"
         },
         {
           "name": "ガーリィレコード",
@@ -784,7 +787,8 @@
             "高井佳佑",
             "フェニックス"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6626"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6626",
+          "note": "YouTube「ガーリィレコードチャンネル」で人気"
         },
         {
           "name": "くらげ",
@@ -792,7 +796,8 @@
             "杉昇",
             "渡辺翔太"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6886"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6886",
+          "note": "2人とも17期で2018年1月結成。M-1グランプリ2019準決勝（敗者復活戦）進出、M-1グランプリ2023決勝進出"
         },
         {
           "name": "侍スライス",
@@ -800,7 +805,8 @@
             "加藤",
             "門田"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6649"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6649",
+          "note": "2021年4月に活動拠点を東京から大阪へ移転"
         },
         {
           "name": "空気階段",
@@ -809,7 +815,7 @@
             "水川かたまり"
           ],
           "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=4656",
-          "note": "キングオブコント2021優勝"
+          "note": "2人とも17期で2012年結成。キングオブコント2021優勝。TBSラジオ「空気階段の踊り場」も人気"
         }
       ]
     },
@@ -817,6 +823,7 @@
       "classNumber": 18,
       "school": "tokyo",
       "enrollmentYear": 2012,
+      "classNote": "2012年入学。首席は感動ピスト（後に解散）。コント賞レースで実績を残すレインボー・そいつどいつ、ぼる塾の年長組となる猫塾らを輩出",
       "notableGraduates": [
         {
           "name": "レインボー",
@@ -824,7 +831,8 @@
             "ジャンボたかお",
             "池田直人"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6447"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6447",
+          "note": "NSC同期で結成。ぐるナイ「おもしろ荘」2018年優勝。キングオブコント2025決勝3位。YouTube「レインボーコントチャンネル」は登録者170万人超"
         },
         {
           "name": "そいつどいつ",
@@ -832,15 +840,18 @@
             "市川刺身",
             "松本竹馬"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6796"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6796",
+          "note": "2015年4月結成。キングオブコント2021決勝進出"
         },
         {
           "name": "おばたのお兄さん",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=4972"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=4972",
+          "note": "元コンビ「ひので」を経てピン芸人に。小栗旬のものまね「まーきの！」でブレイク。2018年フジテレビ・山﨑夕貴アナウンサーと結婚"
         },
         {
           "name": "ひょっこりはん",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6450"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6450",
+          "note": "「ひょっこり」のリズムネタで2018年に大ブレイク"
         },
         {
           "name": "猫塾",
@@ -848,7 +859,7 @@
             "田辺智加",
             "酒寄希望"
           ],
-          "note": "後にしんぼる(20期)と合流しぼる塾として活動"
+          "note": "2019年にしんぼる(20期)と合流し4人組ユニット「ぼる塾」として活動"
         },
         {
           "name": "ケビンス",
@@ -856,7 +867,8 @@
             "仁木恭平",
             "山口コンボイ"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=7295"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=7295",
+          "note": "2人とも18期で複数のコンビを経て2021年1月結成。M-1グランプリ2022準決勝進出"
         }
       ]
     },
@@ -864,6 +876,7 @@
       "classNumber": 19,
       "school": "tokyo",
       "enrollmentYear": 2013,
+      "classNote": "2013年入学。首席はフルフロンタル（後にメンバーを加えトリオ「スーパーサイズ・ミー」として活動）。EXIT兼近大樹のほか、SNS発で人気の世間知らズ・エレガント人生、賞レースで実績を重ねるドンデコルテ・ドーナツ・ピーナツらを輩出",
       "notableGraduates": [
         {
           "name": "EXIT",
@@ -872,7 +885,7 @@
             "兼近大樹"
           ],
           "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6547",
-          "note": "兼近大樹が19期（りんたろー。は14期）"
+          "note": "兼近大樹が19期（りんたろー。は14期）。2017年12月結成。「ネオ渋谷系漫才」のチャラ男キャラでブレイク"
         },
         {
           "name": "ドンデコルテ",
@@ -898,7 +911,8 @@
             "さおり",
             "椎木ゆうた"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6589"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6589",
+          "note": "2016年結成の男女コンビ。TikTok・YouTubeなどSNSを中心に人気"
         },
         {
           "name": "エレガント人生",
@@ -906,7 +920,8 @@
             "中込悠",
             "山井祥子"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=8730"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=8730",
+          "note": "2019年結成。元トリオで2020年6月から2人組。YouTube・TikTokの動画コントを中心に活動"
         },
         {
           "name": "ミカボ",
@@ -919,7 +934,8 @@
         },
         {
           "name": "赤嶺総理",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=8961"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=8961",
+          "note": "元コンビ「すぽっと」解散後の2016年からピン芸人。放送作家も兼業する大喜利の名手で、2025年に初著書「おおぎりぼっち～大喜利百題百答～」を刊行"
         }
       ]
     },
