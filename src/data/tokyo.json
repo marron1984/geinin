@@ -835,21 +835,24 @@
             "太田隆司",
             "有馬徹"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6034"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6034",
+          "note": "宮崎県出身の同期同士によるコント職人コンビ。キングオブコント2022決勝進出"
         },
         {
           "name": "ビスケッティ",
           "members": [
             "佐竹正史",
             "岩橋淳"
-          ]
+          ],
+          "note": "2022年解散。佐竹正史はものまねを武器にピン芸人として活動継続、岩橋淳は「なまらあつし」と改名し2024年から地元札幌に拠点を移して活動"
         },
         {
           "name": "カナメストーン",
           "members": [
             "山口誠",
             "零士"
-          ]
+          ],
+          "note": "2010年4月結成。NSC卒業後は吉本興業を経てマセキ芸能社に移籍。M-1グランプリ2025決勝進出"
         },
         {
           "name": "おかずクラブ",
@@ -857,7 +860,8 @@
             "オカリナ",
             "ゆいP"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=4253"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=4253",
+          "note": "NSC在学中の2009年に結成した女性コンビ。2015年元日の『ぐるナイ おもしろ荘』優勝をきっかけに大ブレイク。オカリナは『世界の果てまでイッテQ!』出演でも人気"
         }
       ]
     },
@@ -865,6 +869,7 @@
       "classNumber": 16,
       "school": "tokyo",
       "enrollmentYear": 2010,
+      "classNote": "2010年入学。首席はしゅんしゅんクリニックP（コンビ「フレミング」として卒業）。M-1決勝3回のゆにばーす、M-1・キングオブコントのダブルファイナリスト・ダンビラムーチョ、キングオブコント2018決勝のやさしいズなど、キャラクターやコントに強い世代",
       "notableGraduates": [
         {
           "name": "ゆにばーす",
@@ -872,7 +877,8 @@
             "はら",
             "川瀬名人"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=3532"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=3532",
+          "note": "2013年4月結成、結成3ヶ月でTHE MANZAI 2013認定漫才師50組に選出。M-1グランプリ2017・2018・2021決勝進出。はらの「詐欺メイク」や川瀬名人のM-1への執念でも話題"
         },
         {
           "name": "ダンビラムーチョ",
@@ -880,7 +886,8 @@
             "大原優一",
             "原田フニャオ"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=4459"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=4459",
+          "note": "M-1グランプリ2023決勝進出、キングオブコント2024決勝進出（コント「冨安四発太鼓」が話題）のダブルファイナリスト。YouTubeのカラオケ・歌ネタ動画でも人気"
         },
         {
           "name": "やさしいズ",
@@ -888,7 +895,8 @@
             "佐伯元輝",
             "タイ"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=3543"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=3543",
+          "note": "キングオブコント2018決勝進出（トップバッターで10位）。タイ主催の超難問クイズライブを開催するなどライブシーンで活躍"
         },
         {
           "name": "スクールゾーン",
@@ -896,18 +904,21 @@
             "橋本稜",
             "俵山峻"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=4438"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=4438",
+          "note": "2010年12月結成。あるあるものまねをSNSで発信し、2021年『ザ・細かすぎて伝わらないモノマネ』で優勝。橋本稜のK-POP・韓流あるあるも人気。2025年キングオブコント準決勝進出"
         },
         {
           "name": "しゅんしゅんクリニックP",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=4444"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=4444",
+          "note": "群馬大学医学部卒で医師免許を持つ「医者芸人」。研修医を経てNSCに入学し、コンビ「フレミング」として16期を首席で卒業。コンビ解散後はピンで医者あるあるリズムネタ「ヘイヘイドクター」がブレイクし、現在も医師としての勤務を続ける"
         },
         {
           "name": "ランパンプス",
           "members": [
             "寺内ゆうき",
             "小林良行"
-          ]
+          ],
+          "note": "2010年にNSC同期同士で結成。寺内ゆうきの教育キャラ・サイコパスキャラを軸にした漫才が持ち味で、YouTube『ランパンプスチャンネル』でも活動"
         }
       ]
     },
