@@ -2230,6 +2230,7 @@
       "classNumber": 38,
       "school": "osaka",
       "enrollmentYear": 2015,
+      "classNote": "2015年4月入学。首席はマイマイジャンキー（2016年2月10日開催のNSC大ライブOSAKA 2016で約98組・約200人の頂点。2019年に『オフローズ』へ改名）。THE W 2022王者の天才ピアニスト、同決勝常連のエルフ、ABCお笑いグランプリで爪痕を残したフースーヤなど、女性コンビと個性派を多数輩出した期",
       "notableGraduates": [
         {
           "name": "エルフ",
@@ -2237,7 +2238,8 @@
             "荒川",
             "はる"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6602"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6602",
+          "note": "荒川とはるの女性コンビ。THE Wでは2022年から4年連続で決勝に進出。2022年4月に活動拠点を東京へ移し、荒川は即興の『ギャル』キャラでバラエティでもブレイクした"
         },
         {
           "name": "天才ピアニスト",
