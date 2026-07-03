@@ -2388,6 +2388,7 @@
       "classNumber": 40,
       "school": "osaka",
       "enrollmentYear": 2017,
+      "classNote": "2017年4月入学。首席はポップマン（2018年2月開催のNSC大ライブOSAKA 2018で同期97組の頂点。ゲストのたむらけんじは40期を『中川家がゴロゴロいる』と評した）。ポップマンは2020年12月に解散。M-1王者となる令和ロマン（NSC東京23期）と同学年で、在学中からTHE W準決勝に進んだねこ屋敷らを輩出した期",
       "notableGraduates": [
         {
           "name": "鉄人小町",
@@ -2395,7 +2396,8 @@
             "住友",
             "小佐一季"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=8279"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=8279",
+          "note": "住友と小佐一季のコンビで2018年結成。よしもと漫才劇場（マンゲキ）を拠点に活動し、M-1グランプリでは3回戦進出の常連"
         },
         {
           "name": "幸のとり",
@@ -2403,14 +2405,16 @@
             "永迫拓海",
             "福嶋一夫"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=8113"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=8113",
+          "note": "永迫拓海と福嶋一夫のコンビ。よしもと漫才劇場を拠点に、M-1グランプリで2023年から3年連続3回戦に進出。日本テレビ『ぐるナイ おもしろ荘』の最終選考にも残った"
         },
         {
           "name": "ポップマン",
           "members": [
             "加藤",
             "西本尚貴"
-          ]
+          ],
+          "note": "40期首席。ボケの加藤聖也とツッコミの西本尚貴がNSCの相方探しの授業で結成し、NSC大ライブOSAKA 2018で同期97組の頂点に立ったが、2020年12月18日に解散。西本はその後、ピン芸人『にしもとサイクル』や複数のコンビ結成・改名を経て東京で活動を続けている"
         },
         {
           "name": "おもいで財閥",
