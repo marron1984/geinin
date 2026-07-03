@@ -7,6 +7,7 @@
       "classNumber": 1,
       "school": "osaka",
       "enrollmentYear": 1982,
+      "classNote": "1982年開校と同時に入学した伝説の第1期。ダウンタウン・ハイヒール・トミーズ・内場勝則らを輩出し、吉本興業がNSC存続を懸けて総力売り出しを行った期として知られる。首席制度は2011年入学者から導入のため、この期に首席卒業者は存在しない",
       "notableGraduates": [
         {
           "name": "ダウンタウン",
@@ -14,7 +15,8 @@
             "浜田雅功",
             "松本人志"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=250"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=250",
+          "note": "尼崎の同級生コンビでNSC最大の成功例。『ガキの使いやあらへんで!』『HEY!HEY!HEY!』など多数の冠番組で日本のお笑いを変えた。松本人志は2024年1月に活動休止し、2025年11月開始の独自配信サービス『DOWNTOWN+』で約1年10カ月ぶりに復帰"
         },
         {
           "name": "ハイヒール",
@@ -22,7 +24,8 @@
             "ハイヒールリンゴ",
             "ハイヒールモモコ"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=247"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=247",
+          "note": "女性漫才コンビの草分け的存在。1985年上方漫才大賞新人奨励賞、1995年に同大賞を受賞。関西の情報番組を中心に現在も第一線で活躍"
         },
         {
           "name": "トミーズ",
@@ -30,11 +33,13 @@
             "トミーズ雅",
             "トミーズ健"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=258"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=258",
+          "note": "幼稚園からの幼馴染コンビで1982年9月結成。雅は元プロボクサーで1979年西日本ミドル級新人王という異色の経歴を持つ"
         },
         {
           "name": "内場勝則",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=874"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=874",
+          "note": "吉本新喜劇の看板俳優。1995年にニューリーダー、1999年に座長就任。2019年に辻本茂雄とともに座長を勇退し、以後もベテラン座員として出演。妻は新喜劇座員の未知やすえ"
         },
         {
           "name": "おかけんた・ゆうた",
@@ -42,14 +47,16 @@
             "おかけんた",
             "おかゆうた"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=15"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=15",
+          "note": "1983年結成。『4時ですよーだ』のレギュラーで人気を獲得し、1999年に第34回上方漫才大賞を受賞。2023年8月にゆうたが死去しコンビ活動は終了"
         },
         {
           "name": "銀次・政二",
           "members": [
             "菅野銀次",
             "前田政二"
-          ]
+          ],
+          "note": "デビュー時にダウンタウン・ハイヒール・トミーズとともに吉本が重点的に売り出した1期の4組の一つ。解散後、前田政二は構成作家・NSC講師として後進の育成に携わった"
         }
       ]
     },
@@ -57,14 +64,17 @@
       "classNumber": 2,
       "school": "osaka",
       "enrollmentYear": 1983,
+      "classNote": "華やかな1期の直後で目立ちにくいが、吉本新喜劇で活躍する人材を送り出した期。NSC公式の卒業生リストに記載されているのは長原成樹と吉田ヒロの2人のみ",
       "notableGraduates": [
         {
           "name": "長原成樹",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=652"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=652",
+          "note": "コンビ『ヤンキース』が1990年に解散した後、吉本新喜劇で活躍。『探偵!ナイトスクープ』の探偵としても人気を博し、自著『犬の首輪とコロッケと』の映画化で監督も務めた"
         },
         {
           "name": "吉田ヒロ",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=716"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=716",
+          "note": "吉本新喜劇のギャグメーカー。1999年に座長へ就任し、内場勝則・辻本茂雄・石田靖と並ぶ『平成の四座長』の一人として活躍した"
         },
         {
           "name": "かつみ♥さゆり",
@@ -72,7 +82,8 @@
             "かつみ♥",
             "♥さゆり"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=60"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=60",
+          "note": "かつみがNSC大阪2期出身。元コンビ『どんきほ〜て』で1987年ABC漫才・落語新人コンクール最優秀新人賞を受賞。1999年の解散後、2000年に妻・さゆりと夫婦コンビを結成し2002年に現コンビ名へ改名。バブル期の投資失敗による巨額借金エピソードでも有名"
         }
       ]
     },
@@ -80,16 +91,19 @@
       "classNumber": 3,
       "school": "osaka",
       "enrollmentYear": 1984,
+      "classNote": "現在も第一線で活躍する著名な卒業生を出していないとされる“空白の期”。NSC公式の卒業生リストにも3期の記載がない",
       "notableGraduates": []
     },
     {
       "classNumber": 4,
       "school": "osaka",
       "enrollmentYear": 1985,
+      "classNote": "今田耕司と130Rを輩出し、心斎橋筋2丁目劇場で“ダウンタウンの後継世代”の中核を担った期。同世代の東野幸治はNSCを経ずに吉本入りしたため4期生ではない",
       "notableGraduates": [
         {
           "name": "今田耕司",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=693"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=693",
+          "note": "NSC在学中は同期の蔵野孝洋(ほんこん)とコンビ『ダブルホルモンズ』を組んでいたが解散しピン芸人に。心斎橋筋2丁目劇場でダウンタウンの後継世代として人気を確立し、2001年の第1回大会からM-1グランプリ総合司会を務める"
         },
         {
           "name": "130R",
@@ -97,7 +111,8 @@
             "板尾創路",
             "ほんこん"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=273"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=273",
+          "note": "NSC同期の2人がそれぞれ別コンビ(板尾は『ホンコン・マカオ』、蔵野は『ダブルホルモンズ』)の解散を経て1987年に結成。板尾は『板尾創路の脱獄王』で映画監督デビューし俳優としても活躍、ほんこんは情報番組コメンテーターとしても知られる"
         }
       ]
     },
