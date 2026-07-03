@@ -659,10 +659,12 @@
       "classNumber": 13,
       "school": "tokyo",
       "enrollmentYear": 2007,
+      "classNote": "2007年入学。相席スタート山崎ケイ、「白目漫才」のピスタチオ、シシガシラ浜中英昌らを輩出。TEAM BANANAはM-1甲子園優勝を経て入学した女性コンビ。首席制度公式化（東京17期〜）以前のため公式な首席はなし",
       "notableGraduates": [
         {
           "name": "山崎ケイ",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=3402"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=3402",
+          "note": "2013年2月にNSC東京14期の山添寛とコンビ「相席スタート」を結成。「ちょうどいいブス」の自虐キャッチコピーで人気となり、THE MANZAI 2013認定漫才師、M-1グランプリ2016決勝進出"
         },
         {
           "name": "田畑藤本",
@@ -670,7 +672,8 @@
             "田畑勇一",
             "藤本淳史"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2985"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2985",
+          "note": "2007年結成、2020年12月31日に解散。藤本淳史は東京大学工学部卒・MENSA会員の高学歴芸人としてクイズ番組などで活動。田畑勇一は解散後にユニット「とらふぐ」を結成しM-1グランプリ2022準々決勝進出"
         },
         {
           "name": "TEAM BANANA",
@@ -678,18 +681,21 @@
             "藤本友美",
             "山田愛実"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=3449"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=3449",
+          "note": "高校の同級生同士による女性コンビ。M-1甲子園2006優勝を経てNSC東京13期に入学。THE W 2020〜2022年に3年連続で決勝進出。2025年9月に解散"
         },
         {
           "name": "たつろう",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6970"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6970",
+          "note": "コンビ「LOVE」（2019年解散、M-1グランプリ2018準々決勝進出）を経てピン芸人に。「コンビニでタバコを買う時、のど自慢みたいになる人」などのあるあるキャラネタがSNSで人気"
         },
         {
           "name": "ボーイフレンド",
           "members": [
             "黒沼誠",
             "宮川英二"
-          ]
+          ],
+          "note": "小学校からの幼馴染コンビ。2021年12月17日のライブをもって解散し、宮川英二は芸人を引退、黒沼誠は芸人として活動継続"
         },
         {
           "name": "ピスタチオ",
@@ -697,12 +703,12 @@
             "伊地知大樹",
             "小澤慎一朗"
           ],
-          "note": "2022年解散"
+          "note": "「白目漫才」と「〜だが、しかし!」の口調ネタで2015年に大ブレイク。2022年5月末で解散し、伊地知大樹は吉本興業に残りピン芸人として活動、小澤慎一朗は児童福祉関係の道へ転身"
         },
         {
           "name": "浜中英昌",
           "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=8847",
-          "note": "シシガシラのメンバー"
+          "note": "シシガシラのメンバー。相方・脇田の頭髪を題材にしたしゃべくり漫才で、M-1グランプリ2023では敗者復活戦を勝ち上がり決勝進出（9位）"
         }
       ]
     },
@@ -710,6 +716,7 @@
       "classNumber": 14,
       "school": "tokyo",
       "enrollmentYear": 2008,
+      "classNote": "2008年入学。キングオブコント2023準優勝のカゲヤマ、同2022決勝のネルソンズ、M-1グランプリ2024決勝のダイタクら実力派を輩出。相席スタート山添寛・EXITりんたろー。も同期で、同期トークライブを開くなど結束が固い。首席制度公式化（東京17期〜）以前のため公式な首席はなし",
       "notableGraduates": [
         {
           "name": "ネルソンズ",
@@ -718,7 +725,8 @@
             "青山フォール勝ち",
             "岸健之助"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=3451"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=3451",
+          "note": "NSC東京14期の同期で結成したトリオ。キングオブコント2022決勝進出（4位）で、同大会準決勝の常連"
         },
         {
           "name": "ダイタク",
@@ -726,7 +734,8 @@
             "吉本大",
             "吉本拓"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=3182"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=3182",
+          "note": "一卵性双生児の兄・吉本大と弟・吉本拓による双子漫才コンビ。長年準決勝で涙をのんだ末、ラストイヤーのM-1グランプリ2024で初の決勝進出を果たした"
         },
         {
           "name": "カゲヤマ",
@@ -734,23 +743,28 @@
             "タバやん。",
             "益田康平"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=4187"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=4187",
+          "note": "中学サッカー部の同期同士で2009年4月結成。キングオブコント2023で初の決勝進出にして準優勝（優勝はサルゴリラ）。体を張ったダーティーなコントでインパクトを残した"
         },
         {
           "name": "山添寛",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=3430"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=3430",
+          "note": "2013年2月にNSC東京13期の山崎ケイとコンビ「相席スタート」を結成し、M-1グランプリ2016決勝進出。『ラヴィット！』出演などバラエティでも人気"
         },
         {
           "name": "りんたろー。",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6548"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6548",
+          "note": "2017年12月にNSC東京19期の兼近大樹とEXITを結成。「ネオ渋谷系漫才」のチャラ男キャラでブレイクし、美容関連の活動でも知られる"
         },
         {
           "name": "かじがや卓哉",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6537"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6537",
+          "note": "税理士資格と家電製品総合アドバイザー資格を持つ「iPhone芸人・家電芸人」。『アメトーーク!』出演でブレイクし、著書『スゴいiPhone』シリーズやYouTube『かじがや電器店』でも人気"
         },
         {
           "name": "渡辺銀次",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=7312"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=7312",
+          "note": "NSC東京19期の小橋共作とのコンビ「ドンデコルテ」で活動し、M-1グランプリ2025決勝進出・準優勝"
         },
         {
           "name": "スパイク",
@@ -758,7 +772,8 @@
             "松浦志穂",
             "小川暖奈"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=3176"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=3176",
+          "note": "女性コンビ。THE W 2021・2022と2年連続で決勝進出（2021年は新型コロナウイルス感染のため決勝を辞退）"
         }
       ]
     },
@@ -766,6 +781,7 @@
       "classNumber": 15,
       "school": "tokyo",
       "enrollmentYear": 2009,
+      "classNote": "通称「黄金世代」と呼ばれる当たり期（2009年入学）。ニューヨーク・鬼越トマホーク・おかずクラブ・横澤夏子・マテンロウ・デニスらテレビで活躍する芸人を多数輩出し、同期の仲の良さでも知られ合同ライブや同期トークも多い。首席制度公式化（東京17期〜）以前のため公式な首席はなし",
       "notableGraduates": [
         {
           "name": "ニューヨーク",
@@ -773,7 +789,8 @@
             "嶋佐和也",
             "屋敷裕政"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=3153"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=3153",
+          "note": "2010年4月結成。M-1グランプリ2019・2020決勝進出、キングオブコント2020・2021決勝進出の漫才・コント二刀流。YouTube『ニューヨーク Official Channel』も人気"
         },
         {
           "name": "鬼越トマホーク",
@@ -781,7 +798,8 @@
             "良ちゃん",
             "金ちゃん"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=3537"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=3537",
+          "note": "取っ組み合いの喧嘩から芸能人に毒を吐く「喧嘩芸」で知られ、『ざっくりハイタッチ』の企画で注目される。2020年開設のYouTube『鬼越トマホーク喧嘩チャンネル』が人気"
         },
         {
           "name": "デニス",
@@ -789,7 +807,8 @@
             "植野行雄",
             "松下宣夫"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=3254"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=3254",
+          "note": "2010年4月に同期同士で結成。植野行雄は父がブラジル人のハーフで、その濃い顔立ちを生かしたキャラクターで人気"
         },
         {
           "name": "マテンロウ",
@@ -797,15 +816,18 @@
             "アントニー",
             "大トニー"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=3202"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=3202",
+          "note": "2009年に同期同士で結成。アントニーはアフリカ系アメリカ人の父を持つハーフ芸人として、大食い企画やバラエティで人気"
         },
         {
           "name": "横澤夏子",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5103"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5103",
+          "note": "「ちょっとイラッとくる女」など女性観察のものまねネタでブレイク。2015年に東京よしもとの若手ランキング『彩〜irodori〜East Championship』優勝。2017年に結婚し3児の母"
         },
         {
           "name": "西村ヒロチョ",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=3492"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=3492",
+          "note": "日本大学芸術学部でサクソフォーンを専攻した音楽系ピン芸人。歌やリズムを駆使した完成度の高いネタで知られる"
         },
         {
           "name": "いぬ",
@@ -1297,7 +1319,7 @@
             "ガネ"
           ],
           "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=9147",
-          "note": "2017年4月結成"
+          "note": "2017年4月結成。M-1グランプリ2025は3回戦進出"
         },
         {
           "name": "世界クジラ",
@@ -1314,6 +1336,7 @@
       "classNumber": 24,
       "school": "tokyo",
       "enrollmentYear": 2018,
+      "classNote": "2018年入学。首席は金魚番長（2019年NSC大ライブTOKYO優勝）。M-1グランプリ2025準決勝に初進出したゼロカラン・イチゴなど、賞レースで台頭中の若手を輩出している期",
       "notableGraduates": [
         {
           "name": "金魚番長",
@@ -1322,7 +1345,7 @@
             "古市勇介"
           ],
           "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=7034",
-          "note": "NSC東京24期首席"
+          "note": "NSC東京24期首席（2019年NSC大ライブTOKYO優勝）。UNDER5 AWARD 2023優勝、TBSラジオ「マイナビLaughter Night」第9回チャンピオンLIVE優勝。ABCお笑いグランプリ2024・2025決勝進出（2025はABEMA賞受賞）、M-1グランプリ2024準決勝進出"
         },
         {
           "name": "ゼロカラン",
@@ -1331,7 +1354,7 @@
             "たいが"
           ],
           "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=10754",
-          "note": "2019年4月結成"
+          "note": "2019年4月結成の高校同級生コンビ。M-1グランプリ2025準決勝初進出。ワキユウタは日テレ「おもしろ荘」2023エキシビションでMVP獲得"
         },
         {
           "name": "イチゴ",
@@ -1340,7 +1363,7 @@
             "木原優一"
           ],
           "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=9160",
-          "note": "2021年5月結成。ONE CHANCE 2026王者"
+          "note": "2021年5月結成。M-1グランプリ2025準決勝初進出。TBS「ONE CHANCE 2026」（賞レース王者の推薦による無冠芸人No.1決定戦）初代王者"
         },
         {
           "name": "狛犬",
@@ -1349,7 +1372,7 @@
             "櫛野駿太郎"
           ],
           "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=9755",
-          "note": "2022年7月結成。上方漫才協会大賞文芸部門賞受賞"
+          "note": "2022年7月結成。神保町よしもと漫才劇場を拠点に活動。2023年上方漫才協会大賞文芸部門賞受賞、UNDER5 AWARD 2023準決勝進出。M-1グランプリ2025準々決勝進出"
         },
         {
           "name": "アロハペンギン",

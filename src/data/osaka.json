@@ -2532,6 +2532,7 @@
       "classNumber": 42,
       "school": "osaka",
       "enrollmentYear": 2019,
+      "classNote": "2019年4月入学。首席はモンデン（2020年2月28日開催のNSC大ライブOSAKA 2020で42期112組の頂点）。M-1グランプリ2024決勝進出のジョックロック（ゆうじろー）や、ytv漫才新人賞を大会史上最速で制した空前メテオなど、よしもと漫才劇場（マンゲキ）の中核を担う世代を輩出した期",
       "notableGraduates": [
         {
           "name": "空前メテオ",
@@ -2539,7 +2540,8 @@
             "茶屋",
             "大門正尚"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=8101"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=8101",
+          "note": "NSC在学中の2019年結成。2022年5月からマンゲキ所属。ytv漫才新人賞決定戦2023-24を出場4年目で制し大会史上最速優勝。UNDER5 AWARD 2023準決勝、M-1グランプリ2025準々決勝進出"
         },
         {
           "name": "ぐろう",
@@ -2547,7 +2549,8 @@
             "家村涼太",
             "高松巧"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=7503"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=7503",
+          "note": "NSCの相方探しの会で出会った同期同士が2019年に結成。2022年12月からマンゲキ所属で、月替わりネタバトル「Kakeru翔グランプリ」を2023年4月の初優勝以降計4度制覇"
         },
         {
           "name": "オニイチャン",
@@ -2555,7 +2558,8 @@
             "府上ふが",
             "こんちゃん"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=7426"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=7426",
+          "note": "NSC入学前の2017年結成のコントコンビ。2022年8月に「Kakeru翔チャレンジバトル」を経てマンゲキ所属となり、2025年12月にマンゲキ初単独ライブを開催"
         },
         {
           "name": "マーメイド",
@@ -2563,7 +2567,8 @@
             "田村境祐",
             "テクニック。"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=8700"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=8700",
+          "note": "42期同期が2021年4月に結成。テクニック。の強烈なキャラクターを活かした漫才・コントが持ち味で、NHK上方漫才コンテストに2023・2024年と2年連続で本選出場。マンゲキを拠点に活動"
         },
         {
           "name": "ライムギ",
@@ -2571,7 +2576,8 @@
             "なつみ",
             "れんぺい"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=7967"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=7967",
+          "note": "2019年4月結成。結成2年目のM-1グランプリ2020で準々決勝進出、UNDER5 AWARDでは2023・2024年と2年連続で決勝進出。マンゲキを拠点に活動"
         },
         {
           "name": "シスター",
@@ -2579,7 +2585,8 @@
             "井坂ひ孫",
             "週末"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=9872"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=9872",
+          "note": "井坂ひ孫がツッコミ・週末がボケのコントコンビ。2022年12月からマンゲキ所属。UNDER5 AWARD 2024準決勝進出、マンゲキで単独公演も開催"
         },
         {
           "name": "ウイスキーカノン",
@@ -2587,7 +2594,8 @@
             "ササカ",
             "山田敬弘"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=7402"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=7402",
+          "note": "42期同期のササカと山田敬弘が2019年5月に結成。マンゲキ所属"
         },
         {
           "name": "カノッサ",
@@ -2595,21 +2603,16 @@
             "ウエハース光川",
             "須﨑裕一郎"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=9869"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=9869",
+          "note": "42期同期が2022年9月に結成。ウエハース光川は名探偵コナン・工藤新一のモノマネ「バーロー!」でSNSでも人気。マンゲキを拠点に活動"
         },
         {
-          "name": "半年記念日",
-          "members": [
-            "あると",
-            "YOSH!NO"
-          ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=13439"
+          "name": "モンデン",
+          "note": "42期首席（NSC大ライブOSAKA 2020で112組の頂点）。NSC東京校を卒業して一度芸人を辞め、大阪で会社員を経て再入学した異色の経歴。2023年8月にみちねとコンビ「プニョマン」を結成"
         },
         {
-          "name": "モンデン"
-        },
-        {
-          "name": "西野"
+          "name": "西野",
+          "note": "女性コンビ「ハイツ友の会」の元メンバー（相方の清水香奈芽とはNSCの期が異なり、41期扱いとする資料もある）。THE W 2023決勝進出などを経て2024年3月末にコンビ解散後、ピン芸人として活動継続"
         },
         {
           "name": "ジョックロック",
@@ -2617,7 +2620,8 @@
             "福本ユウショウ",
             "ゆうじろー"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=9272"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=9272",
+          "note": "42期出身はゆうじろー（相方・福本ユウショウはNSC大阪35期）。芸歴差7年のコンビとして2022年4月結成し、結成2年でM-1グランプリ2024決勝に初進出。マンゲキ所属"
         }
       ]
     },
@@ -2625,6 +2629,7 @@
       "classNumber": 43,
       "school": "osaka",
       "enrollmentYear": 2020,
+      "classNote": "コロナ禍の2020年4月入学。首席はテキサスマウンテンローレル（2021年2月19日のNSC大ライブOSAKA 2021で現役生137組の頂点、審査員7票中6票を獲得）。UNDER5 AWARD 2024王者の清川雄司、NHK上方漫才コンテスト優勝の例えば炎、THE Wファイナリストのやました・電気ジュースなど、個人・コンビともに賞レースで結果を出す期",
       "notableGraduates": [
         {
           "name": "テキサスマウンテンローレル",
@@ -2632,7 +2637,8 @@
             "おのさとし",
             "牧野晃歩"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=8461"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=8461",
+          "note": "43期首席（NSC大ライブOSAKA 2021優勝）。佐賀大学のサークルの先輩後輩による2020年4月結成のコンビ。キングオブコント2023準々決勝・M-1グランプリ2024で3回戦進出などを経て、2025年7月に解散を発表しそれぞれピン芸人として活動"
         },
         {
           "name": "例えば炎",
@@ -2640,15 +2646,18 @@
             "タキノルイ",
             "田上"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=8601"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=8601",
+          "note": "2020年結成。独特の脱力した芸風でM-1グランプリ2024敗者復活戦に進出して注目を集め、2026年3月放送の第55回NHK上方漫才コンテストで優勝。マンゲキ所属"
         },
         {
           "name": "清川雄司",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=8670"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=8670",
+          "note": "紙切り・腹話術・ハーモニカなどを詰め込んだノンバーバル芸のピン芸人。芸歴5年以下の若手大会「UNDER5 AWARD 2024」で優勝（賞金100万円）。マンゲキを拠点に活動"
         },
         {
           "name": "やました",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=8609"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=8609",
+          "note": "女性ピン芸人。女芸人No.1決定戦 THE W 2024ファイナリスト。2024年3月からマンゲキ所属で、M-1グランプリにはピン芸人・真輝志とのユニット「ヤマシタマキシ」で出場し準々決勝進出"
         },
         {
           "name": "シカノシンプ",
@@ -2656,7 +2665,8 @@
             "北川",
             "ゆのき"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=9912"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=9912",
+          "note": "2022年結成。UNDER5 AWARD 2025ファイナリスト。マンゲキの月替わりネタバトル「Kakeru翔グランプリWEST」優勝経験を持つ"
         },
         {
           "name": "ムジンゾウ",
@@ -2664,7 +2674,8 @@
             "夢",
             "りん"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=8515"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=8515",
+          "note": "43期同期の夢とりんのコンビ。りんはヒューマンビートボックスが特技。マンゲキを拠点に活動"
         },
         {
           "name": "キョンビ",
@@ -2672,7 +2683,8 @@
             "ナカジマ",
             "斎藤"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=9301"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=9301",
+          "note": "ナカジマと斎藤のコンビ。2025年2月からマンゲキ所属"
         },
         {
           "name": "マーティー",
@@ -2680,7 +2692,8 @@
             "真平",
             "ホソ"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=8500"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=8500",
+          "note": "真平とホソのコンビ。マンゲキを拠点に活動"
         },
         {
           "name": "電気ジュース",
@@ -2688,7 +2701,8 @@
             "福沢葉",
             "藤本もふ"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=11715"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=11715",
+          "note": "福沢葉（43期）と藤本もふ（42期）の女性コンビ。ユニット「攻略ガイド」を経て2024年11月に正式結成し、結成1年でTHE W 2025決勝進出（史上最多1044組からの8組）。マンゲキ所属"
         },
         {
           "name": "天ロクの丘",
@@ -2696,7 +2710,8 @@
             "奥野賢一",
             "馬田バジリスク"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=11565"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=11565",
+          "note": "2024年結成。馬田バジリスクはTikTokフォロワー30万人超のSNS人気芸人。マンゲキを拠点に活動"
         },
         {
           "name": "ドライブドライブ"
@@ -2710,6 +2725,7 @@
       "classNumber": 44,
       "school": "osaka",
       "enrollmentYear": 2021,
+      "classNote": "2021年4月入学。首席は宛先プレーン（2022年2月28日のNSC大ライブOSAKA 2022で卒業170組超の頂点）。在学中のM-1グランプリ2021で準々決勝に進出した軍艦など、卒業後早くからマンゲキ入りする組を多く出した期",
       "notableGraduates": [
         {
           "name": "宛先プレーン",
@@ -2717,7 +2733,8 @@
             "荒木健太",
             "たかまん"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=9534"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=9534",
+          "note": "44期首席（NSC大ライブOSAKA 2022優勝）。結成時、たかまんは東証一部上場企業の課長職（広告代理店の現役営業マン）と芸人を兼務していた異色コンビ。マンゲキ所属"
         },
         {
           "name": "軍艦",
@@ -2725,7 +2742,8 @@
             "仁",
             "梅野健太郎"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=9569"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=9569",
+          "note": "NSC在学中の2021年6月結成。在学中に出場したM-1グランプリ2021で準々決勝に進出しベストアマチュア賞を受賞"
         },
         {
           "name": "釈迦虎",
@@ -2733,7 +2751,8 @@
             "岡本峻",
             "久保バトル泰志"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=9877"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=9877",
+          "note": "2022年12月開催の44期ネタバトル「trophy」で優勝。マンゲキ所属"
         },
         {
           "name": "ミステリーハンター",
@@ -2741,13 +2760,16 @@
             "阪本啓伍",
             "芝"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=9914"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=9914",
+          "note": "阪本啓伍と芝による男女コンビ。2022年11月結成。マンゲキ所属"
         },
         {
-          "name": "彼岸花"
+          "name": "彼岸花",
+          "note": "坂本拓馬が所属するコンビ。マンゲキを拠点に活動"
         },
         {
-          "name": "満丸"
+          "name": "満丸",
+          "note": "大阪府出身のピン芸人。ギターの弾き語りを取り入れたネタが持ち味。マンゲキ所属"
         },
         {
           "name": "ミケネ系"
