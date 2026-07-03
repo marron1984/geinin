@@ -492,6 +492,7 @@
       "classNumber": 10,
       "school": "tokyo",
       "enrollmentYear": 2004,
+      "classNote": "2004年入学。オリエンタルラジオ・はんにゃ・フルーツポンチ・トレンディエンジェルら2000年代後半のお笑いブームを牽引した人気芸人を多数輩出した黄金世代。M-1グランプリ2015王者（トレンディエンジェル）とキングオブコント2019準優勝（うるとらブギーズ）を出した期でもある",
       "notableGraduates": [
         {
           "name": "オリエンタルラジオ",
@@ -499,15 +500,17 @@
             "中田敦彦",
             "藤森慎吾"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2862"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2862",
+          "note": "NSC在学中に結成し『武勇伝』で異例の早さでブレイク。音楽ユニットRADIO FISHの『PERFECT HUMAN』が2016年に大ヒットしNHK紅白歌合戦に初出場。2020年末に吉本興業を退所し、中田敦彦は2021年3月にシンガポールへ移住して教育系YouTuberとして活動"
         },
         {
-          "name": "はんにゃ",
+          "name": "はんにゃ.",
           "members": [
             "金田哲",
             "川島章良"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2837"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2837",
+          "note": "2005年結成。『ズクダンズンブングンゲーム』で2000年代後半にブレイク。2022年にコンビ名を『はんにゃ』から『はんにゃ.』に改名。川島は2014年に腎臓がんの摘出手術を受け、がんサバイバーとして講演活動も行う。金田は俳優としても活動し、NHK大河ドラマ『光る君へ』（2024年）に藤原斉信役で出演"
         },
         {
           "name": "トレンディエンジェル",
@@ -515,7 +518,8 @@
             "斎藤司",
             "たかし"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2871"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2871",
+          "note": "2004年に同期同士で結成。M-1グランプリ2015で第11代王者に。敗者復活戦からの優勝は2007年のサンドウィッチマン以来史上2組目。薄毛を自虐するネタと『ペッ』のギャグで知られる"
         },
         {
           "name": "フルーツポンチ",
@@ -523,7 +527,8 @@
             "村上健志",
             "亘健太郎"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2868"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2868",
+          "note": "村上は『プレバト!!』俳句査定で2022年に番組史上3人目の俳句永世名人に昇格。著書『フルーツポンチ村上健志の俳句修行』を刊行するなど俳人としても高い評価を得ている"
         },
         {
           "name": "インポッシブル",
@@ -531,7 +536,8 @@
             "ひるちゃん",
             "えいじ"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=436"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=436",
+          "note": "2005年4月結成。コンビ名はひるちゃんの趣味のスケートボードのトリック名に由来。『有吉の壁』の『JKボンバーズ』ネタで話題に"
         },
         {
           "name": "うるとらブギーズ",
@@ -539,14 +545,16 @@
             "八木崇",
             "佐々木崇博"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6553"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6553",
+          "note": "NSC同期の2人が別々のコンビを経て2009年に結成。キングオブコント2019で『催眠術師』のネタなどにより準優勝。2020年・2021年にも決勝進出"
         },
         {
           "name": "少年少女",
           "members": [
             "坂口真弓",
             "阿部磨有香"
-          ]
+          ],
+          "note": "女性コンビ。2014年4月に活動休止し、阿部は芸能界を引退、坂口はピン芸人として活動を継続（その後お笑いユニット『怪獣』を経てソロで活動）"
         }
       ]
     },
@@ -554,6 +562,7 @@
       "classNumber": 11,
       "school": "tokyo",
       "enrollmentYear": 2005,
+      "classNote": "2005年入学。チョコレートプラネット・シソンヌ・パンサーらコント巧者を多数輩出。キングオブコント2014は同期のシソンヌ（優勝）とチョコレートプラネット（準優勝）による同期ワンツーとなった。当時41歳のエド・はるみが最年長として入学した期でもある",
       "notableGraduates": [
         {
           "name": "パンサー",
@@ -562,7 +571,8 @@
             "尾形貴弘",
             "菅良太郎"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2755"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2755",
+          "note": "NSC同期3人によるトリオ。キングオブコントでは準決勝常連。尾形は『サンキュー!!』のギャグで知られる。向井は『パンサー向井のチャリで30分』など複数のラジオ番組でパーソナリティを務め『令和の新ラジオ王』と称される"
         },
         {
           "name": "チョコレートプラネット",
@@ -570,7 +580,8 @@
             "長田庄平",
             "松尾駿"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2832"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2832",
+          "note": "2006年結成。キングオブコント2008（第1回）・2014・2018決勝進出。2014年は同期シソンヌとの最終決戦で敗れ準優勝。『TT兄弟』やIKKO・和泉元彌のものまねで大ブレイクし、YouTubeチャンネルも人気。シソンヌとの合同ユニット『チョコンヌ』でも活動"
         },
         {
           "name": "シソンヌ",
@@ -578,7 +589,8 @@
             "じろう",
             "長谷川忍"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5183"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5183",
+          "note": "キングオブコント2014で初の決勝進出にして優勝（7代目王者）。最終決戦では同期のチョコレートプラネットを破った。毎年の単独ライブが高く評価され、じろうは俳優・脚本家としても活躍"
         },
         {
           "name": "タモンズ",
@@ -586,18 +598,22 @@
             "大波康平",
             "安部浩章"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2741"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2741",
+          "note": "神戸市出身の幼馴染コンビ。コンビ名は2人が遊んだ神戸市垂水区の地名『多聞台』に由来。THE MANZAI 2012・2013認定漫才師。THE SECOND 2024グランプリファイナル進出"
         },
         {
           "name": "エド・はるみ",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=748"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=748",
+          "note": "41歳でNSC東京11期に最年長入学（1年間無遅刻無欠席の皆勤）。ギャグ『グ〜!』で2008年に大ブレイクし、同年のユーキャン新語・流行語大賞で年間大賞を受賞。同年の『24時間テレビ』チャリティーマラソンでは当時女性最長の113kmを完走"
         },
         {
-          "name": "好井まさお"
+          "name": "好井まさお",
+          "note": "2007年に井下大活躍とコンビ『井下好井』を結成するも2022年末に解散し、以降はピン芸人として活動。怪談家としてYouTube『好井まさおの怪談を浴びる会』などで人気を集める"
         },
         {
           "name": "上原チョー",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=3288"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=3288",
+          "note": "ピン芸人。2023年の統一地方選挙で栃木県真岡市議会議員選挙にトップ当選し、芸人と市議を両立。真岡市議会で芸名を通称として使用した初の例となった"
         }
       ]
     },
@@ -605,6 +621,7 @@
       "classNumber": 12,
       "school": "tokyo",
       "enrollmentYear": 2006,
+      "classNote": "2006年入学。渡辺直美・ジャングルポケットらを輩出。渡辺直美とウエスPという海外でも高い知名度を持つタレントを2人出した国際色の強い期",
       "notableGraduates": [
         {
           "name": "ジャングルポケット",
@@ -613,11 +630,13 @@
             "太田博久",
             "斉藤慎二"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2534"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2534",
+          "note": "NSC同期3人によるトリオ。キングオブコント2015〜2017に3年連続決勝進出（2016年準優勝）。2024年10月、斉藤慎二が不同意性交等の疑いで書類送検され吉本興業がマネジメント契約を解除。以降はおたけ・太田の2人で活動"
         },
         {
           "name": "渡辺直美",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2710"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2710",
+          "note": "ビヨンセの口パクものまねで大ブレイク。Instagramフォロワー数は日本トップクラスで『インスタの女王』と呼ばれる。2021年4月にニューヨークへ活動拠点を移し海外進出"
         },
         {
           "name": "ジェラードン",
@@ -626,11 +645,13 @@
             "海野裕二",
             "かみちぃ"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=3450"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=3450",
+          "note": "コントを得意とするトリオ。キングオブコント2021決勝進出（5位）。コント動画を投稿するYouTubeチャンネルでも人気"
         },
         {
           "name": "ウエスP",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6639"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6639",
+          "note": "本名・植草和久のピン芸人。裸にテーブルクロス引きを組み合わせた『危険なテーブルクロス引き』で世界各国の『ゴット・タレント』系番組に出演し、仏版ではゴールデンブザーを獲得。SNS総フォロワーは2000万人超でギネス世界記録も複数保持"
         }
       ]
     },
@@ -1122,6 +1143,7 @@
       "classNumber": 21,
       "school": "tokyo",
       "enrollmentYear": 2015,
+      "classNote": "2015年入学。首席はギガスラッシュ!!（マサルコの元コンビ）。M-1グランプリ2024・2025で2年連続決勝進出しABCお笑いグランプリ2025王者となったエバースを輩出した期",
       "notableGraduates": [
         {
           "name": "エバース",
@@ -1129,7 +1151,8 @@
             "佐々木隆史",
             "町田和樹"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=8988"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=8988",
+          "note": "2016年結成。M-1グランプリ2024決勝4位（1点差で最終決戦を逃す）、M-1グランプリ2025はファーストラウンド870点で1位通過も最終決戦0票の3位。第46回ABCお笑いグランプリ2025優勝、NHK新人お笑い大賞2024大賞"
         },
         {
           "name": "ネイチャーバーガー",
@@ -1138,7 +1161,7 @@
             "笹本はやて"
           ],
           "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=7019",
-          "note": "2025年6月解散"
+          "note": "2015年4月結成、2025年6月解散。笹本はやてのオンラインカジノ賭博問題（罰金10万円の略式命令）による活動自粛を機に解散。三浦リョースケは2025年6月に新コンビ「あさがお」を結成"
         },
         {
           "name": "ド桜",
@@ -1146,12 +1169,13 @@
             "村田大樹",
             "かつやま"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=11088"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=11088",
+          "note": "村田大樹（元赤もみじ、東京18期扱い）とかつやま（元衝撃デリバリー、東京21期）が2023年にユニット「とんかつ街道」を結成、M-1グランプリ2023の1回戦初日を1位通過。2024年3月に正式コンビ化し「ド桜」へ改名、村田は吉本興業所属に"
         },
         {
           "name": "マサルコ",
           "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=11055",
-          "note": "元ギガスラッシュ!!（21期首席）、2026年吉本退所"
+          "note": "元ギガスラッシュ!!（21期首席、2017年1月解散）。吉本坂46元メンバー。2023年8月に同性婚を公表。2026年4月に吉本興業退所と芸能界引退を発表し、以降はゲイバー経営に専念"
         }
       ]
     },
@@ -1159,6 +1183,7 @@
       "classNumber": 22,
       "school": "tokyo",
       "enrollmentYear": 2016,
+      "classNote": "2016年入学。首席はナイチンゲールダンス（弁護士の夢を捨てお笑いの道へ進んだ中野なかるてぃんのコンビ）。M-1グランプリ2025決勝初進出のめぞんなど、劇場やSNSで人気の芸人を多数輩出した期",
       "notableGraduates": [
         {
           "name": "ナイチンゲールダンス",
@@ -1167,7 +1192,7 @@
             "ヤス"
           ],
           "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=7031",
-          "note": "22期首席"
+          "note": "22期首席。2017年4月結成。ツギクル芸人グランプリ2023優勝。M-1グランプリ2023・2024準決勝進出（敗者復活戦出場）。YouTubeチャンネルでも人気"
         },
         {
           "name": "めぞん",
@@ -1175,7 +1200,8 @@
             "吉野おいなり君",
             "原一刻"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=8835"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=8835",
+          "note": "福岡・宮崎出身の九州コンビ。M-1グランプリ2025決勝初進出（ファーストラウンド820点）。吉野おいなり君はYouTube「板橋ハウス」のメンバーとしても人気"
         },
         {
           "name": "軟水",
@@ -1183,7 +1209,8 @@
             "大川内聡",
             "つるまる"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=8902"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=8902",
+          "note": "2人はNSC大阪校35期で出会い2013年に結成、上京を経て2016年4月に再結成（東京22期世代の同期として扱われる）。キングオブコント2021準々決勝進出、M-1グランプリ準々決勝進出（2021・2024・2025）"
         },
         {
           "name": "バリカタ友情飯",
@@ -1192,7 +1219,7 @@
             "狩野大"
           ],
           "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=8763",
-          "note": "旧名:まんぷくユナイテッド"
+          "note": "旧名:まんぷくユナイテッド。2025年5月にニューヨークのYouTubeチャンネル企画で「バリカタ友情飯」へ改名（ChatGPTが提案した候補から視聴者投票で決定）"
         },
         {
           "name": "ピュート",
@@ -1200,7 +1227,8 @@
             "ポイント",
             "竹内智也"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=8773"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=8773",
+          "note": "2019年5月結成。M-1グランプリ2021・2023で3回戦進出"
         },
         {
           "name": "マリーマリー",
@@ -1224,6 +1252,7 @@
       "classNumber": 23,
       "school": "tokyo",
       "enrollmentYear": 2017,
+      "classNote": "2017年入学、2018年3月卒業。首席は令和ロマン（当時のコンビ名は魔人無骨）。M-1グランプリ史上初の連覇を果たした令和ロマン、ヨネダ2000らM-1ファイナリストを複数輩出した屈指の当たり期",
       "notableGraduates": [
         {
           "name": "令和ロマン",
@@ -1232,7 +1261,7 @@
             "松井ケムリ"
           ],
           "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6646",
-          "note": "NSC東京23期首席（旧コンビ名：魔人無骨）。M-1グランプリ2023・2024王者"
+          "note": "NSC東京23期首席（旧コンビ名：魔人無骨）。M-1グランプリ2023・2024王者（史上初の連覇）。第45回ABCお笑いグランプリ2024優勝。髙比良くるまはオンラインカジノ問題による活動自粛を経て2025年4月に吉本興業とのマネジメント契約を終了しフリーに（コンビ活動は継続、松井ケムリは吉本所属のまま）"
         },
         {
           "name": "ヨネダ2000",
@@ -1241,7 +1270,7 @@
             "愛"
           ],
           "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=8816",
-          "note": "2020年結成。THE W 2022決勝進出、M-1グランプリ2022決勝進出"
+          "note": "2020年結成。THE W 2021決勝進出、THE W 2022準優勝、M-1グランプリ2022決勝進出（5位）、M-1グランプリ2025決勝進出（8位・同年決勝で唯一の女性コンビ）"
         },
         {
           "name": "サンタモニカ",
@@ -1250,7 +1279,7 @@
             "マイム"
           ],
           "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=8883",
-          "note": "2018年4月結成。ABCお笑いグランプリ決勝進出"
+          "note": "2016年9月にアマチュアとして結成しM-1グランプリ2016でナイスアマチュア賞受賞、2018年4月プロデビュー。R-1グランプリ2022準々決勝進出（マイム）。ユニット「泥水すすり隊」に2021年から2024年の同ユニット解散まで在籍"
         },
         {
           "name": "インテイク",
