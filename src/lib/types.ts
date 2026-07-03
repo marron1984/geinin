@@ -9,6 +9,7 @@ export interface NscClass {
   classNumber: number;
   school: "osaka" | "tokyo";
   enrollmentYear: number;
+  classNote?: string;
   notableGraduates: Comedian[];
 }
 

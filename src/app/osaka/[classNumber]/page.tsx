@@ -61,6 +61,11 @@ export default function OsakaClassPage({
             ? `${cls.notableGraduates.length}組の主な卒業生を掲載。`
             : "卒業生データは準備中です。"}
         </p>
+        {cls.classNote && (
+          <p className="mt-3 text-sm text-gray-700 bg-red-50 border-l-4 border-yoshimoto-red rounded-r px-3 py-2">
+            {cls.classNote}
+          </p>
+        )}
       </header>
 
       {/* 卒業生リスト */}
@@ -71,9 +76,14 @@ export default function OsakaClassPage({
           </h2>
           <div className="grid sm:grid-cols-2 gap-3">
             {cls.notableGraduates.map((grad, i) => (
-              <div key={i} className="flex items-center gap-2 p-2 rounded-lg hover:bg-gray-50 transition-colors">
-                <span className="text-yoshimoto-red font-bold text-sm w-6 text-right flex-shrink-0">{i + 1}</span>
-                <ComedianTag comedian={grad} />
+              <div key={i} className="flex items-start gap-2 p-2 rounded-lg hover:bg-gray-50 transition-colors">
+                <span className="text-yoshimoto-red font-bold text-sm w-6 text-right flex-shrink-0 pt-1">{i + 1}</span>
+                <div className="min-w-0">
+                  <ComedianTag comedian={grad} />
+                  {grad.note && (
+                    <p className="text-xs text-gray-400 mt-1 pl-1">{grad.note}</p>
+                  )}
+                </div>
               </div>
             ))}
           </div>
