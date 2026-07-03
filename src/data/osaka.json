@@ -1225,7 +1225,8 @@
             "小林圭輔",
             "友保隼平"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6805"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6805",
+          "note": "堺出身のコンビ。M-1グランプリ準決勝常連（2018〜2021年）。THE SECOND 2026ではグランプリファイナル決勝に進出し準優勝"
         },
         {
           "name": "コマンダンテ",
@@ -1234,7 +1235,7 @@
             "安田邦祐"
           ],
           "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2834",
-          "note": "2023年解散"
+          "note": "2023年5月解散、結成15周年ツアーは中止に。両者とも吉本に残りピン芸人として活動、安田邦祐は「ファニー」に改名"
         },
         {
           "name": "見取り図",
@@ -1242,7 +1243,8 @@
             "盛山晋太郎",
             "リリー"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2876"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2876",
+          "note": "M-1グランプリ2018〜2020年3年連続決勝進出（2020年3位）。その後は東京に進出し盛山・リリーともMC・バラエティで全国区に"
         },
         {
           "name": "ヘンダーソン",
@@ -1250,7 +1252,8 @@
             "子安裕樹",
             "中村フー"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5191"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5191",
+          "note": "オールザッツ漫才2021優勝。2025年に第60回上方漫才大賞奨励賞を受賞"
         },
         {
           "name": "吉田たち",
@@ -1258,7 +1261,8 @@
             "ゆうへい",
             "こうへい"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2873"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2873",
+          "note": "一卵性双生児のコンビ。2017年に第6回ytv漫才新人賞を完全優勝（選考会・FIRST ROUND・最終決戦すべて1位通過）"
         },
         {
           "name": "ガスマスクガール",
@@ -1272,7 +1276,13 @@
           "name": "ジゾンシン"
         },
         {
-          "name": "デルマパンゲ"
+          "name": "デルマパンゲ",
+          "members": [
+            "迫田篤",
+            "広木英介"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5078",
+          "note": "2009年結成、NSC出身ではないが29期同期扱い。北九州弁漫才が持ち味でNEXT芸人大賞優勝"
         },
         {
           "name": "メンバー"
@@ -1283,7 +1293,8 @@
         {
           "name": "ブランチ"
         }
-      ]
+      ],
+      "classNote": "金属バット・見取り図・コマンダンテ・ヘンダーソン・吉田たちら劇場を支える実力派を多数輩出した期。東京校12期（ジャングルポケットら）と同学年にあたり、「見取り図寄席〜同期の桜編〜」など東西合同の同期ライブが開かれるほど結束が強い"
     },
     {
       "classNumber": 30,
@@ -1305,7 +1316,7 @@
             "渚"
           ],
           "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2879",
-          "note": "2024年解散"
+          "note": "2024年3月末解散。誠子は吉本興業とのマネジメント契約を終了しフリーで、渚は吉本所属のまま活動継続"
         },
         {
           "name": "バンビーノ",
@@ -1313,7 +1324,8 @@
             "石山タオル",
             "藤田ユウキ"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5081"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5081",
+          "note": "「ダンソン」ネタ（ダンスィングフィッソン族）でブレイク。キングオブコント2014決勝進出、2015年準優勝"
         },
         {
           "name": "令和喜多みな実",
@@ -1322,7 +1334,7 @@
             "河野良祐"
           ],
           "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2840",
-          "note": "旧コンビ名: プリマ旦那。2025年解散"
+          "note": "2008年に「プリマ旦那」として結成、2019年に改名。上方漫才大賞新人賞受賞（2013年）。野村尚平の療養による活動休止を経て2025年7月11日解散。河野良祐は同年アイラブ地球を結成"
         },
         {
           "name": "ツートライブ",
@@ -1330,7 +1342,8 @@
             "たかのり",
             "周平魂"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5188"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5188",
+          "note": "THE SECOND 2025優勝（3代目王者）。決勝で囲碁将棋を破り、1回戦ではグランプリファイナル史上最高得点295点を記録"
         },
         {
           "name": "ダブルアート",
@@ -1359,8 +1372,18 @@
         {
           "name": "爆ノ介",
           "note": "後にザ・プラン9に加入"
+        },
+        {
+          "name": "マルセイユ",
+          "members": [
+            "津田康平",
+            "別府貴之"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5160",
+          "note": "津田康平がNSC大阪30期、別府貴之は32期。2013年結成、2023年4月に大阪・よしもと漫才劇場を卒業し東京へ拠点を移す"
         }
-      ]
+      ],
+      "classNote": "尼神インター・バンビーノらテレビでブレイクした組に加え、THE SECOND 2025王者ツートライブを輩出した期。プリマ旦那（後の令和喜多みな実）ら劇場の中心メンバーも多い"
     },
     {
       "classNumber": 31,
@@ -1374,7 +1397,7 @@
             "田渕章裕"
           ],
           "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5204",
-          "note": "2025年6月にインディアンスから改名"
+          "note": "旧コンビ名インディアンス。M-1グランプリ2019〜2021年3年連続決勝進出（2021年は敗者復活から最終決戦に進み3位）。2025年6月「水曜日のダウンタウン」の企画を機に改名"
         },
         {
           "name": "セルライトスパ",
@@ -1382,7 +1405,8 @@
             "大須賀健剛",
             "ヒーゴー"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5084"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5084",
+          "note": "第37回ABCお笑いグランプリ（2016年）優勝。ダブルインパクト2025では3位"
         },
         {
           "name": "ロングコートダディ",
@@ -1390,7 +1414,8 @@
             "堂前透",
             "兎"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5217"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5217",
+          "note": "キングオブコント2025優勝（18代目王者）。KOC決勝4回（2020年7位・2022年7位・2024年準優勝）、M-1グランプリ2021年4位・2022年3位、ダブルインパクト2025準優勝。堂前透は「堂前ワークショップ」等ネタ作家としても評価が高い"
         },
         {
           "name": "マイスイートメモリーズ",
@@ -1426,7 +1451,8 @@
         {
           "name": "ガゼル西口"
         }
-      ]
+      ],
+      "classNote": "キングオブコント2025王者ロングコートダディ、M-1決勝3年連続のインディアンス（現ちょんまげラーメン）、ABCお笑いグランプリ王者セルライトスパを輩出した実力派の期。かつては同期ライブも開催されていた"
     },
     {
       "classNumber": 32,
@@ -1436,12 +1462,12 @@
         {
           "name": "辻（ニッポンの社長）",
           "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5143",
-          "note": "ニッポンの社長の辻皓平。相方ケツはNSC大阪33期"
+          "note": "ニッポンの社長の辻皓平。相方ケツはNSC大阪33期。キングオブコント2020〜2024年に5年連続決勝進出（最高3位・2023年）、2025年ダブルインパクト初代王者"
         },
         {
           "name": "福田麻貴",
           "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6581",
-          "note": "3時のヒロインのメンバー。NSC大阪女性タレントコース5期出身、32期同期扱い"
+          "note": "3時のヒロインのリーダー。THE W 2019で3代目女王に。NSC大阪女性タレントコース5期出身で32期同期扱い。ドラマ出演や脚本など個人での活動も多い"
         },
         {
           "name": "小野竜輔",
@@ -1501,14 +1527,20 @@
             "ロジャー"
           ],
           "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6100",
-          "note": "2026年4月解散"
+          "note": "2015年7月結成。M-1グランプリ2017準決勝・キングオブコント2018準決勝進出。2026年4月12日をもって解散、両者とも芸人活動は継続しロジャーは「ロジャー沖縄」に改名"
         },
         {
           "name": "超速バギー",
           "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=8260",
           "note": "明里洋輔がNSC大阪32期出身。他メンバーは29期出身"
+        },
+        {
+          "name": "別府貴之",
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5160",
+          "note": "マルセイユのメンバー。相方の津田康平はNSC大阪30期"
         }
-      ]
+      ],
+      "classNote": "ダブルインパクト初代王者ニッポンの社長・辻、THE W 2019女王3時のヒロインの福田麻貴を輩出。女性タレントコース出身者や別期の相方とのコンビ結成など、期をまたいだ活動が目立つ期"
     },
     {
       "classNumber": 33,
@@ -2198,10 +2230,12 @@
       "classNumber": 41,
       "school": "osaka",
       "enrollmentYear": 2018,
+      "classNote": "2018年4月入学。首席はしんや（NSC大ライブOSAKA 2019で129組の頂点）。cacao・タイムキーパー・ハイツ友の会など全国区の賞レースで結果を残す芸人を多数輩出し、よしもと漫才劇場（マンゲキ）の中核となった世代",
       "notableGraduates": [
         {
           "name": "しんや",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=7291"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=7291",
+          "note": "41期首席（NSC大ライブOSAKA 2019優勝）。帝京大ラグビー部出身のラグビーネタピン芸人。R-1グランプリ2026ファイナリスト"
         },
         {
           "name": "cacao",
