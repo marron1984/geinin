@@ -29,8 +29,8 @@ export default function TimelinePage() {
 
   return (
     <div className="space-y-6">
-      <header className="bg-white rounded-lg border border-gray-200 p-5">
-        <h1 className="text-xl font-black text-gray-900 mb-1">
+      <header className="bg-white rounded-2xl border-2 border-warai-ink shadow-pop p-5">
+        <h1 className="text-xl font-black text-warai-ink mb-1">
           NSCタイムライン
         </h1>
         <p className="text-sm text-gray-500">
@@ -109,7 +109,7 @@ export default function TimelinePage() {
                           href={`/osaka/${entry.osakaClass.classNumber}`}
                           className="inline-flex items-center gap-1.5 text-sm font-bold text-yoshimoto-red hover:underline"
                         >
-                          <span className="bg-red-100 text-yoshimoto-red text-xs px-1.5 py-0.5 rounded">
+                          <span className="bg-yoshimoto-red text-white text-xs px-1.5 py-0.5 rounded">
                             大阪
                           </span>
                           {entry.osakaClass.classNumber}期

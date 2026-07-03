@@ -36,8 +36,8 @@ function SearchBarInner({ compact }: { compact?: boolean }) {
           onKeyDown={(e) => {
             if (e.key === "Enter") handleSearch(query);
           }}
-          placeholder="芸人名・期番号・年で検索..."
-          className={`w-full pr-10 rounded-lg border border-gray-300 focus:border-yoshimoto-red focus:ring-2 focus:ring-yoshimoto-red/20 outline-none text-gray-800 bg-white ${
+          placeholder="🔍 芸人名・期番号・年でサクッと検索！"
+          className={`w-full pr-10 rounded-full border-2 border-warai-ink focus:border-yoshimoto-red focus:ring-2 focus:ring-yoshimoto-red/20 outline-none text-gray-800 bg-white ${
             compact ? "px-3 py-2 text-sm" : "px-4 py-3 shadow-sm"
           }`}
         />

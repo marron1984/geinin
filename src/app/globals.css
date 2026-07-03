@@ -3,9 +3,39 @@
 @tailwind utilities;
 
 body {
-  font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
+  font-family: "Hiragino Maru Gothic ProN", "Rounded Mplus 1c",
+    "M PLUS Rounded 1c", "Hiragino Sans", "Noto Sans JP", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* クリーム地に水玉のコミック風背景 */
+  background-color: #fff9ec;
+  background-image: radial-gradient(#ffd93b33 2px, transparent 2px);
+  background-size: 24px 24px;
+}
+
+/* 新喜劇の幕風ストライプ */
+.curtain-stripe {
+  background-image: repeating-linear-gradient(
+    90deg,
+    #e4032e 0px,
+    #e4032e 28px,
+    #c00227 28px,
+    #c00227 56px
+  );
+}
+
+/* 吹き出し（下向きしっぽ） */
+.speech-bubble {
+  position: relative;
+}
+.speech-bubble::after {
+  content: "";
+  position: absolute;
+  bottom: -14px;
+  left: 32px;
+  border-width: 14px 14px 0 0;
+  border-style: solid;
+  border-color: currentColor transparent transparent transparent;
 }
 
 /* ニュースサイト風スクロールバー */
@@ -14,14 +44,14 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: #fff3c4;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #c4c4c4;
+  background: #ffd93b;
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #a0a0a0;
+  background: #ff8a3d;
 }

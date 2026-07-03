@@ -17,8 +17,8 @@ export default function NewsPage() {
 
   return (
     <div className="space-y-6">
-      <header className="bg-white rounded-lg border border-gray-200 p-5">
-        <h1 className="text-xl font-black text-gray-900 mb-1">
+      <header className="bg-white rounded-2xl border-2 border-warai-ink shadow-pop p-5">
+        <h1 className="text-xl font-black text-warai-ink mb-1">
           NSC芸人ニュース
         </h1>
         <p className="text-sm text-gray-500">
@@ -27,18 +27,18 @@ export default function NewsPage() {
       </header>
 
       {news.length === 0 ? (
-        <div className="bg-white rounded-lg border border-gray-200 p-6 text-center text-gray-400">
+        <div className="bg-white rounded-2xl border-2 border-warai-ink shadow-pop p-6 text-center text-gray-400">
           ニュースはまだありません
         </div>
       ) : (
-        <div className="bg-white rounded-lg border border-gray-200 divide-y divide-gray-100">
+        <div className="bg-white rounded-2xl border-2 border-warai-ink shadow-pop divide-y divide-warai-yellow-light">
           {news.map((item, i) => (
             <a
               key={i}
               href={item.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="block px-4 py-4 hover:bg-red-50 transition-colors"
+              className="block px-4 py-4 hover:bg-warai-yellow-light transition-colors"
             >
               <div className="flex items-center gap-2 mb-1 text-xs text-gray-400">
                 <span className="bg-gray-100 text-gray-600 px-1.5 py-0.5 rounded font-medium">
@@ -54,7 +54,7 @@ export default function NewsPage() {
                   {item.matched.map((name, j) => (
                     <span
                       key={j}
-                      className="text-xs bg-red-100 text-yoshimoto-red px-2 py-0.5 rounded-full"
+                      className="text-xs bg-yoshimoto-red text-white px-2 py-0.5 rounded-full"
                     >
                       {name}
                     </span>

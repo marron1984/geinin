@@ -13,11 +13,11 @@ export default function ClassCard({ cls, highlightNames = [] }: ClassCardProps) 
   return (
     <Link
       href={`/${schoolPath}/${cls.classNumber}`}
-      className="block bg-white rounded-lg border border-gray-200 p-4 hover:border-yoshimoto-red hover:shadow-md transition-all group"
+      className="block bg-white rounded-2xl border-2 border-warai-ink p-4 shadow-pop hover:-translate-y-1 hover:shadow-pop-red transition-all group"
     >
       <div className="flex items-center gap-2 mb-2">
         <span className={`text-xs font-bold px-2 py-0.5 rounded ${
-          isOsaka ? "bg-red-100 text-yoshimoto-red" : "bg-gray-100 text-gray-700"
+          isOsaka ? "bg-yoshimoto-red text-white border border-warai-ink" : "bg-warai-ink text-warai-yellow border border-warai-ink"
         }`}>
           {isOsaka ? "大阪" : "東京"}
         </span>
@@ -34,7 +34,7 @@ export default function ClassCard({ cls, highlightNames = [] }: ClassCardProps) 
               className={`text-xs px-2 py-0.5 rounded-full ${
                 highlightNames.includes(grad.name)
                   ? "bg-yoshimoto-red text-white"
-                  : "bg-gray-100 text-gray-600"
+                  : "bg-warai-yellow-light text-warai-ink"
               }`}
             >
               {grad.name}

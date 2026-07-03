@@ -9,20 +9,20 @@ export default function SchoolTabs({ active }: SchoolTabsProps) {
     <div className="flex gap-2">
       <Link
         href="/osaka"
-        className={`px-4 py-2 text-sm font-bold rounded-lg transition-colors ${
+        className={`px-4 py-2 text-sm font-bold rounded-full transition-colors ${
           active === "osaka"
-            ? "bg-yoshimoto-red text-white"
-            : "bg-white text-gray-600 border border-gray-200 hover:border-yoshimoto-red hover:text-yoshimoto-red"
+            ? "bg-yoshimoto-red text-white border-2 border-warai-ink shadow-pop-sm"
+            : "bg-white text-warai-ink border-2 border-warai-ink hover:bg-warai-yellow-light shadow-pop-sm"
         }`}
       >
         大阪校
       </Link>
       <Link
         href="/tokyo"
-        className={`px-4 py-2 text-sm font-bold rounded-lg transition-colors ${
+        className={`px-4 py-2 text-sm font-bold rounded-full transition-colors ${
           active === "tokyo"
-            ? "bg-gray-800 text-white"
-            : "bg-white text-gray-600 border border-gray-200 hover:border-gray-800 hover:text-gray-800"
+            ? "bg-warai-ink text-warai-yellow border-2 border-warai-ink shadow-pop-sm"
+            : "bg-white text-warai-ink border-2 border-warai-ink hover:bg-warai-yellow-light shadow-pop-sm"
         }`}
       >
         東京校

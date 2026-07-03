@@ -49,18 +49,20 @@ export default function Home() {
 
   return (
     <div className="space-y-8">
-      {/* ヒーローセクション */}
-      <div className="bg-gradient-to-br from-yoshimoto-red to-yoshimoto-red-dark rounded-xl p-6 md:p-8 text-white">
-        <div className="flex items-center gap-2 mb-2">
-          <span className="bg-white/20 text-xs px-2 py-1 rounded font-medium">FEATURED</span>
-          <span className="text-white/70 text-xs">NSC大阪校</span>
+      {/* ヒーローセクション（幕風） */}
+      <div className="curtain-stripe rounded-2xl p-6 md:p-8 text-white border-4 border-warai-ink shadow-pop">
+        <div className="flex items-center gap-2 mb-3">
+          <span className="bg-warai-yellow text-warai-ink text-xs px-2.5 py-1 rounded-full font-black border-2 border-warai-ink -rotate-2 inline-block">
+            🏆 レジェンドの期
+          </span>
+          <span className="text-white/90 text-xs font-bold">NSC大阪校</span>
         </div>
         <Link href="/osaka/1">
-          <h2 className="text-2xl md:text-3xl font-black mb-2 hover:underline underline-offset-4">
-            NSC大阪校 第1期 — 伝説の始まり
+          <h2 className="text-2xl md:text-3xl font-black mb-2 drop-shadow-[2px_2px_0_rgba(0,0,0,0.4)] hover:scale-[1.01] transition-transform inline-block">
+            NSC大阪校 第1期 — 伝説はここから始まった！
           </h2>
         </Link>
-        <p className="text-white/80 text-sm md:text-base mb-4">
+        <p className="text-white/90 text-sm md:text-base mb-4 font-medium">
           {hero.enrollmentYear}年入学。ダウンタウン、ハイヒール、トミーズなど、
           お笑い界のレジェンドが勢揃いしたNSC最初の期生たち。
         </p>
@@ -68,7 +70,7 @@ export default function Home() {
           {hero.notableGraduates.slice(0, 6).map((grad, i) => (
             <span
               key={i}
-              className="bg-white/20 text-white text-xs px-3 py-1 rounded-full"
+              className="bg-white text-yoshimoto-red text-xs font-bold px-3 py-1 rounded-full border-2 border-warai-ink shadow-pop-sm"
             >
               {grad.name}
             </span>
@@ -80,21 +82,22 @@ export default function Home() {
       {news.length > 0 && (
         <section>
           <div className="flex items-center justify-between mb-4">
-            <h2 className="text-xl font-black text-gray-900 border-l-4 border-yoshimoto-red pl-3">
+            <h2 className="text-xl font-black text-warai-ink flex items-center gap-2">
+              <span className="bg-yoshimoto-red text-white px-2.5 py-1 rounded-lg border-2 border-warai-ink shadow-pop-sm -rotate-2 inline-block">📰</span>
               最新ニュース
             </h2>
             <Link href="/news" className="text-xs text-yoshimoto-red hover:underline">
               もっと見る →
             </Link>
           </div>
-          <div className="bg-white rounded-lg border border-gray-200 divide-y divide-gray-100">
+          <div className="bg-white rounded-2xl border-2 border-warai-ink divide-y divide-warai-yellow-light shadow-pop overflow-hidden">
             {news.map((item, i) => (
               <a
                 key={i}
                 href={item.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-baseline gap-3 px-4 py-3 hover:bg-red-50 transition-colors"
+                className="flex items-baseline gap-3 px-4 py-3 hover:bg-warai-yellow-light transition-colors"
               >
                 <span className="text-xs text-gray-400 flex-shrink-0 w-10">
                   {formatNewsDate(item.date)}
@@ -112,7 +115,7 @@ export default function Home() {
       <div className="grid md:grid-cols-2 gap-4">
         <Link
           href="/osaka"
-          className="block bg-white rounded-xl border border-gray-200 p-5 hover:border-yoshimoto-red hover:shadow-md transition-all group"
+          className="block bg-white rounded-2xl border-2 border-warai-ink p-5 shadow-pop hover:-translate-y-1 hover:shadow-pop-red transition-all group"
         >
           <div className="flex items-center gap-3 mb-2">
             <span className="bg-yoshimoto-red text-white text-xs font-bold px-2 py-1 rounded">大阪</span>
@@ -127,7 +130,7 @@ export default function Home() {
 
         <Link
           href="/tokyo"
-          className="block bg-white rounded-xl border border-gray-200 p-5 hover:border-yoshimoto-red hover:shadow-md transition-all group"
+          className="block bg-white rounded-2xl border-2 border-warai-ink p-5 shadow-pop hover:-translate-y-1 hover:shadow-pop-red transition-all group"
         >
           <div className="flex items-center gap-3 mb-2">
             <span className="bg-gray-800 text-white text-xs font-bold px-2 py-1 rounded">東京</span>
@@ -144,7 +147,8 @@ export default function Home() {
       {/* 注目の期 - ニュースカードグリッド */}
       <section>
         <div className="flex items-center justify-between mb-4">
-          <h2 className="text-xl font-black text-gray-900 border-l-4 border-yoshimoto-red pl-3">
+          <h2 className="text-xl font-black text-warai-ink flex items-center gap-2">
+            <span className="bg-warai-yellow text-warai-ink px-2.5 py-1 rounded-lg border-2 border-warai-ink shadow-pop-sm rotate-2 inline-block">✨</span>
             注目の期
           </h2>
           <span className="text-xs text-gray-400">卒業生が多い期をピックアップ</span>
@@ -154,7 +158,7 @@ export default function Home() {
             <Link
               key={`${cls.path}-${cls.classNumber}`}
               href={`/${cls.path}/${cls.classNumber}`}
-              className="block bg-white rounded-lg border border-gray-200 p-4 hover:border-yoshimoto-red hover:shadow-md transition-all group"
+              className="block bg-white rounded-2xl border-2 border-warai-ink p-4 shadow-pop hover:-translate-y-1 hover:shadow-pop-red transition-all group"
             >
               <div className="flex items-center gap-2 mb-2">
                 <span className={`text-xs font-bold px-2 py-0.5 rounded ${
@@ -192,16 +196,17 @@ export default function Home() {
       {/* 最新の期 */}
       <section>
         <div className="flex items-center justify-between mb-4">
-          <h2 className="text-xl font-black text-gray-900 border-l-4 border-gray-800 pl-3">
+          <h2 className="text-xl font-black text-warai-ink flex items-center gap-2">
+            <span className="bg-warai-orange text-white px-2.5 py-1 rounded-lg border-2 border-warai-ink shadow-pop-sm -rotate-2 inline-block">🌱</span>
             最新の期
           </h2>
         </div>
-        <div className="bg-white rounded-lg border border-gray-200 divide-y divide-gray-100">
+        <div className="bg-white rounded-2xl border-2 border-warai-ink divide-y divide-warai-yellow-light shadow-pop overflow-hidden">
           {latest.map((cls) => (
             <Link
               key={`${cls.path}-${cls.classNumber}`}
               href={`/${cls.path}/${cls.classNumber}`}
-              className="flex items-center justify-between px-4 py-3 hover:bg-red-50 transition-colors"
+              className="flex items-center justify-between px-4 py-3 hover:bg-warai-yellow-light transition-colors"
             >
               <div className="flex items-center gap-3">
                 <span className={`text-xs font-bold px-2 py-0.5 rounded ${

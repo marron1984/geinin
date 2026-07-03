@@ -47,12 +47,12 @@ export default function TokyoClassPage({
       </nav>
 
       {/* 記事ヘッダー */}
-      <header className="bg-white rounded-lg border border-gray-200 p-6">
+      <header className="bg-white rounded-2xl border-2 border-warai-ink shadow-pop p-6">
         <div className="flex items-center gap-2 mb-3">
           <span className="bg-gray-800 text-white text-xs font-bold px-2 py-1 rounded">東京校</span>
           <span className="text-xs text-gray-400">{cls.enrollmentYear}年入学</span>
         </div>
-        <h1 className="text-3xl font-black text-gray-900 mb-2">
+        <h1 className="text-3xl font-black text-warai-ink mb-2">
           NSC東京校 第{classNumber}期
         </h1>
         <p className="text-gray-500 text-sm">
@@ -70,13 +70,13 @@ export default function TokyoClassPage({
 
       {/* 卒業生リスト */}
       {cls.notableGraduates.length > 0 ? (
-        <section className="bg-white rounded-lg border border-gray-200 p-6">
+        <section className="bg-white rounded-2xl border-2 border-warai-ink shadow-pop p-6">
           <h2 className="font-black text-gray-900 mb-4 text-lg border-l-4 border-gray-800 pl-3">
             主な卒業生
           </h2>
           <div className="grid sm:grid-cols-2 gap-3">
             {cls.notableGraduates.map((grad, i) => (
-              <div key={i} className="flex items-start gap-2 p-2 rounded-lg hover:bg-gray-50 transition-colors">
+              <div key={i} className="flex items-start gap-2 p-2 rounded-lg hover:bg-warai-yellow-light transition-colors">
                 <span className="text-gray-700 font-bold text-sm w-6 text-right flex-shrink-0 pt-1">{i + 1}</span>
                 <div className="min-w-0">
                   <ComedianTag comedian={grad} />
@@ -89,13 +89,13 @@ export default function TokyoClassPage({
           </div>
         </section>
       ) : (
-        <div className="bg-white rounded-lg border border-gray-200 p-6 text-gray-400 text-center">
+        <div className="bg-white rounded-2xl border-2 border-warai-ink shadow-pop p-6 text-gray-400 text-center">
           主な卒業生のデータはまだありません
         </div>
       )}
 
       {/* 前後ナビゲーション */}
-      <nav className="flex justify-between items-center bg-white rounded-lg border border-gray-200 p-4">
+      <nav className="flex justify-between items-center bg-white rounded-2xl border-2 border-warai-ink shadow-pop p-4">
         {classNumber > 1 ? (
           <Link
             href={`/tokyo/${classNumber - 1}`}

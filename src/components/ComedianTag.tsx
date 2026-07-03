@@ -8,8 +8,8 @@ interface ComedianTagProps {
 export default function ComedianTag({ comedian, highlight }: ComedianTagProps) {
   const className = `inline-block px-3 py-1 rounded-full text-sm border ${
     highlight
-      ? "bg-yoshimoto-red text-white border-yoshimoto-red"
-      : "bg-gray-50 text-gray-700 border-gray-200 hover:bg-gray-100"
+      ? "bg-yoshimoto-red text-white border-warai-ink"
+      : "bg-white text-warai-ink border-warai-ink hover:bg-warai-yellow-light"
   } transition-colors`;
 
   const content = (

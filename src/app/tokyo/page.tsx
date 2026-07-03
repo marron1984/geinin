@@ -14,10 +14,10 @@ export default function TokyoPage() {
   return (
     <div className="space-y-6">
       {/* ページヘッダー */}
-      <div className="bg-white rounded-lg border border-gray-200 p-5">
+      <div className="bg-white rounded-2xl border-2 border-warai-ink shadow-pop p-5">
         <div className="flex items-center gap-3 mb-2">
           <span className="bg-gray-800 text-white text-xs font-bold px-2 py-1 rounded">東京校</span>
-          <h1 className="text-xl font-black text-gray-900">
+          <h1 className="text-xl font-black text-warai-ink">
             NSC東京校 期別一覧
           </h1>
         </div>
