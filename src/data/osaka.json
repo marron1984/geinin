@@ -1514,6 +1514,7 @@
       "classNumber": 33,
       "school": "osaka",
       "enrollmentYear": 2010,
+      "classNote": "「黄金世代」と称される当たり期。同期からM-1（霜降り明星2018）・R-1（粗品2018）・キングオブコント（コロコロチキチキペッパーズ2015、ビスケットブラザーズ2022）・THE W（紅しょうが2023）と大型賞レースの王者を全て輩出。首席制度が本格導入される前の世代のため公式の首席は存在しない",
       "notableGraduates": [
         {
           "name": "霜降り明星",
@@ -1522,7 +1523,7 @@
             "せいや"
           ],
           "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5087",
-          "note": "NSC出身ではないが33期同期扱い"
+          "note": "M-1グランプリ2018王者（当時史上最年少優勝）。粗品はR-1ぐらんぷり2018も制し史上初のM-1・R-1二冠。NSCには通わずオーディション合格で吉本入りしたため33期同期扱い"
         },
         {
           "name": "コロコロチキチキペッパーズ",
@@ -1530,7 +1531,8 @@
             "ナダル",
             "西野創人"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5093"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5093",
+          "note": "キングオブコント2015王者"
         },
         {
           "name": "ビスケットブラザーズ",
@@ -1538,7 +1540,8 @@
             "きん",
             "原田泰雅"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6374"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6374",
+          "note": "キングオブコント2022王者"
         },
         {
           "name": "男性ブランコ",
@@ -1546,7 +1549,8 @@
             "浦井のりひろ",
             "平井まさあき"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5066"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5066",
+          "note": "キングオブコント2021同点2位、M-1グランプリ2022決勝進出"
         },
         {
           "name": "マユリカ",
@@ -1554,11 +1558,13 @@
             "阪本匠伍",
             "中谷祐太"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5114"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5114",
+          "note": "M-1グランプリ2023決勝進出、2024年は敗者復活戦を制して2年連続の決勝進出"
         },
         {
           "name": "ZAZY",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6504"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6504",
+          "note": "R-1グランプリ2021・2022と2年連続準優勝"
         },
         {
           "name": "紅しょうが",
@@ -1567,7 +1573,7 @@
             "熊元プロレス"
           ],
           "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6365",
-          "note": "稲田美紀が33期、熊元プロレスは35期"
+          "note": "THE W 2023優勝（7代目女王）。稲田美紀が33期、熊元プロレスは35期"
         },
         {
           "name": "ネイビーズアフロ",
@@ -1575,11 +1581,18 @@
             "皆川勇気",
             "羽尻紘規"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5928"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5928",
+          "note": "第50回NHK上方漫才コンテスト優勝（2020年）。神戸大学出身の高学歴コンビ"
         },
         {
           "name": "kento fukaya",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5110"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5110",
+          "note": "R-1グランプリ2021・2022決勝進出のフリップ芸人"
+        },
+        {
+          "name": "ケツ（ニッポンの社長）",
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5141",
+          "note": "ニッポンの社長のボケ担当。キングオブコント2020〜2024で史上最多の5年連続決勝進出。相方・辻は32期"
         },
         {
           "name": "滝音",
@@ -1618,6 +1631,7 @@
       "classNumber": 34,
       "school": "osaka",
       "enrollmentYear": 2011,
+      "classNote": "首席はえんぴつ消しゴム。M-1準優勝のさや香、キングオブコント常連の蛙亭・ファイヤーサンダーら実力派を輩出した世代。滝音さすけ、鬼としみちゃむのしみちゃむなど他期メンバーとのコンビの片割れも多い",
       "notableGraduates": [
         {
           "name": "さや香",
@@ -1625,15 +1639,17 @@
             "新山",
             "石井"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6046"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6046",
+          "note": "M-1グランプリ2022準優勝、2023年3位（最終決戦で新ネタ「見せ算」を披露し話題に）。第49回NHK上方漫才コンテスト優勝（2019年）"
         },
         {
           "name": "蛙亭",
           "members": [
-            "岩倉美里",
+            "イワクラ",
             "中野周平"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5175"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5175",
+          "note": "キングオブコント2021・2023決勝進出。岩倉美里は2021年6月に「イワクラ」へ改名"
         },
         {
           "name": "ミキ",
@@ -1642,7 +1658,7 @@
             "亜生"
           ],
           "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5104",
-          "note": "NSC出身ではないが34期同期扱い"
+          "note": "M-1グランプリ2017・2018決勝進出の兄弟漫才コンビ。NSC出身ではないが34期同期扱い"
         },
         {
           "name": "華山",
@@ -1658,7 +1674,8 @@
           "members": [
             "こてつ",
             "﨑山祐"
-          ]
+          ],
+          "note": "キングオブコント2023決勝進出（4位）"
         },
         {
           "name": "隣人",
@@ -1702,10 +1719,12 @@
       "classNumber": 35,
       "school": "osaka",
       "enrollmentYear": 2012,
+      "classNote": "首席はゆりやんレトリィバァ。R-1王者2人（濱田祐太郎2018・田津原理音2023）とTHE W王者2組（ゆりやん2017・にぼしいわし2024）を輩出し、ピン芸・女性芸人の賞レースに強い世代。かが屋の加賀翔もこの期の出身",
       "notableGraduates": [
         {
           "name": "ゆりやんレトリィバァ",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5100"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=5100",
+          "note": "35期首席。THE W 2017初代女王、R-1グランプリ2021王者（大会初の女性王者）。近年は米国に活動拠点を移す"
         },
         {
           "name": "からし蓮根",
@@ -2624,7 +2643,8 @@
             "西本ペダル",
             "西本サドル"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=11080"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=11080",
+          "note": "2024年4月結成。西本ペダルが46期、西本サドルはNSC大阪40期出身"
         },
         {
           "name": "がくせい"
@@ -2650,6 +2670,7 @@
       "classNumber": 47,
       "school": "osaka",
       "enrollmentYear": 2024,
+      "classNote": "2024年4月入学。首席はトリオのおもしろジャンケン（2025年5月20日開催の大ライブOSAKA2025で、47期卒業生とエリア校卒業生ら168組の頂点。2位ジャーメジャー・3位パイナップルアイランド）",
       "notableGraduates": [
         {
           "name": "おもしろジャンケン",
@@ -2658,7 +2679,8 @@
             "嘉津じゃない方",
             "その他しょうたろう"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=12000"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=12000",
+          "note": "47期首席。大ライブOSAKA2025優勝。大阪教育大学お笑いサークル出身のトリオ。よしもと漫才劇場（マンゲキ）所属"
         },
         {
           "name": "ちあき",
@@ -2666,10 +2688,12 @@
             "金井",
             "小倉"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=12133"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=12133",
+          "note": "大ライブOSAKA2025決勝進出"
         },
         {
-          "name": "ジャーメジャー"
+          "name": "ジャーメジャー",
+          "note": "大ライブOSAKA2025で2位"
         },
         {
           "name": "パイナップルアイランド",
@@ -2677,31 +2701,40 @@
             "ベンツ",
             "長澤悠太郎"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=12169"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=12169",
+          "note": "大ライブOSAKA2025で3位"
         },
         {
-          "name": "ドルフィンみさき"
+          "name": "ドルフィンみさき",
+          "note": "大ライブOSAKA2025決勝進出"
         },
         {
-          "name": "ブルガリアン"
+          "name": "ブルガリアン",
+          "note": "大ライブOSAKA2025決勝進出"
         },
         {
-          "name": "ダモノダ・まーしょ"
+          "name": "ダモノダ・まーしょ",
+          "note": "大ライブOSAKA2025決勝進出"
         },
         {
-          "name": "ニュージェイムズ"
+          "name": "ニュージェイムズ",
+          "note": "大ライブOSAKA2025決勝進出"
         },
         {
-          "name": "キャナート"
+          "name": "キャナート",
+          "note": "大ライブOSAKA2025決勝進出"
         },
         {
-          "name": "セプテンバー9th"
+          "name": "セプテンバー9th",
+          "note": "大ライブOSAKA2025決勝進出"
         },
         {
-          "name": "ペントコハウス"
+          "name": "ペントコハウス",
+          "note": "大ライブOSAKA2025決勝進出"
         },
         {
-          "name": "アメリカの州"
+          "name": "アメリカの州",
+          "note": "大ライブOSAKA2025決勝進出"
         },
         {
           "name": "ナナシグラシ"

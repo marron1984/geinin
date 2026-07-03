@@ -327,6 +327,7 @@
       "classNumber": 9,
       "school": "tokyo",
       "enrollmentYear": 2003,
+      "classNote": "2003年入学。ハリセンボン・しずる・ライス・囲碁将棋など長く活動を続ける実力派コンビを多数輩出した世代。キングオブコント王者を2組（ライス2016・サルゴリラ2023）輩出。パンサー菅良太郎、ゴールデンボンバー鬼龍院翔、モグライダー芝大輔も同期",
       "notableGraduates": [
         {
           "name": "しずる",
@@ -334,14 +335,16 @@
             "村上純",
             "池田一真"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=470"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=470",
+          "note": "キングオブコント2009第3位。2010・2012・2016・2025にも決勝進出"
         },
         {
           "name": "ハリセンボン",
           "members": [
             "近藤春菜",
             "箕輪はるか"
-          ]
+          ],
+          "note": "M-1グランプリ2007決勝進出（3位）。近藤春菜は「角野卓造じゃねーよ!」のツッコミで人気となり情報番組MCとしても活躍"
         },
         {
           "name": "ライス",
@@ -349,7 +352,8 @@
             "関町知弘",
             "田所仁"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=528"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=528",
+          "note": "キングオブコント2016優勝"
         },
         {
           "name": "ゆったり感",
@@ -364,7 +368,8 @@
             "文田大介",
             "根建太一"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2784"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=2784",
+          "note": "THE SECOND 2023グランプリファイナル進出。同期の井下好井・タモンズとユニット『ITI』としても活動"
         },
         {
           "name": "サルゴリラ",
@@ -373,7 +378,20 @@
             "児玉智洋"
           ],
           "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6115",
-          "note": "元ジューシーズ。キングオブコント2023優勝"
+          "note": "元ジューシーズ（元メンバーの松橋周太呂は『家事えもん』として活躍）。キングオブコント2023優勝"
+        },
+        {
+          "name": "モグライダー",
+          "members": [
+            "芝大輔",
+            "ともしげ"
+          ],
+          "profileUrl": "https://www.maseki.co.jp/talent/mogurider",
+          "note": "芝大輔がNSC東京9期。卒業後はマセキ芸能社に所属。M-1グランプリ2021・2022決勝進出"
+        },
+        {
+          "name": "鬼龍院翔",
+          "note": "ゴールデンボンバーのボーカル。NSC在学中はしずる池田一真とコンビ『チョコサラミ』を結成。卒業後にお笑いから音楽活動へ転向"
         }
       ]
     },
@@ -943,6 +961,7 @@
       "classNumber": 20,
       "school": "tokyo",
       "enrollmentYear": 2014,
+      "classNote": "2014年入学。首席はブッダマリア（現・ぶったま）で、卒業ライブ「NSC大LIVE 2015 TOKYO」では135組246人の頂点に立った。ぼる塾の若手組（しんぼる）、3時のヒロインかなで、東京ホテイソンたけるらを輩出",
       "notableGraduates": [
         {
           "name": "ぼる塾",
@@ -953,7 +972,7 @@
             "酒寄希望"
           ],
           "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6892",
-          "note": "きりやはるか・あんりが20期（田辺智加・酒寄希望は18期）。元しんぼると元猫塾が2019年合流"
+          "note": "きりやはるか・あんりが20期（田辺智加・酒寄希望は18期）。元しんぼると元猫塾が2019年合流。THE W 2020決勝進出、田辺の「まぁねぇ〜」が人気に"
         },
         {
           "name": "3時のヒロイン",
@@ -963,7 +982,7 @@
             "かなで"
           ],
           "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6579",
-          "note": "かなでのみNSC東京20期。福田麻貴はNSC大阪32期、ゆめっちはNSC大阪36期出身"
+          "note": "かなでのみNSC東京20期。福田麻貴はNSC大阪32期、ゆめっちはNSC大阪36期出身。THE W 2019優勝"
         },
         {
           "name": "東京ホテイソン",
@@ -972,7 +991,7 @@
             "ショーゴ"
           ],
           "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6325",
-          "note": "たけるはNSC東京20期入学だが1ヶ月で中退。ショーゴはNSC未経験でスカウト入社"
+          "note": "たけるはNSC東京20期入学だが1ヶ月で中退。ショーゴはNSC未経験でスカウト入社。M-1グランプリ2020決勝進出"
         },
         {
           "name": "ブラゴーリ",
@@ -980,7 +999,8 @@
             "塚田裕輝",
             "鈴木大介"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6889"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=6889",
+          "note": "2014年4月結成の同期コンビ。ぐるナイ「おもしろ荘」出演"
         },
         {
           "name": "おミュータンツ",
@@ -989,6 +1009,19 @@
             "宮戸フィルム"
           ],
           "note": "2019年5月結成。ぐるナイ LIVE STAND SP優勝"
+        },
+        {
+          "name": "ぶったま",
+          "members": [
+            "ガッパー稲吉",
+            "亀社長"
+          ],
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=9107",
+          "note": "旧コンビ名ブッダマリアとしてNSC東京20期首席卒業（NSC大LIVE 2015 TOKYO優勝）。ガッパー稲吉は東京11期、亀社長は名古屋15期出身で、事務所倒産を機に20期へ入り直した再入学組。2021年に現コンビ名へ改名"
+        },
+        {
+          "name": "渡辺ポット",
+          "note": "元10億円（2021年結成・2024年8月解散、コンビとしては25期扱い）。2025年3月に山内仁平（東京25期）と「大王」を結成し、結成8ヶ月でM-1グランプリ2025準決勝進出"
         }
       ]
     },
@@ -1423,25 +1456,41 @@
       "classNumber": 29,
       "school": "tokyo",
       "enrollmentYear": 2023,
+      "classNote": "2023年4月入学。首席はド天国（NSC大ライブ TOKYO 2024優勝、地方校を含む約330組の頂点）。準優勝はなでなでボーイ、3位はマシン語感。在学中からキングオブコント2023準々決勝進出者（ド天国）を出した期",
       "notableGraduates": [
         {
           "name": "ド天国",
           "members": [
-            "ゴトウタイガ",
-            "河村勇一郎"
+            "てんと",
+            "ゴトウタイガ"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=11653"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=11653",
+          "note": "NSC東京29期首席（NSC大ライブ TOKYO 2024優勝）。法政大学お笑いサークルHOS出身で、在学中にキングオブコント2023準々決勝進出。結成時は河村勇一郎（後に河村ぬりえ）を含むトリオだったが、2024年6月に河村が活動休止、同年10月に脱退しコンビに。神保町よしもと漫才劇場所属"
         },
         {
           "name": "けいごステファニー",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=11687"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=11687",
+          "note": "石川県七尾市出身のピン芸人（漫談）。神保町よしもと漫才劇場所属"
+        },
+        {
+          "name": "なでなでボーイ",
+          "note": "NSC大ライブ TOKYO 2024準優勝"
+        },
+        {
+          "name": "マシン語感",
+          "members": [
+            "アトランティス郷",
+            "まこも"
+          ],
+          "note": "2023年7月結成。NSC大ライブ TOKYO 2024で3位。アメリカ出身のアトランティス郷による英語交じりのネタが特徴"
         },
         {
           "name": "スキャマンダー",
           "members": [
             "くぼ",
             "ふじしょー"
-          ]
+          ],
+          "note": "NSC大ライブ TOKYO 2024決勝進出"
         },
         {
           "name": "アミダライン",
@@ -1449,7 +1498,8 @@
             "和氣",
             "陽常"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=13982"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=13982",
+          "note": "2024年4月結成。NSC大ライブ TOKYO 2024決勝進出"
         },
         {
           "name": "とりせん",
@@ -1457,14 +1507,17 @@
             "松平",
             "ミイ"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=11884"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=11884",
+          "note": "2024年7月結成の女性コンビ。結成約半年でTHE W 2024準決勝進出"
         },
         {
           "name": "エリー",
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=11887"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=11887",
+          "note": "東京都出身マレーシア育ちのピン芸人を経て、2024年4月に鈴木一平とコンビ「あせちまぐろ」を結成"
         },
         {
-          "name": "おくばやし"
+          "name": "おくばやし",
+          "note": "ギャグを持ち味とするピン芸人"
         }
       ]
     },
@@ -1472,6 +1525,7 @@
       "classNumber": 30,
       "school": "tokyo",
       "enrollmentYear": 2024,
+      "classNote": "2024年4月入学、2025年3月卒業。新人王決定戦「大ライブ2025 TOKYO」（浅草公会堂、エントリー272組）ではシネマ特区が優勝。この年から従来の「首席」に代わり「チャンピオン」の呼称に変更された。準優勝は照山おうちごはん",
       "notableGraduates": [
         {
           "name": "シネマ特区",
@@ -1479,7 +1533,8 @@
             "和深",
             "嶋田奨太"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=11899"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=11899",
+          "note": "大ライブ2025 TOKYO優勝（30期チャンピオン）。結成約5ヶ月での快挙。嶋田奨太はNSC大阪・ワタナベコメディスクール・NSC東京と養成所3校を経験、ネタ作担当の和深はサラリーマンと兼業。優勝後に初冠番組『シネマ特区のコントにラブソングを』を獲得"
         },
         {
           "name": "照山おうちごはん",
@@ -1488,7 +1543,8 @@
             "ほかぞの",
             "YO竹"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=11908"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=11908",
+          "note": "トリオ。大ライブ2025 TOKYO準優勝"
         },
         {
           "name": "ドンココ",
@@ -1496,16 +1552,20 @@
             "ひろ",
             "りゅう"
           ],
-          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=11902"
+          "profileUrl": "https://profile.yoshimoto.co.jp/talent/detail?id=11902",
+          "note": "大ライブ2025 TOKYO決勝3位タイ"
         },
         {
-          "name": "居候"
+          "name": "居候",
+          "note": "大ライブ2025 TOKYO決勝5位"
         },
         {
-          "name": "モックアップ"
+          "name": "モックアップ",
+          "note": "大ライブ2025 TOKYO決勝7位"
         },
         {
-          "name": "キューブリック"
+          "name": "キューブリック",
+          "note": "大ライブ2025 TOKYO決勝11位"
         }
       ]
     },
@@ -1513,28 +1573,39 @@
       "classNumber": 31,
       "school": "tokyo",
       "enrollmentYear": 2025,
+      "classNote": "2025年4月入学、2026年3月卒業の最新期。「大ライブ TOKYO 2026」（2026年4月22日・浅草公会堂、地方校を含む約260組参加）では東京31期のゴーヤゴーがチャンピオンに。準優勝はトラモチーフ、3位は昼間陸上",
       "notableGraduates": [
         {
           "name": "ゴーヤゴー",
           "members": [
             "たま",
             "米持"
-          ]
+          ],
+          "note": "大ライブ TOKYO 2026優勝（31期チャンピオン）。静岡県出身のたまと山梨県出身の米持による“富士山コンビ”。大学お笑いサークル時代に出会いNSCで再会して結成"
         },
         {
-          "name": "トラモチーフ"
+          "name": "トラモチーフ",
+          "note": "大ライブ TOKYO 2026準優勝"
         },
         {
-          "name": "昼間陸上"
+          "name": "昼間陸上",
+          "note": "大ライブ TOKYO 2026で3位"
         },
         {
-          "name": "ストロングブルジュニア"
+          "name": "ストロングブルジュニア",
+          "members": [
+            "佐々木良樹",
+            "丸山利明"
+          ],
+          "note": "早稲田大学お笑い工房LUDO出身の幼馴染コンビ。大学芸会2024優勝。大ライブ TOKYO 2026で4位"
         },
         {
-          "name": "ミックストマトジュース"
+          "name": "ミックストマトジュース",
+          "note": "大ライブ TOKYO 2026で5位"
         },
         {
-          "name": "御恩と奉公と痛み"
+          "name": "御恩と奉公と痛み",
+          "note": "大ライブ TOKYO 2026で6位"
         }
       ]
     }
